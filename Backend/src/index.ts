@@ -134,6 +134,12 @@ app.get('/health', (req, res) => {
   res.status(200).json({ status: 'OK - Server is working fine' });
 });
 
+// Root + favicon — silence noisy 404s from browsers and health probes
+app.get('/', (_req, res) => {
+  res.status(200).json({ status: 'ok', service: 'ACE STUDIOS API' });
+});
+app.get(['/favicon.ico', '/favicon.png'], (_req, res) => res.status(204).end());
+
 // Error handling
 app.use(errorHandler);
 app.use(notFoundHandler);
