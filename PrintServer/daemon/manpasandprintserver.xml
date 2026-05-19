@@ -1,0 +1,32 @@
+<service>
+	<id>manpasandprintserver.exe</id>
+	<name>Manpasand Print Server</name>
+	<description>Local print server for Manpasand POS receipt printing</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<argument>--max_old_space_size=4096</argument>
+	<argument>D:\Konain Bhai\Manpasand-Pos-\PrintServer\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>D:\Konain Bhai\Manpasand-Pos-\PrintServer\server.js</argument>
+	<argument>--scriptoptions=</argument>
+	<argument>--log</argument>
+	<argument>Manpasand Print Server wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.5</argument>
+	<argument>--wait</argument>
+	<argument>2</argument>
+	<argument>--maxrestarts</argument>
+	<argument>5</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<logmode>rotate</logmode>
+	<stoptimeout>30sec</stoptimeout>
+	<env name="NODE_ENV" value="production"/>
+	<serviceaccount>
+		<domain>DESKTOP-S4IHTRF</domain>
+		<user>LocalSystem</user>
+		<password></password>
+	</serviceaccount>
+	<workingdirectory>D:\Konain Bhai\Manpasand-Pos-\PrintServer</workingdirectory>
+</service>

@@ -1,0 +1,15 @@
+node_modules
+dist
+build
+.next
+.vscode
+.env
+*.md
+*.svg
+*.eot
+*.ttf
+*.woff
+*.woff2
+*.ico
+*.yaml
+*.toml

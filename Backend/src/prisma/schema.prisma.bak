@@ -1,0 +1,879 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id         String    @id @default(uuid())
+  email      String    @unique
+  password   String
+  role       Role      @default(ADMIN)
+  created_at DateTime  @default(now())
+  updated_at DateTime  @default(now()) @updatedAt
+  sessions   Session[]
+  cashflows  CashFlow[]
+
+  branch_id String?
+  branch    Branch? @relation(fields: [branch_id], references: [id])
+
+  // Relations for tracking user actions
+  sales            Sale[]
+  hold_sales       HoldSale[]
+  purchase_orders  PurchaseOrder[]
+  stock_movements  StockMovement[]
+  purchases        Purchase[]
+  transfers        Transfer[]
+  stock_adjustments StockAdjustment[]
+
+  @@index([email])
+}
+
+model Session {
+  id         String   @id @default(uuid())
+  user_id    String
+  user       User     @relation(fields: [user_id], references: [id])
+  token      String   @unique
+  expires_at DateTime
+  created_at DateTime @default(now())
+
+  @@index([user_id])
+  @@index([token])
+}
+
+enum BranchType {
+  WAREHOUSE
+  BRANCH
+}
+
+model Branch {
+  id                    String      @id @default(uuid())
+  code                  String      @unique
+  name                  String
+  address               String?
+  branch_type           BranchType  @default(BRANCH)
+  allow_neg_pos_stock   Boolean     @default(false)
+  allow_neg_stock_grrn  Boolean     @default(false)
+  allow_neg_transferout Boolean     @default(false)
+  is_active             Boolean     @default(true)
+  created_at            DateTime    @default(now())
+  updated_at            DateTime    @default(now()) @updatedAt
+  cashflows             CashFlow[]
+
+  // Relations
+  category           Category[]
+  stock              Stock[]
+  sales              Sale[]
+  hold_sales         HoldSale[]
+  purchase_orders     PurchaseOrder[]
+  stock_movements     StockMovement[]
+  Order              Order[]
+  User               User[]
+  employees          Employee[]
+  purchases_from     Purchase[]    @relation("PurchaseWarehouse")
+  transfers_from     Transfer[]    @relation("TransferFrom")
+  transfers_to       Transfer[]    @relation("TransferTo")
+  stock_adjustments  StockAdjustment[]
+
+  @@index([code])
+  @@index([is_active])
+  @@index([branch_type])
+}
+
+model Category {
+  id                  String           @id @default(uuid())
+  code                String           @unique @default(dbgenerated("'CAT-' || gen_random_uuid()"))
+  name                String
+  slug                String           @unique
+  display_on_branches String[]
+  image               String?
+  is_active           Boolean          @default(true)
+  get_tax_from_item   Boolean          @default(false)
+  editable_sale_rate  Boolean          @default(false)
+  display_on_pos      Boolean          @default(true)
+  products            Product[]
+  branch_id           String?
+  branch              Branch?          @relation(fields: [branch_id], references: [id])
+  created_at          DateTime         @default(now())
+  updated_at          DateTime         @default(now()) @updatedAt
+  CategoryImages      CategoryImages[]
+
+  @@index([code])
+  @@index([slug])
+  @@index([is_active])
+  @@index([display_on_pos])
+  @@index([branch_id])
+}
+
+model CategoryImages {
+  id          String      @id @default(uuid())
+  category_id String
+  category    Category    @relation(fields: [category_id], references: [id])
+  image       String
+  status      ImageStatus @default(PENDING)
+  error       String?
+  is_active   Boolean     @default(true)
+  created_at  DateTime    @default(now())
+
+  @@index([category_id])
+}
+
+model Subcategory {
+  id             String    @id @default(uuid())
+  code           String    @unique
+  name           String
+  image          String?
+  is_active      Boolean   @default(true)
+  display_on_pos Boolean   @default(true)
+  products       Product[]
+  created_at     DateTime  @default(now())
+  updated_at     DateTime  @default(now()) @updatedAt
+
+  @@index([code])
+  @@index([is_active])
+  @@index([display_on_pos])
+}
+
+model Color {
+  id             String    @id @default(uuid())
+  code           String    @unique
+  name           String
+  products       Product[]
+  is_active      Boolean   @default(true)
+  display_on_pos Boolean   @default(true)
+  created_at     DateTime  @default(now())
+  updated_at     DateTime  @default(now()) @updatedAt
+
+  @@index([code])
+  @@index([is_active])
+  @@index([display_on_pos])
+}
+
+model Size {
+  id             String    @id @default(uuid())
+  code           String    @unique
+  name           String
+  products       Product[]
+  is_active      Boolean   @default(true)
+  display_on_pos Boolean   @default(true)
+  created_at     DateTime  @default(now())
+  updated_at     DateTime  @default(now()) @updatedAt
+
+  @@index([code])
+  @@index([is_active])
+  @@index([display_on_pos])
+}
+
+model Unit {
+  id             String    @id @default(uuid())
+  code           String    @unique
+  name           String
+  is_active      Boolean   @default(true)
+  display_on_pos Boolean   @default(true)
+  products       Product[]
+  created_at     DateTime  @default(now())
+  updated_at     DateTime  @default(now()) @updatedAt
+
+  @@index([code])
+  @@index([is_active])
+  @@index([display_on_pos])
+}
+
+model Supplier {
+  id              String          @id @default(uuid())
+  code            String          @unique
+  name            String
+  phone_number    String?
+  fax_number      String?
+  mobile_number   String?
+  country         String?
+  city            String?
+  status          String?
+  email           String?
+  ntn             String?
+  strn            String?
+  gov_id          String?
+  address         String?
+  is_active       Boolean         @default(true)
+  display_on_pos  Boolean         @default(true)
+  products        Product[]
+  purchase_orders PurchaseOrder[]
+  purchases       Purchase[]
+  created_at      DateTime        @default(now())
+  updated_at      DateTime        @default(now()) @updatedAt
+
+  @@index([code])
+  @@index([is_active])
+  @@index([display_on_pos])
+}
+
+model Tax {
+  id             String    @id @default(uuid())
+  code           String    @unique
+  name           String
+  percentage     Float
+  is_active      Boolean   @default(true)
+  display_on_pos Boolean   @default(true)
+  products       Product[]
+  created_at     DateTime  @default(now())
+
+  @@index([code])
+  @@index([is_active])
+  @@index([display_on_pos])
+}
+
+model Brand {
+  id             String    @id @default(uuid())
+  code           String    @unique
+  name           String
+  display_on_pos Boolean   @default(true)
+  is_active      Boolean   @default(true)
+  products       Product[]
+  created_at     DateTime  @default(now())
+
+  @@index([code])
+  @@index([is_active])
+  @@index([display_on_pos])
+}
+
+model Product {
+  id                         String       @id @default(uuid())
+  code                       String       @unique
+  name                       String
+  unit_id                    String       @default("00000000-0000-0000-0000-000000000000")
+  unit                       Unit         @relation(fields: [unit_id], references: [id])
+  pct_or_hs_code             String?
+  description                String?
+  sku                        String       @unique
+  purchase_rate              Decimal      @default(0)
+  sales_rate_exc_dis_and_tax Decimal      @default(0)
+  sales_rate_inc_dis_and_tax Decimal      @default(0)
+  discount_amount            Decimal?     @default(0)
+  tax_id                     String?
+  tax                        Tax?         @relation(fields: [tax_id], references: [id])
+  category_id                String       @default("00000000-0000-0000-0000-000000000000")
+  category                   Category     @relation(fields: [category_id], references: [id])
+  subcategory_id             String?
+  subcategory                Subcategory? @relation(fields: [subcategory_id], references: [id])
+  min_qty                    Int?         @default(0)
+  max_qty                    Int?         @default(0)
+  supplier_id                String?
+  supplier                   Supplier?    @relation(fields: [supplier_id], references: [id])
+  brand_id                   String?
+  brand                      Brand?       @relation(fields: [brand_id], references: [id])
+  color_id                   String?
+  color                      Color?       @relation(fields: [color_id], references: [id])
+  size_id                    String?
+  size                       Size?        @relation(fields: [size_id], references: [id])
+  is_featured                Boolean      @default(false)
+  is_active                  Boolean      @default(true)
+  display_on_pos             Boolean      @default(true)
+  is_batch                   Boolean      @default(false)
+  auto_fill_on_demand_sheet  Boolean      @default(false)
+  non_inventory_item         Boolean      @default(false)
+  is_deal                    Boolean      @default(false)
+  has_images                 Boolean      @default(false)
+  is_finished_good           Boolean      @default(true)
+  is_loose_item              Boolean      @default(false)
+
+  // Relations
+  order_items          OrderItem[]
+  sale_items           SaleItem[]
+  stock                Stock[]
+  purchase_order_items PurchaseOrderItem[]
+  stock_movements      StockMovement[]
+  ProductImage         ProductImage[]
+  purchases            Purchase[]
+  stock_adjustments    StockAdjustment[]
+  transfers            Transfer[]
+  created_at           DateTime            @default(now())
+  updated_at           DateTime            @default(now()) @updatedAt
+
+  @@index([code])
+  @@index([category_id])
+  @@index([subcategory_id])
+  @@index([sku])
+  @@index([supplier_id])
+  @@index([brand_id])
+  @@index([color_id])
+  @@index([size_id])
+  @@index([is_featured])
+  @@index([is_active])
+  @@index([display_on_pos])
+}
+
+enum ImageStatus {
+  PENDING
+  PROCESSING
+  COMPLETE
+  FAILED
+}
+
+model ProductImage {
+  id         String      @id @default(uuid())
+  product_id String
+  product    Product     @relation(fields: [product_id], references: [id])
+  image      String
+  status     ImageStatus @default(PENDING)
+  error      String?
+  is_active  Boolean     @default(true)
+  created_at DateTime    @default(now())
+
+  @@index([product_id])
+}
+
+// NEW: Stock Management
+model Stock {
+  id                String   @id @default(uuid())
+  product_id        String
+  product           Product  @relation(fields: [product_id], references: [id])
+  branch_id         String
+  branch            Branch   @relation(fields: [branch_id], references: [id])
+  current_quantity  Decimal  @default(0)
+  reserved_quantity Decimal  @default(0)
+  minimum_quantity  Decimal  @default(0)
+  maximum_quantity  Decimal?
+  reorder_level     Decimal?
+  last_updated      DateTime @default(now()) @updatedAt
+  created_at        DateTime @default(now())
+
+  @@unique([product_id, branch_id])
+  @@index([product_id])
+  @@index([branch_id])
+  @@index([current_quantity])
+}
+
+// NEW: Stock Movement History
+model StockMovement {
+  id              String            @id @default(uuid())
+  product_id      String
+  product         Product           @relation(fields: [product_id], references: [id])
+  branch_id       String
+  branch          Branch            @relation(fields: [branch_id], references: [id])
+  movement_type   StockMovementType
+  reference_id    String? // Links to sale_id, purchase_order_id, etc.
+  reference_type  String? // 'sale', 'purchase', 'adjustment', 'transfer'
+  quantity_change Decimal // Positive for in, negative for out
+  previous_qty    Decimal
+  new_qty         Decimal
+  unit_cost       Decimal?
+  notes           String?
+  created_by      String?
+  user            User?             @relation(fields: [created_by], references: [id])
+  created_at      DateTime          @default(now())
+
+  @@index([product_id])
+  @@index([branch_id])
+  @@index([movement_type])
+  @@index([reference_id])
+  @@index([created_at])
+}
+
+enum PurchaseDeliveryStatus {
+  PARTIAL
+  COMPLETE
+}
+
+model Purchase {
+  id                String                 @id @default(uuid())
+  product_id         String
+  product            Product                @relation(fields: [product_id], references: [id])
+  supplier_id        String
+  supplier           Supplier               @relation(fields: [supplier_id], references: [id])
+  warehouse_branch_id String
+  warehouse_branch   Branch                 @relation("PurchaseWarehouse", fields: [warehouse_branch_id], references: [id])
+  quantity           Decimal
+  cost_price         Decimal
+  sale_price         Decimal
+  purchase_date      DateTime               @default(now())
+  invoice_ref        String?
+  notes              String?
+  delivery_status    PurchaseDeliveryStatus  @default(COMPLETE)
+  created_by         String
+  user               User                   @relation(fields: [created_by], references: [id])
+  created_at         DateTime               @default(now())
+
+  @@index([product_id])
+  @@index([supplier_id])
+  @@index([warehouse_branch_id])
+  @@index([purchase_date])
+  @@index([created_by])
+}
+
+enum TransferStatus {
+  PENDING
+  DISPATCHED
+  RECEIVED
+}
+
+model Transfer {
+  id              String         @id @default(uuid())
+  product_id      String
+  product         Product        @relation(fields: [product_id], references: [id])
+  quantity        Decimal
+  from_branch_id  String
+  from_branch     Branch         @relation("TransferFrom", fields: [from_branch_id], references: [id])
+  to_branch_id    String
+  to_branch       Branch         @relation("TransferTo", fields: [to_branch_id], references: [id])
+  status          TransferStatus @default(PENDING)
+  transfer_date   DateTime       @default(now())
+  reference_no    String?        @unique
+  notes           String?
+  created_by      String
+  user            User           @relation(fields: [created_by], references: [id])
+  received_at     DateTime?
+  received_by     String?
+  created_at      DateTime       @default(now())
+
+  @@index([product_id])
+  @@index([from_branch_id])
+  @@index([to_branch_id])
+  @@index([status])
+  @@index([transfer_date])
+}
+
+enum StockAdjustmentType {
+  ADDITION
+  SUBTRACTION
+  RECONCILIATION
+}
+
+enum StockAdjustmentCategory {
+  CORRECTION
+  DAMAGE
+  EXPIRED
+  THEFT
+  RETURN_TO_SUPPLIER
+  ADMINISTRATIVE
+}
+
+model StockAdjustment {
+  id                  String                  @id @default(uuid())
+  product_id          String
+  product             Product                 @relation(fields: [product_id], references: [id])
+  branch_id           String
+  branch              Branch                  @relation(fields: [branch_id], references: [id])
+  system_quantity     Decimal
+  physical_count      Decimal?
+  change_quantity     Decimal?
+  difference          Decimal
+  adjustment_type     StockAdjustmentType     @default(RECONCILIATION)
+  adjustment_category StockAdjustmentCategory @default(CORRECTION)
+  reason              String?
+  reference_no        String?
+  adjustment_date     DateTime                @default(now())
+  adjusted_by         String
+  user                User                    @relation(fields: [adjusted_by], references: [id])
+  created_at          DateTime                @default(now())
+
+  @@index([product_id])
+  @@index([branch_id])
+  @@index([adjustment_date])
+  @@index([adjustment_type])
+  @@index([adjustment_category])
+}
+
+// NEW: Sales/Sell Table
+model Sale {
+  id               String        @id @default(uuid())
+  sale_number      String        @unique
+  invoice_number   String?       @unique
+  branch_id        String?
+  branch           Branch?       @relation(fields: [branch_id], references: [id])
+  customer_id      String?
+  customer         Customer?     @relation(fields: [customer_id], references: [id])
+  sale_date        DateTime      @default(now())
+  subtotal         Decimal       @default(0)
+  tax_amount       Decimal       @default(0)
+  discount_amount  Decimal       @default(0)
+  total_amount     Decimal
+  payment_method   PaymentMethod @default(CASH)
+  payment_status   PaymentStatus @default(PAID)
+  payment_received Decimal       @default(0)
+  change_amount    Decimal       @default(0)
+  notes            String?
+  status           SaleStatus    @default(COMPLETED)
+  created_by       String?
+  user             User?         @relation(fields: [created_by], references: [id])
+  sale_items       SaleItem[]
+  original_sale_id String?
+  created_at       DateTime      @default(now())
+  updated_at       DateTime      @default(now()) @updatedAt
+
+  @@index([sale_number])
+  @@index([invoice_number])
+  @@index([branch_id])
+  @@index([customer_id])
+  @@index([sale_date])
+  @@index([status])
+  @@index([created_by])
+}
+
+enum SaleItemType {
+  ORIGINAL
+  RETURN
+  EXCHANGE
+}
+
+// NEW: Sale Items
+model SaleItem {
+  id               String       @id @default(uuid())
+  sale_id          String
+  sale             Sale         @relation(fields: [sale_id], references: [id], onDelete: Cascade)
+  product_id       String
+  product          Product      @relation(fields: [product_id], references: [id])
+  quantity         Decimal
+  unit_price       Decimal
+  tax_rate         Decimal      @default(0)
+  tax_amount       Decimal      @default(0)
+  discount_rate    Decimal      @default(0)
+  discount_amount  Decimal      @default(0)
+  line_total       Decimal
+  item_type        SaleItemType @default(ORIGINAL)
+  ref_sale_item_id String?
+  created_at       DateTime     @default(now())
+
+  @@index([sale_id])
+  @@index([product_id])
+}
+
+// NEW: Purchase Orders
+model PurchaseOrder {
+  id                   String              @id @default(uuid())
+  po_number            String              @unique
+  branch_id            String
+  branch               Branch              @relation(fields: [branch_id], references: [id])
+  supplier_id          String
+  supplier             Supplier            @relation(fields: [supplier_id], references: [id])
+  order_date           DateTime            @default(now())
+  expected_delivery    DateTime?
+  delivery_date        DateTime?
+  status               PurchaseOrderStatus @default(PENDING)
+  subtotal             Decimal             @default(0)
+  tax_amount           Decimal             @default(0)
+  total_amount         Decimal             @default(0)
+  notes                String?
+  created_by           String
+  user                 User                @relation(fields: [created_by], references: [id])
+  purchase_order_items PurchaseOrderItem[]
+  created_at           DateTime            @default(now())
+  updated_at           DateTime            @default(now()) @updatedAt
+
+  @@index([po_number])
+  @@index([branch_id])
+  @@index([supplier_id])
+  @@index([status])
+  @@index([order_date])
+}
+
+// NEW: Purchase Order Items
+model PurchaseOrderItem {
+  id                String        @id @default(uuid())
+  purchase_order_id String
+  purchase_order    PurchaseOrder @relation(fields: [purchase_order_id], references: [id], onDelete: Cascade)
+  product_id        String
+  product           Product       @relation(fields: [product_id], references: [id])
+  ordered_quantity  Decimal
+  received_quantity Decimal           @default(0)
+  unit_cost         Decimal
+  total_cost        Decimal
+  created_at        DateTime      @default(now())
+
+  @@index([purchase_order_id])
+  @@index([product_id])
+}
+
+model Area {
+  id         String     @id @default(uuid())
+  code       String     @unique
+  name       String
+  customers  Customer[]
+  created_at DateTime   @default(now())
+
+  @@index([code])
+}
+
+model Customer {
+  id                 String          @id @default(uuid())
+  name               String?
+  area_id            String?
+  area               Area?           @relation(fields: [area_id], references: [id])
+  address            String?
+  billing_address    String?
+  phone_number       String?
+  gender             String?
+  ntn                String?
+  mobile_number      String?
+  strn               String?
+  email              String
+  password           String?
+  dob                DateTime?
+  customer_cat       String[]
+  gov_id             String?
+  customer_tags      String[]
+  is_active          Boolean         @default(true)
+  ref_by             String?
+  ref_contact_number String?
+  orders             Order[]
+  sales              Sale[] // NEW: Link to sales
+  hold_sales         HoldSale[]
+  device             DeviceIdentity?
+  created_at         DateTime        @default(now())
+  updated_at         DateTime        @default(now()) @updatedAt
+
+  @@index([area_id])
+  @@index([is_active])
+}
+
+model Discount {
+  id         String       @id @default(uuid())
+  name       String
+  value      Decimal
+  type       DiscountType
+  is_active  Boolean      @default(true)
+  created_at DateTime     @default(now())
+
+  @@index([is_active])
+}
+
+model HoldSale {
+  id          String    @id @default(uuid())
+  branch_id   String
+  branch      Branch    @relation(fields: [branch_id], references: [id], onDelete: Cascade)
+  customer_id String?
+  customer    Customer? @relation(fields: [customer_id], references: [id])
+  created_by  String?
+  user        User?     @relation(fields: [created_by], references: [id])
+  items       Json
+  subtotal    Decimal   @default(0)
+  total_items Int       @default(0)
+  created_at  DateTime  @default(now())
+  updated_at  DateTime  @default(now()) @updatedAt
+
+  @@index([branch_id])
+  @@index([customer_id])
+  @@index([created_by])
+  @@index([created_at])
+}
+
+model Order {
+  id             String         @id @default(uuid())
+  branch_id      String?
+  branch         Branch?        @relation(fields: [branch_id], references: [id])
+  customer_id    String?
+  customer       Customer?      @relation(fields: [customer_id], references: [id])
+  order_number   String         @unique
+  items          OrderItem[]
+  total_amount   Decimal
+  status         OrderStatus    @default(PENDING)
+  payment_method PaymentMethod?
+  created_at     DateTime       @default(now())
+  updated_at     DateTime       @default(now()) @updatedAt
+
+  @@index([customer_id])
+  @@index([order_number])
+  @@index([status])
+  @@index([created_at])
+}
+
+model OrderItem {
+  id          String   @id @default(uuid())
+  order_id    String
+  order       Order    @relation(fields: [order_id], references: [id])
+  product_id  String
+  product     Product  @relation(fields: [product_id], references: [id])
+  quantity    Decimal
+  price       Decimal
+  total_price Decimal
+  created_at  DateTime @default(now())
+
+  @@index([order_id])
+  @@index([product_id])
+}
+
+model DeviceIdentity {
+  id          String    @id @default(uuid())
+  fcm_token   String
+  customer_id String?   @unique
+  customer    Customer? @relation(fields: [customer_id], references: [id])
+  created_at  DateTime  @default(now())
+  updated_at  DateTime  @default(now()) @updatedAt
+
+  @@unique([fcm_token, customer_id])
+  @@index([customer_id])
+  @@index([fcm_token])
+}
+
+// ENUMS
+enum Role {
+  ADMIN
+  SUPER_ADMIN
+  PURCHASE_MANAGER
+  WAREHOUSE_MANAGER
+  BRANCH_MANAGER
+}
+
+enum OrderStatus {
+  PENDING
+  PROCESSING
+  COMPLETED
+  CANCELLED
+}
+
+enum PaymentMethod {
+  CASH
+  CARD
+  MOBILE_MONEY
+  BANK_TRANSFER
+  CREDIT
+}
+
+enum DiscountType {
+  FLAT
+  PERCENTAGE
+}
+
+// NEW ENUMS
+enum SaleStatus {
+  PENDING
+  COMPLETED
+  CANCELLED
+  REFUNDED
+  EXCHANGED
+}
+
+enum PaymentStatus {
+  PAID
+  PARTIAL
+  PENDING
+  OVERDUE
+}
+
+enum StockMovementType {
+  PURCHASE
+  SALE
+  ADJUSTMENT
+  TRANSFER_IN
+  TRANSFER_OUT
+  RETURN
+  DAMAGE
+  EXPIRED
+  LOSS
+}
+
+enum PurchaseOrderStatus {
+  PENDING
+  APPROVED
+  ORDERED
+  PARTIALLY_RECEIVED
+  RECEIVED
+  CANCELLED
+}
+
+model Expense {
+  id         String   @id @default(uuid())
+  particular String
+  amount     Decimal
+  created_at DateTime @default(now())
+
+  cashflow_id String?
+  cashflow    CashFlow? @relation(fields: [cashflow_id], references: [id])
+}
+
+model CashFlow {
+  id         String    @id @default(uuid())
+  user_id    String?
+  user       User?     @relation(fields: [user_id], references: [id])
+  branch_id  String?
+  branch     Branch?   @relation(fields: [branch_id], references: [id])
+  opening    Decimal
+  sales      Decimal
+  closing    Decimal? // nullable until closing added
+  status     CashFlowStatus @default(OPEN)
+  opened_at  DateTime  @default(now())
+  closed_at  DateTime?
+  created_at DateTime  @default(now())
+  expenses   Expense[]
+}
+
+enum CashFlowStatus {
+  OPEN
+  CLOSED
+}
+
+// Staff Management
+model Employee {
+  id           String   @id @default(uuid())
+  name         String
+  email        String?  @unique
+  phone_number String?
+  cnic         String?  @unique
+  gender       String?
+  join_date    DateTime
+  is_active    Boolean  @default(true)
+
+  // Relations
+  branch_id String?
+  branch    Branch? @relation(fields: [branch_id], references: [id])
+
+  employee_type_id  String
+  employee_type     EmployeeType      @relation(fields: [employee_type_id], references: [id])
+  shift_assignments ShiftAssignment[]
+  salaries          Salary[]
+
+  created_at DateTime @default(now())
+  updated_at DateTime @default(now()) @updatedAt
+
+  @@index([branch_id])
+  @@index([employee_type_id])
+}
+
+model EmployeeType {
+  id        String  @id @default(uuid())
+  name      String  @unique
+  is_active Boolean @default(true)
+
+  employees Employee[]
+}
+
+model Shift {
+  id         String   @id @default(uuid())
+  name       String
+  start_time DateTime
+  end_time   DateTime
+  is_active  Boolean  @default(true)
+}
+
+model ShiftAssignment {
+  id          String    @id @default(uuid())
+  employee_id String
+  shift_time  String
+  start_date  DateTime
+  end_date    DateTime?
+
+  employee Employee @relation(fields: [employee_id], references: [id])
+
+  @@unique([employee_id,start_date])
+}
+
+model Salary {
+  id          String    @id @default(uuid())
+  employee_id String
+  month       Int // 1 - 12
+  year        Int
+  amount      Decimal
+  is_paid     Boolean   @default(false)
+  paid_date   DateTime?
+  notes       String?
+
+  employee Employee @relation(fields: [employee_id], references: [id])
+
+  created_at DateTime @default(now())
+
+  @@unique([employee_id, month, year])
+  @@index([employee_id])
+}
+

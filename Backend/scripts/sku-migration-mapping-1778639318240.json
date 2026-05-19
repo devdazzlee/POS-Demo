@@ -1,0 +1,5900 @@
+{
+  "generatedAt": "2026-05-13T02:28:38.240Z",
+  "dryRun": false,
+  "mapping": [
+    {
+      "id": "8923316e-6797-438e-8a29-d823da4f9fe1",
+      "code": "1000",
+      "name": "Ajwa Dates",
+      "oldSku": "ADWOM2",
+      "newSku": "651041639"
+    },
+    {
+      "id": "667e1cc6-8b1c-4684-a275-644e1ec957ac",
+      "code": "1001",
+      "name": "Irani Dates (500gms Box)",
+      "oldSku": "ID(KFEY",
+      "newSku": "631893377"
+    },
+    {
+      "id": "a6e8a21b-72d8-49da-bfa3-60ff17815fe6",
+      "code": "1002",
+      "name": "Kalmi Dates",
+      "oldSku": "KDRLPN",
+      "newSku": "706690214"
+    },
+    {
+      "id": "6d327d88-7312-4dea-9c46-e5d835e12e66",
+      "code": "1003",
+      "name": "Mabroom Dates",
+      "oldSku": "MDQ2OQ",
+      "newSku": "421763734"
+    },
+    {
+      "id": "9485a149-9abc-4d5a-a1d2-1fd1e6b3dd22",
+      "code": "1004",
+      "name": "Punjgor Dates",
+      "oldSku": "PDFCR6",
+      "newSku": "331912021"
+    },
+    {
+      "id": "d9568b24-11bf-4234-9f5a-37512d6a7c81",
+      "code": "1005",
+      "name": "Sugai Dates",
+      "oldSku": "SDJ320",
+      "newSku": "985885452"
+    },
+    {
+      "id": "701c92d3-b772-4a3e-9605-c85429068993",
+      "code": "1006",
+      "name": "Ajwa Powder",
+      "oldSku": "APA5A0",
+      "newSku": "577730848"
+    },
+    {
+      "id": "079be5c7-2eb4-496c-9579-1f1c41065687",
+      "code": "1007",
+      "name": "Ajwa Paste",
+      "oldSku": "APXCK5",
+      "newSku": "967068968"
+    },
+    {
+      "id": "ab9b923a-626a-405c-810f-9e5de36ee792",
+      "code": "1008",
+      "name": "Amber Dates",
+      "oldSku": "ADY597",
+      "newSku": "861252724"
+    },
+    {
+      "id": "c4d002dd-8892-43ad-9558-57814ca542d7",
+      "code": "1009",
+      "name": "Zahidi Dates",
+      "oldSku": "ZDJFZV",
+      "newSku": "588848862"
+    },
+    {
+      "id": "7f11c7cf-cb00-462f-9c28-11809036fdb1",
+      "code": "1010",
+      "name": "Rabbai Dates",
+      "oldSku": "RDA3X7",
+      "newSku": "974828613"
+    },
+    {
+      "id": "70fd7e96-e4e5-4ad0-88c4-f4bd89cf717a",
+      "code": "1011",
+      "name": "Sukkari Dates",
+      "oldSku": "SDUSH3",
+      "newSku": "122563006"
+    },
+    {
+      "id": "3a1d75b9-9a86-47c2-aea7-76dba20336bf",
+      "code": "1012",
+      "name": "Medjool Dates",
+      "oldSku": "MDQ549",
+      "newSku": "853677576"
+    },
+    {
+      "id": "40e8fa1b-dba5-4dbe-8623-a98ac1209f3f",
+      "code": "1013",
+      "name": "Almonds Whole (Kaghzi)",
+      "oldSku": "AW(FM4V",
+      "newSku": "130864269"
+    },
+    {
+      "id": "b0a2c6ce-de56-4670-b09f-74e542df564b",
+      "code": "1014",
+      "name": "Almonds Whole (Katha)",
+      "oldSku": "AW(QN1I",
+      "newSku": "186167656"
+    },
+    {
+      "id": "4292242f-89c1-4134-8543-b433257f5484",
+      "code": "1015",
+      "name": "Almonds Whole (Wahidi)",
+      "oldSku": "AW(IOWY",
+      "newSku": "684689991"
+    },
+    {
+      "id": "fce249f4-3c05-41e2-a247-36a274be0ef6",
+      "code": "1016",
+      "name": "American Almonds large",
+      "oldSku": "AALOO95",
+      "newSku": "613370532"
+    },
+    {
+      "id": "e2f6b5eb-1508-47ec-9787-fc88c918911e",
+      "code": "1017",
+      "name": "American Almonds Medium",
+      "oldSku": "AAMJ32V",
+      "newSku": "431106731"
+    },
+    {
+      "id": "0fcd13b3-886a-42bf-a6c5-cad56dc58e96",
+      "code": "1018",
+      "name": "American Almonds Small",
+      "oldSku": "AAS5CWK",
+      "newSku": "207299070"
+    },
+    {
+      "id": "dea08f0f-bd9f-459e-9637-79ecb2099f1b",
+      "code": "1019",
+      "name": "Apricot's Seed's Almonds",
+      "oldSku": "ASAR6MG",
+      "newSku": "753330967"
+    },
+    {
+      "id": "fe73f3e4-d078-4d84-a9c1-c1f42d532ea9",
+      "code": "1020",
+      "name": "Banana Chips (Salted)",
+      "oldSku": "BC(BI8C",
+      "newSku": "126097960"
+    },
+    {
+      "id": "b4513cc8-0f8a-4290-a0e0-dbdebea2653c",
+      "code": "1021",
+      "name": "Banana Chips (Spicy)",
+      "oldSku": "BC(7BIA",
+      "newSku": "960589368"
+    },
+    {
+      "id": "c926dd06-afa3-41c0-91cc-c10bfc87a7f5",
+      "code": "1022",
+      "name": "Black Raisins (Kaali Kishmish)",
+      "oldSku": "BR(4YKL",
+      "newSku": "120995898"
+    },
+    {
+      "id": "1b9bc6f0-e402-4c87-a7cd-0d7b0afb65c9",
+      "code": "1023",
+      "name": "Coconut (Grated)",
+      "oldSku": "C(CJ8P",
+      "newSku": "679546976"
+    },
+    {
+      "id": "61e92157-7322-4dc7-9bb2-24ae42042bdf",
+      "code": "1024",
+      "name": "Coconut (Grounded)",
+      "oldSku": "C(EC62",
+      "newSku": "930583497"
+    },
+    {
+      "id": "11d66463-e83b-44b7-8a52-d56c134936ca",
+      "code": "1025",
+      "name": "Coconut (Half Piece)",
+      "oldSku": "C(PN32V",
+      "newSku": "386621080"
+    },
+    {
+      "id": "7236ff8b-e286-432b-9d7a-9fd2a922556c",
+      "code": "1026",
+      "name": "Dried Apricot with Seed",
+      "oldSku": "DAWCLPJ",
+      "newSku": "258464003"
+    },
+    {
+      "id": "c568c264-b466-4357-a821-e508d35e0223",
+      "code": "1027",
+      "name": "Dried Apricot without Seed (Golden)",
+      "oldSku": "DAWFLIE",
+      "newSku": "905682437"
+    },
+    {
+      "id": "6f7d0bc0-0424-4847-bd8f-90e999c16731",
+      "code": "1028",
+      "name": "Dried Cherry",
+      "oldSku": "DCTDMC",
+      "newSku": "849934065"
+    },
+    {
+      "id": "d1d61f2b-3383-4f9f-8f0b-41c309135bf4",
+      "code": "1029",
+      "name": "Dried Dates (Chuwara)",
+      "oldSku": "DD(O16E",
+      "newSku": "392789870"
+    },
+    {
+      "id": "549b15ba-be93-47a6-82a2-a6e6cef7d9af",
+      "code": "1030",
+      "name": "Dried Dates (Nar Chuwara)",
+      "oldSku": "DD(A6G3",
+      "newSku": "977793508"
+    },
+    {
+      "id": "da3aad8a-4879-4f26-8b5e-363c5941e5c9",
+      "code": "1031",
+      "name": "Dried Figs ( Persian )",
+      "oldSku": "DF(W8MZ",
+      "newSku": "505148514"
+    },
+    {
+      "id": "2526eab2-41d8-4d34-b251-14f38af17ce5",
+      "code": "1032",
+      "name": "Dried Maango",
+      "oldSku": "DM9617",
+      "newSku": "417397038"
+    },
+    {
+      "id": "2ff20f17-c74d-4b20-a671-b2c486ca2fde",
+      "code": "1033",
+      "name": "Dried Pineapple",
+      "oldSku": "DP8CC1",
+      "newSku": "447907968"
+    },
+    {
+      "id": "115ae638-bd05-49fe-ba6a-2b423b01bfee",
+      "code": "1034",
+      "name": "Dried Strawberry",
+      "oldSku": "DS7YHO",
+      "newSku": "542257242"
+    },
+    {
+      "id": "f7a7012d-c784-4e0a-8a21-1aeeb5059b91",
+      "code": "1035",
+      "name": "Figs (Extra Large)",
+      "oldSku": "F(LDGOB",
+      "newSku": "995952641"
+    },
+    {
+      "id": "301a12db-9d9a-4699-a4b8-1fa444a9fb34",
+      "code": "1036",
+      "name": "Figs (Large)",
+      "oldSku": "F(TOIE",
+      "newSku": "841931662"
+    },
+    {
+      "id": "32facbc0-336a-43c9-a007-659013ba46e9",
+      "code": "1037",
+      "name": "Figs (Medium)",
+      "oldSku": "F(WG49",
+      "newSku": "183978915"
+    },
+    {
+      "id": "121bd9a4-12a1-43ab-b94a-8824d7568c76",
+      "code": "1038",
+      "name": "Figs (Small)",
+      "oldSku": "F(5LRO",
+      "newSku": "350214965"
+    },
+    {
+      "id": "5b85a3a9-2275-4252-a9ab-c2d94ac07108",
+      "code": "1039",
+      "name": "Figs Turkish",
+      "oldSku": "FT1GR3",
+      "newSku": "788714947"
+    },
+    {
+      "id": "f5556a77-0f7f-4e78-b7d8-29814e1e9088",
+      "code": "1040",
+      "name": "Flavoured Cashews (BBQ)",
+      "oldSku": "FC(FV6F",
+      "newSku": "910609632"
+    },
+    {
+      "id": "2b94d0f2-7800-473f-8998-f8945a27483e",
+      "code": "1041",
+      "name": "Flavoured Cashews (Black Pepper)",
+      "oldSku": "FC(TKTV",
+      "newSku": "431933073"
+    },
+    {
+      "id": "3f11b7c5-4ca3-4eca-b56c-89123a1a2998",
+      "code": "1042",
+      "name": "Flavoured Cashews (Cheese)",
+      "oldSku": "FC(67Y9",
+      "newSku": "245034827"
+    },
+    {
+      "id": "30f1cf58-8fa3-4275-82d6-bda46014153c",
+      "code": "1043",
+      "name": "Flavoured Cashews (Jalapeno)",
+      "oldSku": "FC(BVXA",
+      "newSku": "709938069"
+    },
+    {
+      "id": "eae2fc95-07d4-49ad-aebc-46c5bbeb76f7",
+      "code": "1044",
+      "name": "Flavoured Cashews (Peri Peri)",
+      "oldSku": "FC(G7WS",
+      "newSku": "706748311"
+    },
+    {
+      "id": "c7fdf338-185d-43f7-9631-78ca294ec2b5",
+      "code": "1045",
+      "name": "Gum Crystal (gondh babool)",
+      "oldSku": "GC(ZYUL",
+      "newSku": "325882366"
+    },
+    {
+      "id": "f915231b-53d7-48a6-9465-c759bffeabb2",
+      "code": "1046",
+      "name": "Kandhari Almonds",
+      "oldSku": "KAM0E1",
+      "newSku": "288787801"
+    },
+    {
+      "id": "e07206aa-7984-4c8c-9e8f-f92efd3a61b8",
+      "code": "1047",
+      "name": "Makhana",
+      "oldSku": "MTT46",
+      "newSku": "850648339"
+    },
+    {
+      "id": "614b4487-2811-4139-8d59-f184c61ba418",
+      "code": "1048",
+      "name": "Mixed Dried Fruits",
+      "oldSku": "MDFICW3",
+      "newSku": "450880201"
+    },
+    {
+      "id": "d10607a9-c5b6-4006-8296-a361c8904797",
+      "code": "1049",
+      "name": "Mixed Melon Seeds (4 Maghaz)",
+      "oldSku": "MMS4VJZ",
+      "newSku": "894181848"
+    },
+    {
+      "id": "39913c9c-8f13-4917-a0e3-9901a1f13879",
+      "code": "1050",
+      "name": "Mixed Nuts",
+      "oldSku": "MNE6ZC",
+      "newSku": "769621016"
+    },
+    {
+      "id": "28100264-6106-403f-9150-3b6ca8946de5",
+      "code": "1051",
+      "name": "Munaqqa",
+      "oldSku": "M0I3I",
+      "newSku": "734999027"
+    },
+    {
+      "id": "2999c148-39f0-4de7-b276-cf02601bbb66",
+      "code": "1052",
+      "name": "Persian Almonds",
+      "oldSku": "PA7VFR",
+      "newSku": "126723390"
+    },
+    {
+      "id": "945a13b3-9367-4919-838e-fdce6e41a130",
+      "code": "1053",
+      "name": "Pine Seeds (Shell)",
+      "oldSku": "PS(9376",
+      "newSku": "418471756"
+    },
+    {
+      "id": "86fd1b52-58f7-4b04-9bbd-d94f6af1e78f",
+      "code": "1054",
+      "name": "Pine Seeds (Shell) GOLD",
+      "oldSku": "PS(YSKM",
+      "newSku": "223222451"
+    },
+    {
+      "id": "f2d0f707-815a-4c30-8e6b-0cab87ce28ab",
+      "code": "1055",
+      "name": "Pine Seeds W/O Shell",
+      "oldSku": "PSWHBB4",
+      "newSku": "361426136"
+    },
+    {
+      "id": "1474d56f-1fe1-411e-b3e1-ee99ab5633c7",
+      "code": "1056",
+      "name": "Pine Seeds W/O Shell GOLD",
+      "oldSku": "PSW1BJ8",
+      "newSku": "776779770"
+    },
+    {
+      "id": "6fffb37f-b7ba-49e0-be1c-0004b324df81",
+      "code": "1057",
+      "name": "Plain Cashews (180)",
+      "oldSku": "PC(XOR9",
+      "newSku": "152085228"
+    },
+    {
+      "id": "536d1a8e-2e1f-4084-8710-133f61abed02",
+      "code": "1058",
+      "name": "Plain Cashews (240)",
+      "oldSku": "PC(SI5Y",
+      "newSku": "870911297"
+    },
+    {
+      "id": "43b88eea-5528-411f-b896-4fc20f3a0c6c",
+      "code": "1059",
+      "name": "Plain Cashews (320)",
+      "oldSku": "PC(Q2ZM",
+      "newSku": "964246167"
+    },
+    {
+      "id": "170ec53a-0be7-44f8-998c-8781ddef4c57",
+      "code": "1060",
+      "name": "Plain Pistachios",
+      "oldSku": "PPETT4",
+      "newSku": "305712457"
+    },
+    {
+      "id": "d30e7c4b-fba6-43c8-8659-bfcbd25ab75d",
+      "code": "1061",
+      "name": "Pumpkin Seeds Peeled",
+      "oldSku": "PSPK3TC",
+      "newSku": "686438115"
+    },
+    {
+      "id": "ce96a32a-23c7-4e6f-8119-524a98abcf7f",
+      "code": "1062",
+      "name": "Pumpkin Seeds Whole (Long)",
+      "oldSku": "PSW0PIZ",
+      "newSku": "572170614"
+    },
+    {
+      "id": "703e4aca-78fa-4157-ae89-9e17d1729f72",
+      "code": "1063",
+      "name": "Pumpkin Seeds Whole (round)",
+      "oldSku": "PSWL1NR",
+      "newSku": "934665229"
+    },
+    {
+      "id": "02a6d706-dc17-4256-aa7d-aa7a86c011a4",
+      "code": "1064",
+      "name": "Raisins (Sundarkhani)",
+      "oldSku": "R(GW0A",
+      "newSku": "497388972"
+    },
+    {
+      "id": "9510776e-7153-4ae9-b3d1-1863b84ea75f",
+      "code": "1065",
+      "name": "Raisins Round",
+      "oldSku": "RR9PU7",
+      "newSku": "925768548"
+    },
+    {
+      "id": "09670986-0da5-4ce8-98d4-61a28a4d7c11",
+      "code": "1066",
+      "name": "Roasted Almonds",
+      "oldSku": "RAXBDH",
+      "newSku": "959632586"
+    },
+    {
+      "id": "abd82cb9-420e-4f78-9b41-6bdcc193b459",
+      "code": "1067",
+      "name": "Roasted Cashew Nuts (180)",
+      "oldSku": "RCNSBDN",
+      "newSku": "352268447"
+    },
+    {
+      "id": "ec454fa4-5164-4b7e-a7f2-7be7440355f3",
+      "code": "1068",
+      "name": "Roasted Cashew Nuts (240)",
+      "oldSku": "RCNLACE",
+      "newSku": "192157017"
+    },
+    {
+      "id": "8e6ecfba-3a11-429d-955a-b2e99dcf9bc0",
+      "code": "1069",
+      "name": "Roasted Cashew Nuts (320)",
+      "oldSku": "RCN7E97",
+      "newSku": "773196470"
+    },
+    {
+      "id": "cd1b9e72-ed72-497a-b481-a0ea56cc0448",
+      "code": "1070",
+      "name": "Roasted Peanuts",
+      "oldSku": "RPWKXM",
+      "newSku": "653808164"
+    },
+    {
+      "id": "6b97aaee-f964-4b90-87e1-3c5f90141da5",
+      "code": "1071",
+      "name": "Roasted Peanuts (Whole)",
+      "oldSku": "RP(K2OU",
+      "newSku": "602813304"
+    },
+    {
+      "id": "3923f5c9-d1fd-4079-bd34-5781198b4f02",
+      "code": "1072",
+      "name": "Roasted Pistachios",
+      "oldSku": "RP5P8I",
+      "newSku": "273021808"
+    },
+    {
+      "id": "91d4ad09-fa64-4799-87fe-31029c6c2995",
+      "code": "1073",
+      "name": "Salted Peanuts",
+      "oldSku": "SPLUE9",
+      "newSku": "409055056"
+    },
+    {
+      "id": "013fc93d-a666-4cd3-86a4-3957bd7aae05",
+      "code": "1074",
+      "name": "Salted Pistachios",
+      "oldSku": "SPEZ0L",
+      "newSku": "198009042"
+    },
+    {
+      "id": "cc864bb0-0200-4f2a-897b-796c652571a1",
+      "code": "1075",
+      "name": "Sliced Almonds",
+      "oldSku": "SASXFP",
+      "newSku": "615716574"
+    },
+    {
+      "id": "1401611d-3596-429b-8e7c-2e3b91262c53",
+      "code": "1076",
+      "name": "Sliced Coconuts",
+      "oldSku": "SC7OO9",
+      "newSku": "211127845"
+    },
+    {
+      "id": "f693e487-ffb3-47b0-8ff3-a8e094ca3e52",
+      "code": "1077",
+      "name": "Sliced Dried Dates (Chuwara)",
+      "oldSku": "SDDEUUY",
+      "newSku": "855409660"
+    },
+    {
+      "id": "49fff446-4a87-4b28-bb90-4f73cb3b9c90",
+      "code": "1078",
+      "name": "Sliced Pistachios",
+      "oldSku": "SPXL9J",
+      "newSku": "688020299"
+    },
+    {
+      "id": "3afa9550-de93-4784-b9c8-4b8ede2a74ac",
+      "code": "1079",
+      "name": "Sliced Plain Cashews",
+      "oldSku": "SPCSKA8",
+      "newSku": "423467023"
+    },
+    {
+      "id": "9c57ec17-0885-4eb0-8109-40108ffecdf1",
+      "code": "1080",
+      "name": "Smoked Almonds",
+      "oldSku": "SAZEDI",
+      "newSku": "562111189"
+    },
+    {
+      "id": "40c90163-f56b-4a1b-9afa-a5c9ca9ef44f",
+      "code": "1081",
+      "name": "Spicy Peanuts",
+      "oldSku": "SPMCCQ",
+      "newSku": "130232877"
+    },
+    {
+      "id": "2232b949-9ba7-43c7-a2e0-d4a522d85152",
+      "code": "1082",
+      "name": "Sweet Almonds",
+      "oldSku": "SAVB5D",
+      "newSku": "620428277"
+    },
+    {
+      "id": "412ec9dd-baa3-4206-ad9c-2240a14cc19d",
+      "code": "1083",
+      "name": "Unroasted Peanuts",
+      "oldSku": "UP1NHJ",
+      "newSku": "280773880"
+    },
+    {
+      "id": "233e8de7-534a-4083-a5c5-e40a889d9ad4",
+      "code": "1084",
+      "name": "Unroasted Peanuts (Skin)",
+      "oldSku": "UP(P8C0",
+      "newSku": "665900185"
+    },
+    {
+      "id": "0b8fb225-48d7-4f14-94bf-0e9fe644159a",
+      "code": "1085",
+      "name": "Walnuts",
+      "oldSku": "WEVA5",
+      "newSku": "697350395"
+    },
+    {
+      "id": "01394c18-9210-4e74-a058-6e56bef0ed58",
+      "code": "1086",
+      "name": "Walnuts (GOLA)",
+      "oldSku": "W(0QJF",
+      "newSku": "199476489"
+    },
+    {
+      "id": "67190385-7fd5-48f3-b986-7f1d9ee95372",
+      "code": "1087",
+      "name": "Walnuts Whole",
+      "oldSku": "WWD4YY",
+      "newSku": "461865167"
+    },
+    {
+      "id": "9de59319-a9e1-4f1a-8e8f-ab6d4a5e3b7a",
+      "code": "50088",
+      "name": "Anmol Rice",
+      "oldSku": "AR7YGU",
+      "newSku": "455828513"
+    },
+    {
+      "id": "0872876d-a9cb-45dc-9f92-d81954fd4935",
+      "code": "50089",
+      "name": "Barley (Jaww)",
+      "oldSku": "B(3B4T",
+      "newSku": "136730603"
+    },
+    {
+      "id": "128491a1-95ed-4e44-98df-777f88bc7608",
+      "code": "50090",
+      "name": "Black Chickpeas (Kaala Chana)",
+      "oldSku": "BC(B76V",
+      "newSku": "287683429"
+    },
+    {
+      "id": "9d139314-9d4c-43c3-b484-b1c3ac95b0a8",
+      "code": "50091",
+      "name": "Daal Arhar",
+      "oldSku": "DAJKNB",
+      "newSku": "375401758"
+    },
+    {
+      "id": "4823f6e3-2632-44eb-9057-51adbdabacf1",
+      "code": "50092",
+      "name": "Daal Haleem Mix",
+      "oldSku": "DHMJ1Q8",
+      "newSku": "348328055"
+    },
+    {
+      "id": "3d5cefba-626e-4142-9a94-cc046825f336",
+      "code": "50093",
+      "name": "Daal Maash",
+      "oldSku": "DMQZ7H",
+      "newSku": "255168811"
+    },
+    {
+      "id": "a00e948f-c71a-405c-b4b8-4c9901efc8c0",
+      "code": "50094",
+      "name": "Daal Maash Chilka",
+      "oldSku": "DMCA2GO",
+      "newSku": "734840772"
+    },
+    {
+      "id": "7b0655c4-fa8a-4de2-82a1-cac4d77ed3a4",
+      "code": "50095",
+      "name": "Daal Maash Sabut",
+      "oldSku": "DMSP518",
+      "newSku": "461117385"
+    },
+    {
+      "id": "fe89e11c-3201-4d1c-8c46-2e090f523963",
+      "code": "50096",
+      "name": "Daal Mix",
+      "oldSku": "DMJTQD",
+      "newSku": "457508497"
+    },
+    {
+      "id": "c0786e2c-f8bb-4084-bfa5-76a5415eef2b",
+      "code": "50097",
+      "name": "Daal Moong",
+      "oldSku": "DM59HI",
+      "newSku": "127695312"
+    },
+    {
+      "id": "85a42c57-40bc-4c6d-af63-214ee554a738",
+      "code": "50098",
+      "name": "Daal Moong Chilka",
+      "oldSku": "DMC03LR",
+      "newSku": "392615076"
+    },
+    {
+      "id": "a6a4518f-8304-49af-b674-41e83a1b3bf1",
+      "code": "50099",
+      "name": "Daal Moong Sabut",
+      "oldSku": "DMSJFIH",
+      "newSku": "801100745"
+    },
+    {
+      "id": "a89063ba-0726-49a9-be99-c2ae5f63fe78",
+      "code": "50100",
+      "name": "Gandum Daliya Bareeq",
+      "oldSku": "GDBEB18",
+      "newSku": "879314787"
+    },
+    {
+      "id": "c0b72db3-d5ca-4a8f-b9fb-d1d187538828",
+      "code": "50101",
+      "name": "Gandum Daliya Mota",
+      "oldSku": "GDM8GYK",
+      "newSku": "627422987"
+    },
+    {
+      "id": "d8bf5054-981b-4d1b-a524-22b8e96bf72a",
+      "code": "50102",
+      "name": "Jasmine Rice",
+      "oldSku": "JRXBGJ",
+      "newSku": "221641441"
+    },
+    {
+      "id": "058d3dbb-a03a-4000-9687-da52dfc204c6",
+      "code": "50103",
+      "name": "Jaww Ka Daliya",
+      "oldSku": "JKDQGLT",
+      "newSku": "986956769"
+    },
+    {
+      "id": "361b8ff5-cfc6-4e77-b9c1-f9eb3dabe2c8",
+      "code": "50104",
+      "name": "Kaali Masoor",
+      "oldSku": "KMHYSO",
+      "newSku": "675292365"
+    },
+    {
+      "id": "360a0943-da38-43e3-907b-105599db40d8",
+      "code": "50105",
+      "name": "Kangni",
+      "oldSku": "KMW4K",
+      "newSku": "323925118"
+    },
+    {
+      "id": "35f7cd98-f16d-4036-8b42-036ceae56b3f",
+      "code": "50106",
+      "name": "Kidney Beans (Red)",
+      "oldSku": "KB(VYOS",
+      "newSku": "953089927"
+    },
+    {
+      "id": "8b728e8b-1b34-4e2f-b9e4-0766ece69786",
+      "code": "50107",
+      "name": "Lal Masoor",
+      "oldSku": "LMSS39",
+      "newSku": "257385038"
+    },
+    {
+      "id": "3263020c-a066-4a3d-ba95-6cc8c123637f",
+      "code": "50108",
+      "name": "Millets (Bajra)",
+      "oldSku": "M(O0Q6",
+      "newSku": "699367547"
+    },
+    {
+      "id": "0ebced99-38c5-40a6-ae1d-241bee6e8a4a",
+      "code": "50109",
+      "name": "Mixed Dana",
+      "oldSku": "MD9ZO1",
+      "newSku": "212236993"
+    },
+    {
+      "id": "f4a7a048-f0f6-48c6-8194-7b1b11c06c5f",
+      "code": "50110",
+      "name": "Mughal Rice",
+      "oldSku": "MRE8A6",
+      "newSku": "837346166"
+    },
+    {
+      "id": "75d4af8b-a86a-4198-adde-7bc3a83a3f56",
+      "code": "50111",
+      "name": "Red Rice",
+      "oldSku": "RRX8GP",
+      "newSku": "825843417"
+    },
+    {
+      "id": "ad91552b-e7a8-4075-ae3b-e6ce706b9dca",
+      "code": "50112",
+      "name": "Roasted Chickpeas",
+      "oldSku": "RC3ENC",
+      "newSku": "349039925"
+    },
+    {
+      "id": "2b9bf0d0-dd4a-4240-878a-4c8e81a8afb0",
+      "code": "50113",
+      "name": "Roasted Chickpeas (Peeled)",
+      "oldSku": "RC(GQ03",
+      "newSku": "716547064"
+    },
+    {
+      "id": "5331f1a2-6413-41ff-80b4-18e1c2b21648",
+      "code": "50114",
+      "name": "Sella Rice",
+      "oldSku": "SRVSG9",
+      "newSku": "412796714"
+    },
+    {
+      "id": "649df5f7-1b0d-4b00-8b52-a6c37e2c99b4",
+      "code": "50115",
+      "name": "Soya Bean",
+      "oldSku": "SB53KT",
+      "newSku": "985522728"
+    },
+    {
+      "id": "c66806b5-9477-4a24-b79b-a7275774e33b",
+      "code": "50116",
+      "name": "Split Chickpeas (Channay Ki Daal)",
+      "oldSku": "SC(E7UA",
+      "newSku": "884498767"
+    },
+    {
+      "id": "ffb72610-b944-4bed-97ec-291d630e0b15",
+      "code": "50117",
+      "name": "Star Rice",
+      "oldSku": "SR4MSI",
+      "newSku": "989355368"
+    },
+    {
+      "id": "d1be6b0b-4731-41a8-b5d7-aa5b643ef34a",
+      "code": "50118",
+      "name": "Super Kernel Basmati",
+      "oldSku": "SKBR5B6",
+      "newSku": "835135871"
+    },
+    {
+      "id": "4f1b3aef-90cf-4cc9-a45e-2658f35893d7",
+      "code": "50119",
+      "name": "Taj Mehal Rice",
+      "oldSku": "TMR72HC",
+      "newSku": "161115016"
+    },
+    {
+      "id": "24e4e4df-d95f-4c83-bcee-f4408d0f06db",
+      "code": "50120",
+      "name": "Ujala Rice",
+      "oldSku": "URDIB2",
+      "newSku": "468948756"
+    },
+    {
+      "id": "97e9f5d8-9a85-4591-b6e6-daf3acc07c38",
+      "code": "50121",
+      "name": "Wheat",
+      "oldSku": "WTR6E",
+      "newSku": "765068935"
+    },
+    {
+      "id": "78dd720f-b4c0-4424-b7b9-7587c153a111",
+      "code": "50122",
+      "name": "White Beans",
+      "oldSku": "WBU7ZN",
+      "newSku": "934282469"
+    },
+    {
+      "id": "54fbc28d-23c9-4d17-8fb3-66b396046c43",
+      "code": "50123",
+      "name": "White Chickpeas (Large)",
+      "oldSku": "WC(WGXC",
+      "newSku": "452870796"
+    },
+    {
+      "id": "08648186-3b53-4f7a-a306-be6f847067b5",
+      "code": "50124",
+      "name": "White Chickpeas (Small)",
+      "oldSku": "WC(A0N9",
+      "newSku": "445970836"
+    },
+    {
+      "id": "7706e420-d66e-49c0-a0e0-d8e100c10a89",
+      "code": "50125",
+      "name": "Achar Gosht Masalah",
+      "oldSku": "ACH365713",
+      "newSku": "763512927"
+    },
+    {
+      "id": "c0bf4f46-0a71-4485-a76a-82c31de1fb85",
+      "code": "50126",
+      "name": "Achar Masalah",
+      "oldSku": "ACH380049",
+      "newSku": "422169514"
+    },
+    {
+      "id": "c4fc022f-05c4-49c4-8315-dc769feab417",
+      "code": "50127",
+      "name": "BBQ Masalah",
+      "oldSku": "BBQ387584",
+      "newSku": "612273540"
+    },
+    {
+      "id": "5b0e7574-2524-4668-bec7-3bcc18de6286",
+      "code": "50128",
+      "name": "Bihari Masalah",
+      "oldSku": "BIH395101",
+      "newSku": "295349983"
+    },
+    {
+      "id": "f4108123-1d9e-4077-bb9e-9da6e3586406",
+      "code": "50129",
+      "name": "Biryani Masalah",
+      "oldSku": "BIR402591",
+      "newSku": "754796202"
+    },
+    {
+      "id": "63d4690f-672f-4381-9393-c3cbb72f3a9b",
+      "code": "50130",
+      "name": "Black Cardamom (Bari Elaichi)",
+      "oldSku": "BLA410057",
+      "newSku": "216128779"
+    },
+    {
+      "id": "22940dd1-3851-4c83-87b6-3274a4dbddf3",
+      "code": "50131",
+      "name": "Black Cumin (Kaala Zeera)",
+      "oldSku": "BLA417533",
+      "newSku": "898901477"
+    },
+    {
+      "id": "8eac3caf-31df-44c1-9d80-bd90f50f533a",
+      "code": "50132",
+      "name": "Black Pepper (Kaali Mirch)",
+      "oldSku": "BLA425014",
+      "newSku": "546000369"
+    },
+    {
+      "id": "5e952dcd-7e64-41ff-896a-f0c18b4216e3",
+      "code": "50133",
+      "name": "Black Pepper Powder (Kaali Mirch)",
+      "oldSku": "BLA432563",
+      "newSku": "819530068"
+    },
+    {
+      "id": "7415c199-911a-440d-9a95-54d47a719d99",
+      "code": "50134",
+      "name": "Black Prunes (Kandhari)",
+      "oldSku": "BLA439870",
+      "newSku": "914899552"
+    },
+    {
+      "id": "e5064844-6b18-425f-af9b-6677efaa78d8",
+      "code": "50135",
+      "name": "Black Salt Grounded",
+      "oldSku": "BLA447197",
+      "newSku": "911603489"
+    },
+    {
+      "id": "2fb107a2-cfd2-4a39-a2bd-ebca7c4eb988",
+      "code": "50136",
+      "name": "Black Seeds (Kalonji)",
+      "oldSku": "BLA454855",
+      "newSku": "433200137"
+    },
+    {
+      "id": "b1e55596-0893-48cb-8c57-04853a5c69d2",
+      "code": "50137",
+      "name": "Black Seeds Powder (Kalonji)",
+      "oldSku": "BLA462103",
+      "newSku": "366705555"
+    },
+    {
+      "id": "ccc4917e-1cec-4bae-bfa1-6ca3fad8681d",
+      "code": "50138",
+      "name": "Carom Seeds (Ajwain)",
+      "oldSku": "CAR470158",
+      "newSku": "553628232"
+    },
+    {
+      "id": "72c73fb7-9442-422c-945e-79d0956309af",
+      "code": "50139",
+      "name": "Carom Seeds Powder (Ajwain)",
+      "oldSku": "CAR477622",
+      "newSku": "634153274"
+    },
+    {
+      "id": "9b11ba3d-f40d-4ced-9d9b-26e411924548",
+      "code": "50140",
+      "name": "Chat Masalah",
+      "oldSku": "CHA485182",
+      "newSku": "762523293"
+    },
+    {
+      "id": "f86f3ac9-ae18-4729-82fc-e32dd4e48fb7",
+      "code": "50141",
+      "name": "Chicken Powder",
+      "oldSku": "CHI492634",
+      "newSku": "260303082"
+    },
+    {
+      "id": "6773a8bf-ab29-4bfa-b113-51f94270381d",
+      "code": "50142",
+      "name": "Chinese Salt",
+      "oldSku": "CHI500316",
+      "newSku": "880501828"
+    },
+    {
+      "id": "32d79702-5a16-4dc0-9c3e-0e6e5208fb2e",
+      "code": "50143",
+      "name": "Cinnamon Ceylon (Round)",
+      "oldSku": "CIN507620",
+      "newSku": "518774958"
+    },
+    {
+      "id": "8646b695-fd72-42b0-b9fe-02ebd9130274",
+      "code": "50144",
+      "name": "Cinnamon- Cassia",
+      "oldSku": "CIN515210",
+      "newSku": "168420655"
+    },
+    {
+      "id": "d8a5e5cd-ca92-4a2e-bc89-f013d951cc13",
+      "code": "50145",
+      "name": "Cinnamon- Cassia Powder",
+      "oldSku": "CIN522653",
+      "newSku": "302383760"
+    },
+    {
+      "id": "c75455ce-73a7-413b-8604-4e2bb72b94f7",
+      "code": "50146",
+      "name": "Citric Acid (Tatri)",
+      "oldSku": "CIT530524",
+      "newSku": "336476358"
+    },
+    {
+      "id": "9cabb06d-63ae-4994-bc7d-b3eba1da9c97",
+      "code": "50147",
+      "name": "Cloves (Long)",
+      "oldSku": "CLO538065",
+      "newSku": "503147283"
+    },
+    {
+      "id": "4d86c87d-8ea0-44b7-bbe9-eb6565385b46",
+      "code": "50148",
+      "name": "Cloves Powder (Long)",
+      "oldSku": "CLO545745",
+      "newSku": "242490969"
+    },
+    {
+      "id": "9058faf9-8e0c-48e6-b560-c224ed057834",
+      "code": "50149",
+      "name": "Coriander Seeds (Sabut Dhanya)",
+      "oldSku": "COR553258",
+      "newSku": "957532012"
+    },
+    {
+      "id": "d2379b2c-4eb2-4384-be4f-78246ff5d10e",
+      "code": "50150",
+      "name": "Coriander Seeds Powder (Pisa Dhanya)",
+      "oldSku": "COR560690",
+      "newSku": "848963636"
+    },
+    {
+      "id": "7db65e55-ec31-4fee-ae7c-9563dfe71991",
+      "code": "50151",
+      "name": "Crushed Coriander (Kuta Dhanya)",
+      "oldSku": "CRU568231",
+      "newSku": "926037313"
+    },
+    {
+      "id": "bd0ae457-0065-4b28-9db5-4a4e0ec41c6c",
+      "code": "50152",
+      "name": "Crushed Fenugreek Seeds (Kuta Methi Dana)",
+      "oldSku": "CRU575628",
+      "newSku": "663822288"
+    },
+    {
+      "id": "71b30785-22c8-4ab6-a5af-292098beb014",
+      "code": "50153",
+      "name": "Crushed Red Chilli (Chilli Flakes)",
+      "oldSku": "CRU583473",
+      "newSku": "809132344"
+    },
+    {
+      "id": "a19139da-a47c-4e0e-a727-2204ed5bc33d",
+      "code": "50154",
+      "name": "Curry Leaves Powder",
+      "oldSku": "CUR590958",
+      "newSku": "906064271"
+    },
+    {
+      "id": "9f89e4ea-53a8-4c97-8649-5f18a01574f6",
+      "code": "50155",
+      "name": "Dahi Barra Masalah",
+      "oldSku": "DAH598457",
+      "newSku": "562248649"
+    },
+    {
+      "id": "30c338d4-0dcb-4caa-93f1-94bb0d66d667",
+      "code": "50156",
+      "name": "Dried Ginger Grounded (Sonth)",
+      "oldSku": "DRI605901",
+      "newSku": "154786845"
+    },
+    {
+      "id": "fd2e88b6-392e-4d53-8ed0-15f1a69be267",
+      "code": "50157",
+      "name": "Fennel Seeds",
+      "oldSku": "FEN613537",
+      "newSku": "498599969"
+    },
+    {
+      "id": "ae84795f-c674-495f-8a02-da7bdb20f92e",
+      "code": "50158",
+      "name": "Fennel Seeds Powder",
+      "oldSku": "FEN620783",
+      "newSku": "855605708"
+    },
+    {
+      "id": "a01f7fb5-920e-4d82-a3e8-9726151e3616",
+      "code": "50159",
+      "name": "Fenugreek Seeds (Methi Daana)",
+      "oldSku": "FEN628168",
+      "newSku": "933739490"
+    },
+    {
+      "id": "763acd24-1df2-4656-9d0b-e6fd187003d6",
+      "code": "50160",
+      "name": "Fish Masalah",
+      "oldSku": "FIS635561",
+      "newSku": "866470073"
+    },
+    {
+      "id": "9533434f-bf33-49c9-a398-1d3b83189ec0",
+      "code": "50161",
+      "name": "Garam Masalah Mix (Whole)",
+      "oldSku": "GAR650960",
+      "newSku": "251767229"
+    },
+    {
+      "id": "ac3524aa-9498-4306-bcf3-c5a1a67f63a9",
+      "code": "50162",
+      "name": "Garam Masalah Powder",
+      "oldSku": "GAR658503",
+      "newSku": "753177470"
+    },
+    {
+      "id": "a0abe970-3828-445c-93c3-40b593a9195a",
+      "code": "50163",
+      "name": "Garlic (Lehsan) Powder",
+      "oldSku": "GAR668239",
+      "newSku": "964302952"
+    },
+    {
+      "id": "99d559f6-ae37-4462-b991-38563b4c8974",
+      "code": "50164",
+      "name": "General Masalah",
+      "oldSku": "GEN682853",
+      "newSku": "601235208"
+    },
+    {
+      "id": "d289040c-91ab-4801-8f72-af7271a03a01",
+      "code": "50165",
+      "name": "Golden Prunes",
+      "oldSku": "GOL690382",
+      "newSku": "618760671"
+    },
+    {
+      "id": "465fbbcd-c551-44ce-9beb-275de1e5fbd3",
+      "code": "50166",
+      "name": "Green Cardamom (Elaichi)",
+      "oldSku": "GRE698290",
+      "newSku": "245051203"
+    },
+    {
+      "id": "6f170f30-1707-45a8-9cfe-965997fd2195",
+      "code": "50167",
+      "name": "Green Cardamom Powder (Elaichi)",
+      "oldSku": "GRE706003",
+      "newSku": "388191333"
+    },
+    {
+      "id": "5ce94d78-ca00-482e-852f-22c38a8ec76e",
+      "code": "50168",
+      "name": "Kabab Masalah",
+      "oldSku": "KAB713874",
+      "newSku": "612377014"
+    },
+    {
+      "id": "2a7b1c1b-8eef-4bb6-81f1-bcc1894f5a34",
+      "code": "50169",
+      "name": "Kachri (Whole)",
+      "oldSku": "KAC721564",
+      "newSku": "427379340"
+    },
+    {
+      "id": "74c4837d-2da7-4c49-b711-4b68b9b0cdc2",
+      "code": "50170",
+      "name": "Kachri Powder",
+      "oldSku": "KAC729307",
+      "newSku": "485195751"
+    },
+    {
+      "id": "f2bdf4c7-5d95-4b08-8ca8-92fbf9448fc1",
+      "code": "50171",
+      "name": "Kaleji Masalah",
+      "oldSku": "KAL736868",
+      "newSku": "363439217"
+    },
+    {
+      "id": "ccb040fd-40f1-4ac9-b120-ce289c3d8da7",
+      "code": "50172",
+      "name": "Karahi Masalah",
+      "oldSku": "KAR745298",
+      "newSku": "298501719"
+    },
+    {
+      "id": "8230a364-4fd4-4a51-bef0-f00d3a71bf47",
+      "code": "50173",
+      "name": "Kasuri Methi",
+      "oldSku": "KAS753990",
+      "newSku": "557540756"
+    },
+    {
+      "id": "9e1b7273-7e88-4b88-b07d-396aabb60232",
+      "code": "50174",
+      "name": "Khashkhash",
+      "oldSku": "KHA761832",
+      "newSku": "684826934"
+    },
+    {
+      "id": "edc2ab24-9e3c-434b-b7c4-5f4d4a8e56c0",
+      "code": "50175",
+      "name": "Khatai (Whole)",
+      "oldSku": "KHA769648",
+      "newSku": "606575052"
+    },
+    {
+      "id": "ac74fcb9-7410-4dc9-bb16-ed4d55980a21",
+      "code": "50176",
+      "name": "Khatai Powder",
+      "oldSku": "KHA777721",
+      "newSku": "951472054"
+    },
+    {
+      "id": "ee8b3660-5b93-4cfd-b863-935c8c7b4db9",
+      "code": "50177",
+      "name": "Lahori Salt (Whole)",
+      "oldSku": "LAH785495",
+      "newSku": "247878581"
+    },
+    {
+      "id": "27122afd-6886-4286-869c-bf9c60db95d7",
+      "code": "50178",
+      "name": "Lahori Salt Powder",
+      "oldSku": "LAH793507",
+      "newSku": "500317835"
+    },
+    {
+      "id": "d3fada11-3ffc-47c1-8de6-af40beb62efa",
+      "code": "50179",
+      "name": "Mace (Javitri)",
+      "oldSku": "MAC801509",
+      "newSku": "819524518"
+    },
+    {
+      "id": "dc423f07-8a54-4dbe-a1d0-df9b8ba5c825",
+      "code": "50180",
+      "name": "Mace Powder (Javitri 10gms Box)",
+      "oldSku": "MAC809498",
+      "newSku": "292012428"
+    },
+    {
+      "id": "6df354a2-8782-46dc-8442-b6902a64e882",
+      "code": "50181",
+      "name": "Mace Powder (Javitri)",
+      "oldSku": "MAC817041",
+      "newSku": "360662939"
+    },
+    {
+      "id": "17549f8c-9fb1-4d9b-892a-df3c1af00914",
+      "code": "50182",
+      "name": "Marwari Mirch",
+      "oldSku": "MAR825028",
+      "newSku": "875300307"
+    },
+    {
+      "id": "8f81d2e2-38ba-42ba-8fe1-96dae65f4e9b",
+      "code": "50183",
+      "name": "Mixed Red Chilli Powder",
+      "oldSku": "MIX832627",
+      "newSku": "231171897"
+    },
+    {
+      "id": "be7004d3-2144-459b-b4b0-2394b263ab74",
+      "code": "50184",
+      "name": "Mixed Salan Masalah",
+      "oldSku": "MIX840595",
+      "newSku": "323922049"
+    },
+    {
+      "id": "337f7ba8-da13-4f82-a008-7c4f96778ead",
+      "code": "50185",
+      "name": "Mustard Seeds",
+      "oldSku": "MUS848581",
+      "newSku": "121411979"
+    },
+    {
+      "id": "64d1c813-8d2c-424c-b80a-92a7cef7939d",
+      "code": "50186",
+      "name": "Mustard Seeds Powder",
+      "oldSku": "MUS857426",
+      "newSku": "790078198"
+    },
+    {
+      "id": "d21f435f-7394-4bf8-8f9d-ff12e19f171b",
+      "code": "50187",
+      "name": "National Salt",
+      "oldSku": "NAT865249",
+      "newSku": "903336636"
+    },
+    {
+      "id": "7b3d0aea-3a61-40c7-a26e-2747d3f80c17",
+      "code": "50188",
+      "name": "Nihari Masalah",
+      "oldSku": "NIH873079",
+      "newSku": "725963487"
+    },
+    {
+      "id": "7f9940b1-9586-430b-af74-867007f7e588",
+      "code": "50189",
+      "name": "Nutmeg (Jaifal)",
+      "oldSku": "NUT880779",
+      "newSku": "526189621"
+    },
+    {
+      "id": "4a0760d6-e657-4aba-8415-93a8a41d212b",
+      "code": "50190",
+      "name": "Nutmeg Powder (jaifal 10gms Box)",
+      "oldSku": "NUT888934",
+      "newSku": "990250729"
+    },
+    {
+      "id": "d9d56948-fbe8-4d02-b29f-84091217d741",
+      "code": "50191",
+      "name": "Nutmeg Powder (Jaifal)",
+      "oldSku": "NUT896547",
+      "newSku": "223614393"
+    },
+    {
+      "id": "09af5b29-b47a-4d9b-97d3-42aed56b0a5f",
+      "code": "50192",
+      "name": "Pakora Mix",
+      "oldSku": "PAK904491",
+      "newSku": "533132081"
+    },
+    {
+      "id": "a8fd5e39-7ed3-40be-9c7c-73946afe5d6f",
+      "code": "50193",
+      "name": "Paprika (Whole) - Kashmiri Lal Mirch",
+      "oldSku": "PAP912375",
+      "newSku": "252375121"
+    },
+    {
+      "id": "141e131e-9710-4a29-a41a-512158299d5a",
+      "code": "50194",
+      "name": "Paprika Powder",
+      "oldSku": "PAP920098",
+      "newSku": "176552527"
+    },
+    {
+      "id": "6c090341-c742-42fd-81c6-120637d0e730",
+      "code": "50195",
+      "name": "Patna Red Chilli",
+      "oldSku": "PAT927701",
+      "newSku": "880593298"
+    },
+    {
+      "id": "03557223-b001-407b-8e75-a06a04ea823c",
+      "code": "50196",
+      "name": "Paya Masalah",
+      "oldSku": "PAY935388",
+      "newSku": "176883897"
+    },
+    {
+      "id": "36d8a71e-5add-452a-a891-a0067d2af3b5",
+      "code": "50197",
+      "name": "Persian Cumin (Special Zeera)",
+      "oldSku": "PER943187",
+      "newSku": "810401941"
+    },
+    {
+      "id": "d7c9895d-9203-4438-b44f-e206c6b77787",
+      "code": "50198",
+      "name": "Pink Salt",
+      "oldSku": "PIN951105",
+      "newSku": "678082184"
+    },
+    {
+      "id": "e977d57c-8889-40e8-a2b1-c41cb0f5a11d",
+      "code": "50199",
+      "name": "Pipliyan (Long Pepper)",
+      "oldSku": "PIP958671",
+      "newSku": "873096184"
+    },
+    {
+      "id": "4902a4af-7e9a-4cbc-9fdf-4f420183e793",
+      "code": "50200",
+      "name": "Pomegranate (Anaar) Seeds",
+      "oldSku": "POM966306",
+      "newSku": "881041415"
+    },
+    {
+      "id": "27266f19-f406-43c8-b9de-f61c75050843",
+      "code": "50201",
+      "name": "Pomegranate (Anaar) Seeds Powder",
+      "oldSku": "POM976480",
+      "newSku": "583649229"
+    },
+    {
+      "id": "156af274-ca58-4fad-8452-44273063cf0b",
+      "code": "50202",
+      "name": "Pulao Masalah",
+      "oldSku": "PUL989694",
+      "newSku": "425537567"
+    },
+    {
+      "id": "df099eb1-4d17-4513-b189-a1eb191c387e",
+      "code": "50203",
+      "name": "Qorma Masalah",
+      "oldSku": "QOR997072",
+      "newSku": "452583852"
+    },
+    {
+      "id": "85346a7f-7af9-489f-aba6-248b829eb90b",
+      "code": "50204",
+      "name": "Round Red Chilli (Whole)",
+      "oldSku": "ROU004143",
+      "newSku": "532257536"
+    },
+    {
+      "id": "a7cdd460-0457-4021-9889-af24ca451e6a",
+      "code": "50205",
+      "name": "Round Red Chilli Powder",
+      "oldSku": "ROU011457",
+      "newSku": "611685502"
+    },
+    {
+      "id": "4be76209-9249-4249-8d7a-df5f94432a8a",
+      "code": "50206",
+      "name": "Seekh Kabab Masalah",
+      "oldSku": "SEE018570",
+      "newSku": "174614118"
+    },
+    {
+      "id": "83edbc61-bcdc-4e57-9d1b-064fbc68527c",
+      "code": "50207",
+      "name": "Silver Coated Cardamom (Elaichi)",
+      "oldSku": "SIL025638",
+      "newSku": "635544133"
+    },
+    {
+      "id": "e959fe6b-4c8b-470e-ac70-ce52f8ca33c0",
+      "code": "50208",
+      "name": "Star Anise (Badian K Phool)",
+      "oldSku": "STA033117",
+      "newSku": "178246002"
+    },
+    {
+      "id": "6faa5246-a4c3-4aa5-9283-7d82b04a0bc1",
+      "code": "50209",
+      "name": "Tamarind",
+      "oldSku": "TAM040390",
+      "newSku": "784593864"
+    },
+    {
+      "id": "de0d1a40-83f7-484e-b768-f76f05e9863d",
+      "code": "50210",
+      "name": "Tikka Masalah",
+      "oldSku": "TIK047872",
+      "newSku": "720072263"
+    },
+    {
+      "id": "67892b31-c401-4a3a-a91f-bff8fe71389c",
+      "code": "50211",
+      "name": "Tukhm e Balanga",
+      "oldSku": "TUK055226",
+      "newSku": "603367911"
+    },
+    {
+      "id": "ddfbac95-00fa-41cf-b066-27b8d3142cf1",
+      "code": "50212",
+      "name": "Turmeric (Whole)",
+      "oldSku": "TUR062582",
+      "newSku": "433615236"
+    },
+    {
+      "id": "4348f97c-2a5e-4b82-85a7-1833ad8473fa",
+      "code": "50213",
+      "name": "Turmeric Powder",
+      "oldSku": "TUR069830",
+      "newSku": "785102494"
+    },
+    {
+      "id": "11550196-3f76-4a0f-8cfc-817671ed4722",
+      "code": "50214",
+      "name": "White Cumin (Safaid Zeera)",
+      "oldSku": "WHI077242",
+      "newSku": "439816246"
+    },
+    {
+      "id": "8808333a-61b3-43ff-9308-6cf4d41f2920",
+      "code": "50215",
+      "name": "White Cumin Powder (Zeera Powder)",
+      "oldSku": "WHI084310",
+      "newSku": "761069262"
+    },
+    {
+      "id": "d6c63144-4fb0-44e6-9452-b777eb8956b4",
+      "code": "50216",
+      "name": "White Pepper (Grounded)",
+      "oldSku": "WHI091607",
+      "newSku": "283534970"
+    },
+    {
+      "id": "e6c37599-cfa3-428b-ae71-b8cfffbe719d",
+      "code": "50217",
+      "name": "White Pepper (Whole)",
+      "oldSku": "WHI099063",
+      "newSku": "383411843"
+    },
+    {
+      "id": "9c26c0f6-2029-483c-93a3-2a94def8a292",
+      "code": "50218",
+      "name": "White Sesame Seed (Safaid Til)",
+      "oldSku": "WHI106317",
+      "newSku": "804602111"
+    },
+    {
+      "id": "9e666759-3e3a-410b-87ac-d6c3cdacb549",
+      "code": "50219",
+      "name": "Whole Dried Ginger (Sonth)",
+      "oldSku": "WHO114195",
+      "newSku": "634114939"
+    },
+    {
+      "id": "bcf116c3-9a7e-49bf-b491-41caecfcd303",
+      "code": "50220",
+      "name": "Yellow Mustard",
+      "oldSku": "YEL122106",
+      "newSku": "830265475"
+    },
+    {
+      "id": "14afe5ce-17f5-48b3-8756-c4cc8f2ed2b1",
+      "code": "50221",
+      "name": "Bay Leaf (Tez Patta)",
+      "oldSku": "BAY131266",
+      "newSku": "342879617"
+    },
+    {
+      "id": "5f5bba83-2572-4bb3-91d4-176d0c9d8380",
+      "code": "50222",
+      "name": "Green Cardamom Seeds",
+      "oldSku": "GRE138800",
+      "newSku": "103658913"
+    },
+    {
+      "id": "8d6121f3-3a56-4e31-8dd8-805b1df8789f",
+      "code": "50223",
+      "name": "Black Cardamom Seeds",
+      "oldSku": "BLA146334",
+      "newSku": "344520152"
+    },
+    {
+      "id": "9fe11f83-5024-4e21-813f-b3866f15e502",
+      "code": "50224",
+      "name": "Black Sesame Seeds (Kaala Til)",
+      "oldSku": "BLA153589",
+      "newSku": "666150904"
+    },
+    {
+      "id": "91d63b9f-edc0-40bc-8822-c98fe04e77a1",
+      "code": "50225",
+      "name": "Aelwa",
+      "oldSku": "AEL205842",
+      "newSku": "311363203"
+    },
+    {
+      "id": "07b47d92-9a25-4706-8732-ccb5032e06f5",
+      "code": "50226",
+      "name": "Akarkara",
+      "oldSku": "AKA217358",
+      "newSku": "568752728"
+    },
+    {
+      "id": "8ba9e8c8-aa44-42bd-ae71-3da24139148f",
+      "code": "50227",
+      "name": "Akash Bail",
+      "oldSku": "AKA223550",
+      "newSku": "522874364"
+    },
+    {
+      "id": "34c3898e-b44b-455e-b8fd-455537f6018a",
+      "code": "50228",
+      "name": "Amaltas Phalli (Gurmara)",
+      "oldSku": "AMA230135",
+      "newSku": "387329245"
+    },
+    {
+      "id": "28ad9a11-8629-43c4-acef-97a8db2591d1",
+      "code": "50229",
+      "name": "Amba Turmeric (Grounded)",
+      "oldSku": "AMB236129",
+      "newSku": "418062186"
+    },
+    {
+      "id": "8653a892-6f33-47d8-a4f3-746756cd0cf0",
+      "code": "50230",
+      "name": "Amba Turmeric (Whole)",
+      "oldSku": "AMB242352",
+      "newSku": "153256764"
+    },
+    {
+      "id": "4a84b6cf-c721-4062-8756-93df07acd172",
+      "code": "50231",
+      "name": "Amla (Whole)",
+      "oldSku": "AML248348",
+      "newSku": "851155585"
+    },
+    {
+      "id": "5ce97b9b-ff87-4dd8-bd45-ca481a55211f",
+      "code": "50232",
+      "name": "Amla Gandak",
+      "oldSku": "AML254356",
+      "newSku": "600476419"
+    },
+    {
+      "id": "0af8fa5e-0109-48f4-bc9c-0b0d4d1e5ad4",
+      "code": "50233",
+      "name": "Amla powder",
+      "oldSku": "AML260547",
+      "newSku": "741590182"
+    },
+    {
+      "id": "eae2df17-f4ca-44e3-bd92-5ff54231a046",
+      "code": "50234",
+      "name": "Amla Ka Chilkha",
+      "oldSku": "AML266565",
+      "newSku": "275323991"
+    },
+    {
+      "id": "83828dac-1d31-4660-823d-3f9b56d72f36",
+      "code": "50235",
+      "name": "Anaar ka Chilka",
+      "oldSku": "ANA272561",
+      "newSku": "303905471"
+    },
+    {
+      "id": "6bb42d63-633f-4abc-b670-8d0c34ccabff",
+      "code": "50236",
+      "name": "Anar ke Phool",
+      "oldSku": "ANA278755",
+      "newSku": "602382096"
+    },
+    {
+      "id": "a8019deb-79b1-4659-b9bd-95cbeafd9462",
+      "code": "50237",
+      "name": "Arjun ki Chaal",
+      "oldSku": "ARJ284752",
+      "newSku": "595098580"
+    },
+    {
+      "id": "d6c1266c-71eb-44cc-82a2-6ae0db675be0",
+      "code": "50238",
+      "name": "Asad Patta",
+      "oldSku": "ASA290750",
+      "newSku": "162225326"
+    },
+    {
+      "id": "788faf99-113e-49d3-90e8-ce81df659ace",
+      "code": "50239",
+      "name": "Asgand Nagori (Whole)",
+      "oldSku": "ASG296948",
+      "newSku": "437301168"
+    },
+    {
+      "id": "807bbb27-f0cb-41cc-ace3-32e3b4b7a42b",
+      "code": "50240",
+      "name": "Asgand Nagori Powder",
+      "oldSku": "ASG303068",
+      "newSku": "379268599"
+    },
+    {
+      "id": "7ebd07cd-499d-4de1-ba3d-d1ea1b0e45ea",
+      "code": "50241",
+      "name": "Askhar Makki",
+      "oldSku": "ASK309088",
+      "newSku": "950443064"
+    },
+    {
+      "id": "78aca180-7bb8-4f0d-a067-625f4b478942",
+      "code": "50242",
+      "name": "Ast e Quddus (Dried Lavender)",
+      "oldSku": "AST315288",
+      "newSku": "354959304"
+    },
+    {
+      "id": "c6bf3c3b-cb6f-42d4-9c09-e8b98128b8a6",
+      "code": "50243",
+      "name": "Ount Kattara",
+      "oldSku": "OUN321335",
+      "newSku": "970467409"
+    },
+    {
+      "id": "b1291e20-191f-4f1d-90a0-dedc5a32f958",
+      "code": "50244",
+      "name": "Baalchar",
+      "oldSku": "BAA327570",
+      "newSku": "268910777"
+    },
+    {
+      "id": "46b8e455-aa01-431a-b383-4d6b6915c07a",
+      "code": "50245",
+      "name": "Baapchi",
+      "oldSku": "BAA333760",
+      "newSku": "596377356"
+    },
+    {
+      "id": "ea673a87-8298-49a8-9eff-d97eb75f1e92",
+      "code": "50246",
+      "name": "Badam ki Chal",
+      "oldSku": "BAD339760",
+      "newSku": "558956029"
+    },
+    {
+      "id": "682ac5d0-1461-45d3-b585-0e8a04caac06",
+      "code": "50247",
+      "name": "Bahi Whole",
+      "oldSku": "BAH345817",
+      "newSku": "370547048"
+    },
+    {
+      "id": "92363c10-c1f5-40f7-a445-95ff17ef0adf",
+      "code": "50248",
+      "name": "Banafsha Leaves",
+      "oldSku": "BAN352017",
+      "newSku": "745889822"
+    },
+    {
+      "id": "6803396d-cf44-4772-ad68-f860f3cae31b",
+      "code": "50249",
+      "name": "Bhringraj (Bhangra Sia)",
+      "oldSku": "BHR358024",
+      "newSku": "685857144"
+    },
+    {
+      "id": "0e633186-5e0a-49f4-8080-a80f689d95d0",
+      "code": "50250",
+      "name": "Barahimi booty",
+      "oldSku": "BAR364246",
+      "newSku": "704256279"
+    },
+    {
+      "id": "dc9f9997-0a90-4ead-9227-0a2a8710eb46",
+      "code": "50251",
+      "name": "Bareman Safaid",
+      "oldSku": "BAR370447",
+      "newSku": "578406687"
+    },
+    {
+      "id": "2ae78b0b-dd78-4598-abe3-91c1525ec8dd",
+      "code": "50252",
+      "name": "Bareman Surkh",
+      "oldSku": "BAR376643",
+      "newSku": "777894091"
+    },
+    {
+      "id": "1b6d9270-d8ba-478a-bc11-fd510c07cc40",
+      "code": "50253",
+      "name": "Barg e Sanobar",
+      "oldSku": "BAR383660",
+      "newSku": "294397121"
+    },
+    {
+      "id": "173758fd-f151-4d16-b9c4-b59e5b285d89",
+      "code": "50254",
+      "name": "Bargh e Sadab (Garden Rue)",
+      "oldSku": "BAR389850",
+      "newSku": "555028333"
+    },
+    {
+      "id": "a85046c2-d3dc-44f5-ad85-1c22f9c13651",
+      "code": "50255",
+      "name": "Barghe Gaozaban",
+      "oldSku": "BAR395839",
+      "newSku": "526452973"
+    },
+    {
+      "id": "e4d968eb-d7da-4d3d-b45c-7dc009fae225",
+      "code": "50256",
+      "name": "Bari Harr Ka Chilka",
+      "oldSku": "BAR401912",
+      "newSku": "623610364"
+    },
+    {
+      "id": "7192eacf-5507-452b-a996-9a47b35f381b",
+      "code": "50257",
+      "name": "Bari Harr (Whole)",
+      "oldSku": "BAR408292",
+      "newSku": "567207541"
+    },
+    {
+      "id": "ca6646c4-0e25-4249-90e2-349010fd1bba",
+      "code": "50258",
+      "name": "Bari Harr Powder",
+      "oldSku": "BAR414399",
+      "newSku": "272787704"
+    },
+    {
+      "id": "dbb168f3-5843-4dae-b18c-f99f13eba011",
+      "code": "50259",
+      "name": "Barry Leaves",
+      "oldSku": "BAR420398",
+      "newSku": "938430145"
+    },
+    {
+      "id": "5312558c-a944-49c5-8e02-7cf87fcd389b",
+      "code": "50260",
+      "name": "Berah Chilka",
+      "oldSku": "BER426643",
+      "newSku": "610889503"
+    },
+    {
+      "id": "8ae2ec00-cd9f-4567-abab-3d271aab45f4",
+      "code": "50261",
+      "name": "Bahera (Beleric Myrobalan - Whole)",
+      "oldSku": "BAH432702",
+      "newSku": "954465698"
+    },
+    {
+      "id": "637bb5f8-1029-4196-a939-4a6d805873a9",
+      "code": "50262",
+      "name": "Bahera (Beleric Myrobalan - Powder)",
+      "oldSku": "BAH438708",
+      "newSku": "942910527"
+    },
+    {
+      "id": "e9ef38ad-6d54-45dd-9b90-d5478c34508a",
+      "code": "50263",
+      "name": "Bahi Dana",
+      "oldSku": "BAH445084",
+      "newSku": "764025326"
+    },
+    {
+      "id": "ec1fbcc7-1024-4450-b069-0eeba24ffe20",
+      "code": "50264",
+      "name": "Bichu Booty",
+      "oldSku": "BIC451110",
+      "newSku": "849772104"
+    },
+    {
+      "id": "226905b9-846e-4e4a-aaea-be59466db2af",
+      "code": "50265",
+      "name": "Biscuit Katha",
+      "oldSku": "BIS457146",
+      "newSku": "474544311"
+    },
+    {
+      "id": "3b95896b-22e4-4ad5-9684-a4217cef8c03",
+      "code": "50266",
+      "name": "Bitter Gourd - Jaman Powder",
+      "oldSku": "BIT463357",
+      "newSku": "977247279"
+    },
+    {
+      "id": "8defc4f0-a43f-4c20-8e30-9aa28045ff6c",
+      "code": "50267",
+      "name": "Bitter Melon Plum Powder (Karaila jaman)",
+      "oldSku": "BIT469470",
+      "newSku": "312114097"
+    },
+    {
+      "id": "872029c6-e698-4d60-8125-6fa56bb0c10a",
+      "code": "50268",
+      "name": "Camphor",
+      "oldSku": "CAM475528",
+      "newSku": "130216028"
+    },
+    {
+      "id": "03926c9d-d9ca-4f28-bedc-abfd11a63724",
+      "code": "50269",
+      "name": "Carrot Seeds",
+      "oldSku": "CAR481882",
+      "newSku": "223785028"
+    },
+    {
+      "id": "b8266a3b-53cf-48dd-b592-83821006c798",
+      "code": "50270",
+      "name": "Chandan Booty (Choti Chandan)",
+      "oldSku": "CHA488051",
+      "newSku": "438825150"
+    },
+    {
+      "id": "d451729f-99ce-40bb-b5ff-451a6562340f",
+      "code": "50271",
+      "name": "Charaita",
+      "oldSku": "CHA494246",
+      "newSku": "328694904"
+    },
+    {
+      "id": "dfcda9cb-1b2a-4118-b82e-85845d6f3595",
+      "code": "50272",
+      "name": "Charonji",
+      "oldSku": "CHA500459",
+      "newSku": "639719969"
+    },
+    {
+      "id": "caabc1bb-b241-4be2-be3a-2fdacaad17f6",
+      "code": "50273",
+      "name": "Chasku",
+      "oldSku": "CHA508320",
+      "newSku": "790534508"
+    },
+    {
+      "id": "c0c59e6b-ce63-427c-afc5-6f612c10b1ac",
+      "code": "50274",
+      "name": "Chatrak",
+      "oldSku": "CHA519512",
+      "newSku": "490692517"
+    },
+    {
+      "id": "50501f0e-b0ef-44a0-8cbd-472cc30a81fc",
+      "code": "50275",
+      "name": "Chia Seeds",
+      "oldSku": "CHI525650",
+      "newSku": "716779007"
+    },
+    {
+      "id": "6c21a379-6abc-4018-8d01-5678e00f3c56",
+      "code": "50276",
+      "name": "Chia Seeds Imported",
+      "oldSku": "CHI531582",
+      "newSku": "569492500"
+    },
+    {
+      "id": "1881c889-6e1a-4c05-97ce-fcc854671277",
+      "code": "50277",
+      "name": "Chikni Chahliya",
+      "oldSku": "CHI537503",
+      "newSku": "827318191"
+    },
+    {
+      "id": "e5b7bf01-a48d-4553-a015-75bcec14b2a5",
+      "code": "50278",
+      "name": "Chop Cheeni (Grounded)",
+      "oldSku": "CHO543595",
+      "newSku": "902759696"
+    },
+    {
+      "id": "6e02c215-c796-4785-a312-3893167b9efd",
+      "code": "50279",
+      "name": "Chop Cheeni (Whole)",
+      "oldSku": "CHO549529",
+      "newSku": "327488597"
+    },
+    {
+      "id": "832e6911-1ec8-4bb1-ab0d-94c169838af3",
+      "code": "50280",
+      "name": "Choti Harr (Whole)",
+      "oldSku": "CHO555725",
+      "newSku": "153259087"
+    },
+    {
+      "id": "ee007482-1fd2-4a68-8f11-84b6f60aa18a",
+      "code": "50281",
+      "name": "Choti Harr Powder",
+      "oldSku": "CHO562817",
+      "newSku": "813547583"
+    },
+    {
+      "id": "e0d04681-da98-44ad-92cb-5b9ddcb50a7a",
+      "code": "50282",
+      "name": "Chout Saddi",
+      "oldSku": "CHO568848",
+      "newSku": "763772538"
+    },
+    {
+      "id": "35613c15-5364-40fd-8236-21fe0f224922",
+      "code": "50283",
+      "name": "Dhamasa Booty",
+      "oldSku": "DHA574860",
+      "newSku": "960216135"
+    },
+    {
+      "id": "b94a34b0-8d40-4efa-bc5a-8175c3227004",
+      "code": "50284",
+      "name": "Dried Lemon",
+      "oldSku": "DRI581040",
+      "newSku": "363526285"
+    },
+    {
+      "id": "6a91125d-49fd-4232-a992-83cfae749b56",
+      "code": "50285",
+      "name": "Dried Mint (Pahari)",
+      "oldSku": "DRI586888",
+      "newSku": "261599829"
+    },
+    {
+      "id": "da63e9ab-138c-4b81-b0e3-9ee138845cbf",
+      "code": "50286",
+      "name": "Eyesight And Brain Powder ( Box )",
+      "oldSku": "EYE592794",
+      "newSku": "279573177"
+    },
+    {
+      "id": "5c199e7e-81df-4b1e-b1b2-9268002bfb6b",
+      "code": "50287",
+      "name": "Face Mask",
+      "oldSku": "FAC599097",
+      "newSku": "335842815"
+    },
+    {
+      "id": "b770a71e-de23-4eb0-8fd7-bfbff6aeb54d",
+      "code": "50288",
+      "name": "Falsay ki chaal",
+      "oldSku": "FAL605162",
+      "newSku": "903345051"
+    },
+    {
+      "id": "88710bdd-7e9e-441d-a4df-bf53f0a407ab",
+      "code": "50289",
+      "name": "Flax Seed (Alsi)",
+      "oldSku": "FLA611193",
+      "newSku": "820526251"
+    },
+    {
+      "id": "de547764-9746-40e8-a499-b1d386d27450",
+      "code": "50290",
+      "name": "Flax seed Powder (Alsi powder)",
+      "oldSku": "FLA617277",
+      "newSku": "335631999"
+    },
+    {
+      "id": "1f40c39a-9ca3-414b-9dab-de4db4a94ecd",
+      "code": "50291",
+      "name": "Ganda Beroza",
+      "oldSku": "GAN623216",
+      "newSku": "859298540"
+    },
+    {
+      "id": "f199993d-c729-4b9a-be28-e01452d0c6e9",
+      "code": "50292",
+      "name": "Gandak (Whole)",
+      "oldSku": "GAN629200",
+      "newSku": "963685076"
+    },
+    {
+      "id": "52af580f-dc23-435d-9a39-07c0f0398a96",
+      "code": "50293",
+      "name": "Ganderi Katha",
+      "oldSku": "GAN635420",
+      "newSku": "668085916"
+    },
+    {
+      "id": "a3de410f-d95d-4e7a-9d44-82d4fb05c857",
+      "code": "50294",
+      "name": "Gandhari Waj",
+      "oldSku": "GAN641336",
+      "newSku": "571499280"
+    },
+    {
+      "id": "231ab3a2-18b5-4647-a7f4-e25e833a3827",
+      "code": "50295",
+      "name": "Ghokru Powder",
+      "oldSku": "GHO647336",
+      "newSku": "191404881"
+    },
+    {
+      "id": "93d085bb-9bc2-4701-a362-d61907dacf56",
+      "code": "50296",
+      "name": "Ghokru Whole",
+      "oldSku": "GHO653593",
+      "newSku": "668149723"
+    },
+    {
+      "id": "35892119-5896-4071-a050-54b36aa0adb8",
+      "code": "50297",
+      "name": "Gondh Kateera (Tragacanth Gum)",
+      "oldSku": "GON659733",
+      "newSku": "229567283"
+    },
+    {
+      "id": "55b26101-6440-455f-802f-527ff5b829e6",
+      "code": "50298",
+      "name": "Googal",
+      "oldSku": "GOO665668",
+      "newSku": "610648938"
+    },
+    {
+      "id": "c9ccf61b-e2bf-447c-802e-5a4f942df77a",
+      "code": "50299",
+      "name": "Green Tea Leaves",
+      "oldSku": "GRE671793",
+      "newSku": "160148176"
+    },
+    {
+      "id": "f1824a8d-1ef5-4aec-81dd-f2e0617ef471",
+      "code": "50300",
+      "name": "Gul e Babuna (Chamomile)",
+      "oldSku": "GUL677699",
+      "newSku": "319634159"
+    },
+    {
+      "id": "71d5ce3e-7581-45f1-b183-dcaf40953ae3",
+      "code": "50301",
+      "name": "Gul e Banafsha (Sweet Violet)",
+      "oldSku": "GUL683648",
+      "newSku": "592336055"
+    },
+    {
+      "id": "d7117bd0-dd55-421a-9175-8997102fde45",
+      "code": "50302",
+      "name": "Gul e Bukhoor",
+      "oldSku": "GUL690030",
+      "newSku": "341727324"
+    },
+    {
+      "id": "1a6652d7-09f1-4f5d-b82f-9d93f1c87094",
+      "code": "50303",
+      "name": "Gul E Gorail",
+      "oldSku": "GUL696372",
+      "newSku": "784741250"
+    },
+    {
+      "id": "ea8da15c-2340-4126-aa7c-ba5369c1453d",
+      "code": "50304",
+      "name": "Gul e Supari",
+      "oldSku": "GUL702249",
+      "newSku": "807556042"
+    },
+    {
+      "id": "93d9bc01-6afe-4f77-84b2-f7f68e35771e",
+      "code": "50305",
+      "name": "Dried Rose Powder",
+      "oldSku": "DRI708575",
+      "newSku": "181764793"
+    },
+    {
+      "id": "e5b97c0e-2515-4f8b-8162-8e40dcfe42d3",
+      "code": "50306",
+      "name": "Dried Rose Petals",
+      "oldSku": "DRI714537",
+      "newSku": "154408053"
+    },
+    {
+      "id": "7e83a836-aa40-4f71-ad95-04a840fafeb3",
+      "code": "50307",
+      "name": "Gulmundi",
+      "oldSku": "GUL721071",
+      "newSku": "180505973"
+    },
+    {
+      "id": "eb8e39dc-aba5-48e4-8234-c0be18a649a5",
+      "code": "50308",
+      "name": "Gurmaar Booty",
+      "oldSku": "GUR727209",
+      "newSku": "584806765"
+    },
+    {
+      "id": "777a2a2f-bf56-4a0c-a888-627c81d4d29d",
+      "code": "50309",
+      "name": "Halun Dana",
+      "oldSku": "HAL733196",
+      "newSku": "136345174"
+    },
+    {
+      "id": "00a27873-b5bd-4fa2-a88f-b2df168ca208",
+      "code": "50310",
+      "name": "Harmal (Kala Dana)",
+      "oldSku": "HAR739416",
+      "newSku": "739547978"
+    },
+    {
+      "id": "4d1eb8a9-eedd-4647-bc27-5349598beba1",
+      "code": "50311",
+      "name": "Hartal",
+      "oldSku": "HAR745835",
+      "newSku": "215519805"
+    },
+    {
+      "id": "8a1d9744-572a-4aa5-a018-025e359b46b9",
+      "code": "50312",
+      "name": "Height Growth Powwder ( Box )",
+      "oldSku": "HEI752374",
+      "newSku": "466550468"
+    },
+    {
+      "id": "dcedfd9b-4757-4efc-aa54-59d9683100fc",
+      "code": "50313",
+      "name": "Hibiscus Flowers",
+      "oldSku": "HIB758632",
+      "newSku": "699672400"
+    },
+    {
+      "id": "25367534-616e-4e8f-a27f-99130abb3b72",
+      "code": "50314",
+      "name": "Hibiscus Powder",
+      "oldSku": "HIB765722",
+      "newSku": "668221300"
+    },
+    {
+      "id": "c8906894-126b-4f72-993a-4cec53b65e6c",
+      "code": "50315",
+      "name": "Hing (Grounded)",
+      "oldSku": "HIN772192",
+      "newSku": "656153097"
+    },
+    {
+      "id": "62be77f2-7e9d-456b-b885-7ca907f9b229",
+      "code": "50316",
+      "name": "Hing (Whole)",
+      "oldSku": "HIN779211",
+      "newSku": "119280923"
+    },
+    {
+      "id": "d1aea5db-1463-4e09-9db8-807756902634",
+      "code": "50317",
+      "name": "Husn e Yousuf",
+      "oldSku": "HUS785319",
+      "newSku": "556599318"
+    },
+    {
+      "id": "1da279e5-8949-47c6-8be0-c5e6684a08ee",
+      "code": "50318",
+      "name": "Imli Ke Beej",
+      "oldSku": "IML791196",
+      "newSku": "666330210"
+    },
+    {
+      "id": "9c749334-9ecf-4715-afaf-b9deeca876e8",
+      "code": "50319",
+      "name": "Indar Jaww (Grounded)",
+      "oldSku": "IND797089",
+      "newSku": "327397291"
+    },
+    {
+      "id": "9b853e8e-6c56-4451-80ed-800299a6ff9e",
+      "code": "50320",
+      "name": "Indar Jaww (Whole)",
+      "oldSku": "IND803795",
+      "newSku": "318393141"
+    },
+    {
+      "id": "78a47df2-8a4e-43cb-bb75-4fd7643648ee",
+      "code": "50321",
+      "name": "Indigo Powder",
+      "oldSku": "IND818300",
+      "newSku": "450063559"
+    },
+    {
+      "id": "8ec1455f-b2bd-4735-a973-7b7f60989252",
+      "code": "50322",
+      "name": "Ispaghol (Whole)",
+      "oldSku": "ISP830545",
+      "newSku": "693357200"
+    },
+    {
+      "id": "d1112f51-56d4-4ded-8605-8bc860f377bc",
+      "code": "50323",
+      "name": "Ispaghol Bhoosi",
+      "oldSku": "ISP836767",
+      "newSku": "892827850"
+    },
+    {
+      "id": "03264bbc-95d9-4ff9-9de8-997fcf05bbe6",
+      "code": "50324",
+      "name": "Jaman powder",
+      "oldSku": "JAM842788",
+      "newSku": "200566780"
+    },
+    {
+      "id": "7b8e38d9-333d-4909-9f2e-93c19c8f3adc",
+      "code": "50325",
+      "name": "Jaman Seeds",
+      "oldSku": "JAM848809",
+      "newSku": "665606037"
+    },
+    {
+      "id": "bba58fdb-ff79-458b-94a9-212a4c5821f1",
+      "code": "50326",
+      "name": "Ginseng",
+      "oldSku": "GIN855023",
+      "newSku": "367341988"
+    },
+    {
+      "id": "52c1f779-649e-423a-9578-7c3e3feb4fa9",
+      "code": "50327",
+      "name": "Joint Pain Powder",
+      "oldSku": "JOI861053",
+      "newSku": "598613040"
+    },
+    {
+      "id": "a7a39d89-c0c0-4750-87e5-c96b45167e91",
+      "code": "50328",
+      "name": "Kabab Cheeni",
+      "oldSku": "KAB867127",
+      "newSku": "779576277"
+    },
+    {
+      "id": "e71a7992-5db9-477e-85a0-ddac3a898e2f",
+      "code": "50329",
+      "name": "Kahu Ke Beej",
+      "oldSku": "KAH873333",
+      "newSku": "401759253"
+    },
+    {
+      "id": "f3622f26-ff3d-4317-8485-2f01a47c6dc6",
+      "code": "50330",
+      "name": "Kaisu Flowers",
+      "oldSku": "KAI879347",
+      "newSku": "362360153"
+    },
+    {
+      "id": "f66b65f8-52fe-466e-8aa3-3966ff2ab492",
+      "code": "50331",
+      "name": "Kakachiya",
+      "oldSku": "KAK885355",
+      "newSku": "782998654"
+    },
+    {
+      "id": "b5255189-7abe-4979-a9f6-47224f816894",
+      "code": "50332",
+      "name": "Kakar Singhi (Pistacia Integerrima)",
+      "oldSku": "KAK891562",
+      "newSku": "214441131"
+    },
+    {
+      "id": "de2ca402-09d0-42cf-8a8f-2e9dca1444dd",
+      "code": "50333",
+      "name": "Kali Moosli",
+      "oldSku": "KAL897576",
+      "newSku": "182142646"
+    },
+    {
+      "id": "16b4153c-b285-4083-93d0-20d1f1bc982e",
+      "code": "50334",
+      "name": "Kali Zeeri",
+      "oldSku": "KAL903725",
+      "newSku": "973131111"
+    },
+    {
+      "id": "0454acaa-1585-4315-9941-e5000769de93",
+      "code": "50335",
+      "name": "Kalmi Shoura",
+      "oldSku": "KAL909984",
+      "newSku": "108703331"
+    },
+    {
+      "id": "fcc0837c-99ae-4502-92de-c8821e4233a1",
+      "code": "50336",
+      "name": "Kamarkas",
+      "oldSku": "KAM916099",
+      "newSku": "671818782"
+    },
+    {
+      "id": "3cffe92f-1d7d-4c3f-a61f-fff2747ce7c4",
+      "code": "50337",
+      "name": "Kamila Powder",
+      "oldSku": "KAM922196",
+      "newSku": "539960584"
+    },
+    {
+      "id": "076bef5b-0d98-4bfe-91b7-fe6ae7ce760f",
+      "code": "50338",
+      "name": "Kundar Goond",
+      "oldSku": "KUN928698",
+      "newSku": "667279749"
+    },
+    {
+      "id": "f25ac62a-5a9f-4665-8238-c52f331a1124",
+      "code": "50339",
+      "name": "Kapoor Kachri (Ginger Lily)",
+      "oldSku": "KAP934921",
+      "newSku": "715484512"
+    },
+    {
+      "id": "9cb77307-9802-4793-bd0e-dad54fabe32d",
+      "code": "50340",
+      "name": "Karu / Kutki (Picrorhiza Kurroa)",
+      "oldSku": "KAR940990",
+      "newSku": "842969093"
+    },
+    {
+      "id": "e2ac487c-2ff3-4674-aa48-a151ebafaa4e",
+      "code": "50341",
+      "name": "Kashkari",
+      "oldSku": "KAS947261",
+      "newSku": "652940808"
+    },
+    {
+      "id": "54a9ba58-bcc2-434f-a6f8-2061d4b1f692",
+      "code": "50342",
+      "name": "Kasni ke Beej",
+      "oldSku": "KAS956460",
+      "newSku": "601253018"
+    },
+    {
+      "id": "43f9b8e8-87a8-4d99-a785-8bcebaf670d2",
+      "code": "50343",
+      "name": "Kast e Shirin (Grounded)",
+      "oldSku": "KAS963110",
+      "newSku": "807109888"
+    },
+    {
+      "id": "5d0ab787-f96b-458d-b759-3ccf9900a39e",
+      "code": "50344",
+      "name": "Kast e Shirin (Whole)",
+      "oldSku": "KAS969162",
+      "newSku": "837176028"
+    },
+    {
+      "id": "0ff61e9b-06ef-4e3c-ad59-ccafb6ea0e06",
+      "code": "50345",
+      "name": "Kast ul Bahri (Grounded)",
+      "oldSku": "KAS975177",
+      "newSku": "283436293"
+    },
+    {
+      "id": "210eed54-b5c7-48e2-b980-cd222ae20c9a",
+      "code": "50346",
+      "name": "Kast ul Bahri (Whole)",
+      "oldSku": "KAS981389",
+      "newSku": "985305476"
+    },
+    {
+      "id": "e5e5b347-d301-4ed5-902d-06d7bd5600e3",
+      "code": "50347",
+      "name": "Kast ul Hindi (Grounded)",
+      "oldSku": "KAS987427",
+      "newSku": "578585511"
+    },
+    {
+      "id": "6d6493b9-a6c5-4f6f-83c6-d0e1b9c1f73f",
+      "code": "50348",
+      "name": "Kast ul Hindi (Whole)",
+      "oldSku": "KAS993592",
+      "newSku": "318164047"
+    },
+    {
+      "id": "97d96348-5a79-45e4-a84b-fa295b03ac36",
+      "code": "50349",
+      "name": "Katla Powder",
+      "oldSku": "KAT999872",
+      "newSku": "393632245"
+    },
+    {
+      "id": "7cec3f93-7583-4e71-b5ca-19a7a9936803",
+      "code": "50350",
+      "name": "Khakseer",
+      "oldSku": "KHA005995",
+      "newSku": "411984382"
+    },
+    {
+      "id": "c1d44d84-1006-4ab2-95d5-73f6fdb92a3a",
+      "code": "50351",
+      "name": "Kini Kate",
+      "oldSku": "KIN012068",
+      "newSku": "967031573"
+    },
+    {
+      "id": "69ae7c91-8954-4e38-a5a5-7d3d865f4bf5",
+      "code": "50352",
+      "name": "Koonj Ke Beej",
+      "oldSku": "KOO018300",
+      "newSku": "619194581"
+    },
+    {
+      "id": "8c83949c-c5a2-4476-85e1-55371e10f924",
+      "code": "50353",
+      "name": "Kor Tumba",
+      "oldSku": "KOR024345",
+      "newSku": "543254899"
+    },
+    {
+      "id": "259304a9-cc21-4026-bd88-5c1dd480e0c2",
+      "code": "50354",
+      "name": "Kor Tumba (Seeds)",
+      "oldSku": "KOR030464",
+      "newSku": "853057027"
+    },
+    {
+      "id": "e5aa544f-0b63-48ea-9565-2b7ac20cbcbf",
+      "code": "50355",
+      "name": "Kulfay Ke Beej",
+      "oldSku": "KUL036710",
+      "newSku": "578268243"
+    },
+    {
+      "id": "d4a244de-97fd-431d-aa65-3f6b34f232a2",
+      "code": "50356",
+      "name": "Kulti ki Daal",
+      "oldSku": "KUL042754",
+      "newSku": "449693669"
+    },
+    {
+      "id": "568c94a2-3f39-49d8-9c62-c104e1452421",
+      "code": "50357",
+      "name": "Laak Dana",
+      "oldSku": "LAA048833",
+      "newSku": "735643879"
+    },
+    {
+      "id": "c102c296-e547-4225-8088-2b268bcc0741",
+      "code": "50358",
+      "name": "Lajwanti",
+      "oldSku": "LAJ055035",
+      "newSku": "260934469"
+    },
+    {
+      "id": "f5b1868d-3464-49a1-93e2-415933f602ae",
+      "code": "50359",
+      "name": "Lasora Whole",
+      "oldSku": "LAS061061",
+      "newSku": "214453369"
+    },
+    {
+      "id": "e68c26a2-5088-48c4-8aeb-8ecef30b6a73",
+      "code": "50360",
+      "name": "Lauq e Sapistan (Dried Lasoorah)",
+      "oldSku": "LAU067120",
+      "newSku": "562457740"
+    },
+    {
+      "id": "ce14db4d-f7c2-4dcc-bf86-d9b3430ced04",
+      "code": "50361",
+      "name": "Lemon Tea Leaves",
+      "oldSku": "LEM073441",
+      "newSku": "373801498"
+    },
+    {
+      "id": "5afba48c-de1b-4aeb-b6f1-dbd7ed4065fd",
+      "code": "50362",
+      "name": "Luban",
+      "oldSku": "LUB079523",
+      "newSku": "747715975"
+    },
+    {
+      "id": "687715b3-49f6-46a3-ac84-f12a7bf139eb",
+      "code": "50363",
+      "name": "Magaz Banola",
+      "oldSku": "MAG085706",
+      "newSku": "490110307"
+    },
+    {
+      "id": "c13493e8-f655-46ac-9ab9-dbdce9c27b37",
+      "code": "50364",
+      "name": "Maida Lakri",
+      "oldSku": "MAI092113",
+      "newSku": "563960826"
+    },
+    {
+      "id": "299867f7-53c8-44e1-9498-4260e45700d8",
+      "code": "50365",
+      "name": "Majoun",
+      "oldSku": "MAJ098135",
+      "newSku": "910489754"
+    },
+    {
+      "id": "806aa3df-1004-472e-921b-7428a801539f",
+      "code": "50366",
+      "name": "Maju Phal",
+      "oldSku": "MAJ104215",
+      "newSku": "416097606"
+    },
+    {
+      "id": "1d5ba75f-3c74-47c7-a592-9ca547ef26f6",
+      "code": "50367",
+      "name": "Makoh Daana",
+      "oldSku": "MAK110537",
+      "newSku": "761085022"
+    },
+    {
+      "id": "729921eb-236f-453c-b337-4bc209e2ee1d",
+      "code": "50368",
+      "name": "Male Sexual Problem Powder ( box )",
+      "oldSku": "MAL116593",
+      "newSku": "749185493"
+    },
+    {
+      "id": "33bc2981-38d1-4d29-bc06-f852b547de66",
+      "code": "50369",
+      "name": "Marathi Mogo",
+      "oldSku": "MAR124590",
+      "newSku": "103992309"
+    },
+    {
+      "id": "78731592-c214-475a-af27-e0c2a133c7f7",
+      "code": "50370",
+      "name": "Marmaki",
+      "oldSku": "MAR136399",
+      "newSku": "198868332"
+    },
+    {
+      "id": "fa30cddf-961d-41c1-85c0-e5191e6cfd49",
+      "code": "50371",
+      "name": "Mehandi",
+      "oldSku": "MEH143638",
+      "newSku": "793680496"
+    },
+    {
+      "id": "9ed70a9d-5887-4b81-8341-b9123bd2c05d",
+      "code": "50372",
+      "name": "Mehandi ke Patte",
+      "oldSku": "MEH149666",
+      "newSku": "762452239"
+    },
+    {
+      "id": "1aad8b9e-cf1e-4f56-b356-48a90229363e",
+      "code": "50373",
+      "name": "Mint Capsule",
+      "oldSku": "MIN155770",
+      "newSku": "454890490"
+    },
+    {
+      "id": "9cd4d0f6-11e6-44ad-b732-b7abed74091c",
+      "code": "50374",
+      "name": "Mochras",
+      "oldSku": "MOC162098",
+      "newSku": "637163451"
+    },
+    {
+      "id": "60378c0a-e3d2-4c06-951b-6365575e489c",
+      "code": "50375",
+      "name": "Mooli Ke Beej",
+      "oldSku": "MOO168186",
+      "newSku": "710280047"
+    },
+    {
+      "id": "9489040d-7eb1-46be-b8eb-08d7f4477845",
+      "code": "50376",
+      "name": "Moringa Capsule (60)",
+      "oldSku": "MOR174206",
+      "newSku": "543837710"
+    },
+    {
+      "id": "7c54e16f-3b57-42c4-9b19-401eb6482cba",
+      "code": "50377",
+      "name": "Moringa Powder Box 100 GM",
+      "oldSku": "MOR180467",
+      "newSku": "603035679"
+    },
+    {
+      "id": "546acdbc-194b-45c6-9c0b-c829c249bad2",
+      "code": "50378",
+      "name": "Moringa Powder Box 50 GM",
+      "oldSku": "MOR186522",
+      "newSku": "262691734"
+    },
+    {
+      "id": "1953927d-4b0e-4c5a-a43f-5029c19cdd35",
+      "code": "50379",
+      "name": "MP Arq e Gulab (Spray)",
+      "oldSku": "MP192552",
+      "newSku": "472549796"
+    },
+    {
+      "id": "54dd668f-4bb3-4238-a0da-e638813ba100",
+      "code": "50380",
+      "name": "Mulethi (Whole)",
+      "oldSku": "MUL198829",
+      "newSku": "606774086"
+    },
+    {
+      "id": "a9ee048b-40e2-445a-a2ac-6c5e10c608ed",
+      "code": "50381",
+      "name": "Mulethi Powder",
+      "oldSku": "MUL204841",
+      "newSku": "586172104"
+    },
+    {
+      "id": "e3e96cb0-ce4f-4823-878b-5f0552c238bd",
+      "code": "50382",
+      "name": "Multani Mitti",
+      "oldSku": "MUL210949",
+      "newSku": "314704303"
+    },
+    {
+      "id": "3f12f56f-98dd-4f75-ac58-3c33757347ee",
+      "code": "50383",
+      "name": "Nagarmotha",
+      "oldSku": "NAG217172",
+      "newSku": "980487605"
+    },
+    {
+      "id": "df4a199c-3575-4ff6-b946-038c1a52d273",
+      "code": "50384",
+      "name": "Nakhuna",
+      "oldSku": "NAK223223",
+      "newSku": "387287924"
+    },
+    {
+      "id": "e2b0d8e9-86fd-49d0-bc6e-6a837448da70",
+      "code": "50385",
+      "name": "Narkachoor (Grounded)",
+      "oldSku": "NAR229261",
+      "newSku": "773002431"
+    },
+    {
+      "id": "7c4a5fc7-66c8-4932-a0dc-d6f103cc863c",
+      "code": "50386",
+      "name": "Narkachoor (Whole)",
+      "oldSku": "NAR235438",
+      "newSku": "508727734"
+    },
+    {
+      "id": "ff27f9c6-a072-4ce2-8d0d-36efe0cc2e2f",
+      "code": "50387",
+      "name": "Nasboo Kay Beej",
+      "oldSku": "NAS241709",
+      "newSku": "592470127"
+    },
+    {
+      "id": "ec380fba-079b-449c-91cd-4a03e83a5ac7",
+      "code": "50388",
+      "name": "Nawab Katha",
+      "oldSku": "NAW247793",
+      "newSku": "718555952"
+    },
+    {
+      "id": "aa156aa4-2252-4ecf-bd5b-f0a465aa41a7",
+      "code": "50389",
+      "name": "Neebat",
+      "oldSku": "NEE254042",
+      "newSku": "894415567"
+    },
+    {
+      "id": "3774ee00-26c9-4eec-9e98-d9942457decd",
+      "code": "50390",
+      "name": "Neela Tota",
+      "oldSku": "NEE260156",
+      "newSku": "810791774"
+    },
+    {
+      "id": "73692dd8-7778-4a2e-b20c-d9427c255e11",
+      "code": "50391",
+      "name": "Neem leaves",
+      "oldSku": "NEE266406",
+      "newSku": "112548034"
+    },
+    {
+      "id": "75cce422-3251-4f10-af4f-8a27e1ca9c87",
+      "code": "50392",
+      "name": "Neem Powder",
+      "oldSku": "NEE272669",
+      "newSku": "546877126"
+    },
+    {
+      "id": "4757c131-cc84-48ab-811c-60eb67ec8a98",
+      "code": "50393",
+      "name": "Neem Seeds",
+      "oldSku": "NEE278718",
+      "newSku": "324267785"
+    },
+    {
+      "id": "9ccdb2f7-09fd-491b-a0e3-5858398eaac3",
+      "code": "50394",
+      "name": "Nilofar ( Herbs )",
+      "oldSku": "NIL284833",
+      "newSku": "147358938"
+    },
+    {
+      "id": "e5070b6b-5418-4137-95e7-75de3b305cc2",
+      "code": "50395",
+      "name": "Nowshadar",
+      "oldSku": "NOW291047",
+      "newSku": "269344915"
+    },
+    {
+      "id": "2cee94a6-8f29-4813-a1ee-e1f02622202e",
+      "code": "50396",
+      "name": "Orange peel Mask",
+      "oldSku": "ORA297127",
+      "newSku": "419493194"
+    },
+    {
+      "id": "dce5b14e-3836-410f-8dfe-1ad37600cb68",
+      "code": "50397",
+      "name": "Orange Peel Powder",
+      "oldSku": "ORA303218",
+      "newSku": "799251962"
+    },
+    {
+      "id": "155c6548-13e7-45bc-8511-3dae69288fa6",
+      "code": "50398",
+      "name": "Paan ki Char",
+      "oldSku": "PAA309418",
+      "newSku": "405404986"
+    },
+    {
+      "id": "4fbeb2c1-8523-4895-9f8a-c101c296c7ee",
+      "code": "50399",
+      "name": "Pabri Powder",
+      "oldSku": "PAB315429",
+      "newSku": "767604203"
+    },
+    {
+      "id": "3b291dfd-67aa-4507-822c-a8509d16bd71",
+      "code": "50400",
+      "name": "Paneer booty",
+      "oldSku": "PAN321449",
+      "newSku": "408968348"
+    },
+    {
+      "id": "7bfc03de-fc8d-4fa3-85ec-c0dd4165beff",
+      "code": "50401",
+      "name": "Panja Moosli",
+      "oldSku": "PAN327644",
+      "newSku": "560025282"
+    },
+    {
+      "id": "45f9fc38-b6be-4bba-b85e-accaca0aa39f",
+      "code": "50402",
+      "name": "panwar beej",
+      "oldSku": "PAN333653",
+      "newSku": "511793609"
+    },
+    {
+      "id": "25629927-c911-47e0-b43e-60a5439c5c8e",
+      "code": "50403",
+      "name": "Parshosha",
+      "oldSku": "PAR339650",
+      "newSku": "895605215"
+    },
+    {
+      "id": "9b063c6c-0bca-4137-869f-35ce58bc8d7d",
+      "code": "50404",
+      "name": "Pathani Lout",
+      "oldSku": "PAT346069",
+      "newSku": "213858025"
+    },
+    {
+      "id": "87179009-a503-4f8e-98d7-8c60ef1c4d82",
+      "code": "50405",
+      "name": "Pathri Faulad",
+      "oldSku": "PAT352271",
+      "newSku": "406500270"
+    },
+    {
+      "id": "e80d852e-fecb-4a4a-aedb-25bf5f459ac4",
+      "code": "50406",
+      "name": "Patthar Ke Phool",
+      "oldSku": "PAT358368",
+      "newSku": "768356681"
+    },
+    {
+      "id": "1edb837e-6177-4cd3-828d-aa7fc79e3ab1",
+      "code": "50407",
+      "name": "Peppermint",
+      "oldSku": "PEP364601",
+      "newSku": "407527359"
+    },
+    {
+      "id": "4aa162c0-9dd6-496e-bc6e-8aa6af3d1e3c",
+      "code": "50408",
+      "name": "Phitkari",
+      "oldSku": "PHI370645",
+      "newSku": "321623188"
+    },
+    {
+      "id": "e026f97c-2784-4ffd-b9fa-89052f439769",
+      "code": "50409",
+      "name": "Phitkari (Grounded)",
+      "oldSku": "PHI376716",
+      "newSku": "264483386"
+    },
+    {
+      "id": "a505e5b6-bebb-4d2c-9b72-baa1d0df4aef",
+      "code": "50410",
+      "name": "Piplamor",
+      "oldSku": "PIP382990",
+      "newSku": "369058004"
+    },
+    {
+      "id": "6d3f0e57-d8fb-483c-9bfc-b78e4141ae2f",
+      "code": "50411",
+      "name": "Qamarband",
+      "oldSku": "QAM389068",
+      "newSku": "703553653"
+    },
+    {
+      "id": "b8720171-c12e-4db6-8554-ca0862e5d053",
+      "code": "50412",
+      "name": "Raiwan cheeni",
+      "oldSku": "RAI395114",
+      "newSku": "564061469"
+    },
+    {
+      "id": "e142bfb7-bc74-4e01-a028-9df502b240b4",
+      "code": "50413",
+      "name": "Ratanjot",
+      "oldSku": "RAT401308",
+      "newSku": "386684850"
+    },
+    {
+      "id": "c102cdff-ca68-4bc5-a855-e9db704b174e",
+      "code": "50414",
+      "name": "Reetha (Whole)",
+      "oldSku": "REE407354",
+      "newSku": "226355427"
+    },
+    {
+      "id": "91fd9d9c-981f-4382-b888-58be34c476ef",
+      "code": "50415",
+      "name": "Reetha Powder",
+      "oldSku": "REE413352",
+      "newSku": "820335742"
+    },
+    {
+      "id": "9997b0b6-9328-46c7-8c5a-303cf32875e9",
+      "code": "50416",
+      "name": "Room e Mustagi",
+      "oldSku": "ROO419533",
+      "newSku": "688174456"
+    },
+    {
+      "id": "438bfa71-1d18-484f-9de6-89629f52e03a",
+      "code": "50417",
+      "name": "Rosemary Leaves",
+      "oldSku": "ROS427690",
+      "newSku": "995824399"
+    },
+    {
+      "id": "81e7389d-f171-4422-a06f-a0319d31ee5e",
+      "code": "50418",
+      "name": "Za'atar",
+      "oldSku": "ZA'439156",
+      "newSku": "279710838"
+    },
+    {
+      "id": "6ad5fd7a-bc9a-41a5-aa25-c4fe51e531b1",
+      "code": "50419",
+      "name": "Safaid Moosli (Grounded)",
+      "oldSku": "SAF445399",
+      "newSku": "233400835"
+    },
+    {
+      "id": "b29ab7a7-dfb0-4789-807d-8ad3c4482058",
+      "code": "50420",
+      "name": "Safaid Moosli (Whole)",
+      "oldSku": "SAF451418",
+      "newSku": "797429899"
+    },
+    {
+      "id": "bfb3af0c-8acb-4280-a5e5-9cc6b7502fa0",
+      "code": "50421",
+      "name": "Safaid Todri",
+      "oldSku": "SAF457395",
+      "newSku": "104742455"
+    },
+    {
+      "id": "0eb4aa59-d1f9-4c37-8930-d31415db2280",
+      "code": "50422",
+      "name": "Salab Misri",
+      "oldSku": "SAL463564",
+      "newSku": "719290890"
+    },
+    {
+      "id": "9c8d30bc-83bd-49c3-ba53-f8bb7c2387bc",
+      "code": "50423",
+      "name": "Salab Moosli",
+      "oldSku": "SAL469639",
+      "newSku": "986832639"
+    },
+    {
+      "id": "11826b58-6d95-4f96-8b97-3f3f18f72122",
+      "code": "50424",
+      "name": "Samandri Jhaag",
+      "oldSku": "SAM475617",
+      "newSku": "603840707"
+    },
+    {
+      "id": "12c12bf8-6d50-4eae-a440-5cfc1e1a7603",
+      "code": "50425",
+      "name": "Senna Leaves",
+      "oldSku": "SEN481792",
+      "newSku": "437142963"
+    },
+    {
+      "id": "a730f202-73db-40d1-aea1-e841d50097ba",
+      "code": "50426",
+      "name": "Senna Leaves (Grounded)",
+      "oldSku": "SEN488013",
+      "newSku": "964132980"
+    },
+    {
+      "id": "87d798fe-88a0-44e4-9234-5e5441d6b4aa",
+      "code": "50427",
+      "name": "Sandal Wood Powder",
+      "oldSku": "SAN494215",
+      "newSku": "223563740"
+    },
+    {
+      "id": "90ce89ca-9280-4771-9078-bad59adb8d35",
+      "code": "50428",
+      "name": "Sang e Jarat",
+      "oldSku": "SAN500479",
+      "newSku": "630644503"
+    },
+    {
+      "id": "eabd004d-5892-4e1c-8970-2610c144f36e",
+      "code": "50429",
+      "name": "Sarson Ki Chaal",
+      "oldSku": "SAR506468",
+      "newSku": "428880657"
+    },
+    {
+      "id": "3083c44b-cca6-4f68-a2a3-eebc82c975e1",
+      "code": "50430",
+      "name": "Satte e Gilo (Tinospora Cordifolia)",
+      "oldSku": "SAT512448",
+      "newSku": "227153330"
+    },
+    {
+      "id": "4d7034d1-1940-433d-90a9-269af9f56e59",
+      "code": "50431",
+      "name": "Sattawar",
+      "oldSku": "SAT518629",
+      "newSku": "154645766"
+    },
+    {
+      "id": "ae8a140e-e633-485d-8ca0-70a104ee9f52",
+      "code": "50432",
+      "name": "Satte Ajwain",
+      "oldSku": "SAT524669",
+      "newSku": "196196373"
+    },
+    {
+      "id": "95627785-cefc-4b38-9bda-374baad9453b",
+      "code": "50433",
+      "name": "Satte Kafoor",
+      "oldSku": "SAT530836",
+      "newSku": "827414639"
+    },
+    {
+      "id": "dd21fde3-4856-456b-bf21-d4e450a6457a",
+      "code": "50434",
+      "name": "Satte Podena",
+      "oldSku": "SAT537109",
+      "newSku": "425022314"
+    },
+    {
+      "id": "e27ef275-c59e-4fa9-aada-82f01c774f6e",
+      "code": "50435",
+      "name": "Seepiyan",
+      "oldSku": "SEE543306",
+      "newSku": "116234186"
+    },
+    {
+      "id": "23ab87e0-d8e9-4ed8-985a-9c3f7e24ad1e",
+      "code": "50436",
+      "name": "Shahtoot (Mulberry)",
+      "oldSku": "SHA549357",
+      "newSku": "281610057"
+    },
+    {
+      "id": "a05c4dde-8778-4f3e-aada-7cbab279e888",
+      "code": "50437",
+      "name": "Shilajit 0.5 gm",
+      "oldSku": "SHI555668",
+      "newSku": "559877364"
+    },
+    {
+      "id": "f8bcb5ef-276c-446c-ae51-4a479ca8e74d",
+      "code": "50438",
+      "name": "Sikakai (Whole)",
+      "oldSku": "SIK561750",
+      "newSku": "848722810"
+    },
+    {
+      "id": "7592efe5-fcf4-4a4a-87b2-262f2b3fa59e",
+      "code": "50439",
+      "name": "Sikakai Powder",
+      "oldSku": "SIK567968",
+      "newSku": "908746387"
+    },
+    {
+      "id": "99eae95d-c16b-45a7-a9d5-020ea257e2dc",
+      "code": "50440",
+      "name": "Sindhoor",
+      "oldSku": "SIN574323",
+      "newSku": "977053572"
+    },
+    {
+      "id": "76ff3ddc-2229-42a9-b516-a183da6345e9",
+      "code": "50441",
+      "name": "Singhara (Whole)",
+      "oldSku": "SIN580354",
+      "newSku": "610361349"
+    },
+    {
+      "id": "50824931-02c7-4a2f-be1b-408862388af7",
+      "code": "50442",
+      "name": "Singhara Powder",
+      "oldSku": "SIN586428",
+      "newSku": "476957012"
+    },
+    {
+      "id": "135574e8-ff73-41a4-abc0-44f438a54f19",
+      "code": "50443",
+      "name": "Soapnut Powder",
+      "oldSku": "SOA592676",
+      "newSku": "545188172"
+    },
+    {
+      "id": "1db5e842-0026-4bbf-9a7b-efd50836d39f",
+      "code": "50444",
+      "name": "Soya Dana",
+      "oldSku": "SOY598717",
+      "newSku": "450824191"
+    },
+    {
+      "id": "c2f5055d-fb8f-4f8d-90a3-62ca9fbb8b2b",
+      "code": "50445",
+      "name": "Suhaga",
+      "oldSku": "SUH604947",
+      "newSku": "504840229"
+    },
+    {
+      "id": "9eb0e142-fb49-437f-b949-50f3dd1fffad",
+      "code": "50446",
+      "name": "Suhanjna ki Gondh",
+      "oldSku": "SUH611189",
+      "newSku": "236003469"
+    },
+    {
+      "id": "02271fdb-59ac-4647-a462-76a21e3719fc",
+      "code": "50447",
+      "name": "Sumblo Booty",
+      "oldSku": "SUM617389",
+      "newSku": "571558182"
+    },
+    {
+      "id": "144f1ca0-4fc6-40f4-bad4-48865951a2ad",
+      "code": "50448",
+      "name": "Suranjan Powder",
+      "oldSku": "SUR623397",
+      "newSku": "491132090"
+    },
+    {
+      "id": "77408b60-6be2-431a-934a-735ab3714482",
+      "code": "50449",
+      "name": "Suranjan Shirin (Whole)",
+      "oldSku": "SUR629794",
+      "newSku": "296501456"
+    },
+    {
+      "id": "2f5314c9-e91d-408a-a901-8bb3d24504d7",
+      "code": "50450",
+      "name": "Surkh Todri",
+      "oldSku": "SUR636062",
+      "newSku": "887027666"
+    },
+    {
+      "id": "341b3f44-982c-43fa-904f-62454cf3c247",
+      "code": "50451",
+      "name": "Surma (Grounded)",
+      "oldSku": "SUR642159",
+      "newSku": "581696026"
+    },
+    {
+      "id": "d196dd9f-7375-428a-87ea-6497a02cae4e",
+      "code": "50452",
+      "name": "Surma (Whole)",
+      "oldSku": "SUR648532",
+      "newSku": "843016906"
+    },
+    {
+      "id": "efef3228-d2b7-4165-a110-3c74b1f0f432",
+      "code": "50453",
+      "name": "Tabasheer",
+      "oldSku": "TAB654573",
+      "newSku": "434754707"
+    },
+    {
+      "id": "adebbd2d-32c1-46e5-817f-a1d15def5f3e",
+      "code": "50454",
+      "name": "Taramira Seeds (Arugula seeds)",
+      "oldSku": "TAR660669",
+      "newSku": "999488819"
+    },
+    {
+      "id": "0e4de389-e84f-4c53-981e-6492efc2343e",
+      "code": "50455",
+      "name": "Timber",
+      "oldSku": "TIM666868",
+      "newSku": "502804903"
+    },
+    {
+      "id": "3bf291e6-e587-4b2e-b07b-3b4be5ee83ca",
+      "code": "50456",
+      "name": "Triflah",
+      "oldSku": "TRI672974",
+      "newSku": "839243666"
+    },
+    {
+      "id": "d60ba3aa-858d-4d2a-a2f8-d88abea4cee3",
+      "code": "50457",
+      "name": "Tukhm e Ispat",
+      "oldSku": "TUK679210",
+      "newSku": "958043741"
+    },
+    {
+      "id": "c25dc5d5-71e1-4033-95d3-14e57403f694",
+      "code": "50458",
+      "name": "Tukhm e Kurfas",
+      "oldSku": "TUK685480",
+      "newSku": "688661891"
+    },
+    {
+      "id": "963d622c-69c2-45fd-b0b1-bfdc5baf1367",
+      "code": "50459",
+      "name": "Tukhm e Saras",
+      "oldSku": "TUK691473",
+      "newSku": "273869519"
+    },
+    {
+      "id": "5fb77cbe-f6fd-4555-81bf-0676d2c5b0b9",
+      "code": "50460",
+      "name": "Tukhme Utangan",
+      "oldSku": "TUK697655",
+      "newSku": "308596218"
+    },
+    {
+      "id": "0cc59bc2-9c0b-4352-af95-53bb29c38ba8",
+      "code": "50461",
+      "name": "Turbat Safaid",
+      "oldSku": "TUR703962",
+      "newSku": "840326364"
+    },
+    {
+      "id": "49adba65-3ea8-47ba-914f-0835b03c9a2f",
+      "code": "50462",
+      "name": "Ubtan",
+      "oldSku": "UBT710010",
+      "newSku": "890348187"
+    },
+    {
+      "id": "57f2f5aa-f10d-4a51-bd13-33bb177c1dce",
+      "code": "50463",
+      "name": "Unaab ( Jujube)",
+      "oldSku": "UNA716155",
+      "newSku": "408675093"
+    },
+    {
+      "id": "8b81feec-893d-4331-9951-0dbad379754d",
+      "code": "50464",
+      "name": "Waqumba Beej",
+      "oldSku": "WAQ722739",
+      "newSku": "150841027"
+    },
+    {
+      "id": "d4fcf880-b8ea-4c44-9b96-85297e343dce",
+      "code": "50465",
+      "name": "Waras",
+      "oldSku": "WAR731119",
+      "newSku": "238706737"
+    },
+    {
+      "id": "788a6c66-a704-44eb-84e0-9b1090f4ca87",
+      "code": "50466",
+      "name": "Wawring",
+      "oldSku": "WAW743563",
+      "newSku": "566039146"
+    },
+    {
+      "id": "31958cfc-16cd-481e-b56c-bad5034bf913",
+      "code": "50467",
+      "name": "Weight loss powder",
+      "oldSku": "WEI750286",
+      "newSku": "782670836"
+    },
+    {
+      "id": "a5fafa86-072d-49a0-8af6-c5ea333dd332",
+      "code": "50468",
+      "name": "Zarshak",
+      "oldSku": "ZAR756777",
+      "newSku": "517631765"
+    },
+    {
+      "id": "c9ea3a74-ee06-40a1-9183-129e2ed1a3d5",
+      "code": "50469",
+      "name": "Zerisht",
+      "oldSku": "ZER763118",
+      "newSku": "105242185"
+    },
+    {
+      "id": "69875885-aa26-44a6-994a-2c41690d139d",
+      "code": "50470",
+      "name": "Almond Chikki",
+      "oldSku": "ALM354795",
+      "newSku": "134708803"
+    },
+    {
+      "id": "4435b675-025c-4509-b35f-badeb6b9272c",
+      "code": "50471",
+      "name": "Black Sesame Chikki",
+      "oldSku": "BLA367973",
+      "newSku": "210437605"
+    },
+    {
+      "id": "a3bff495-169c-4252-987a-4931c7264e3b",
+      "code": "50472",
+      "name": "Cashew Chikki",
+      "oldSku": "CAS375025",
+      "newSku": "918282532"
+    },
+    {
+      "id": "0cb3023b-e989-42a0-9183-e0332d530443",
+      "code": "50473",
+      "name": "Chickpeas Chikki",
+      "oldSku": "CHI381875",
+      "newSku": "723287039"
+    },
+    {
+      "id": "291f4d9a-793e-4079-af8a-090470c01862",
+      "code": "50474",
+      "name": "Coconut Chikki",
+      "oldSku": "COC388730",
+      "newSku": "940957038"
+    },
+    {
+      "id": "11977743-c065-4478-ac81-735978746ae9",
+      "code": "50475",
+      "name": "Flat Gajak",
+      "oldSku": "FLA396049",
+      "newSku": "535812202"
+    },
+    {
+      "id": "7e41f635-8d33-4a9c-bf6f-1e5114bff53e",
+      "code": "50476",
+      "name": "Flax Seeds Chikki",
+      "oldSku": "FLA402910",
+      "newSku": "215938345"
+    },
+    {
+      "id": "92966870-ae1d-4eea-952c-befb47206eb1",
+      "code": "50477",
+      "name": "Gajak Roll Box",
+      "oldSku": "GAJ409807",
+      "newSku": "179398998"
+    },
+    {
+      "id": "aae63654-7c1d-4030-90ff-9334b7b3795c",
+      "code": "50478",
+      "name": "Mixed Nuts Chikki",
+      "oldSku": "MIX416881",
+      "newSku": "994939077"
+    },
+    {
+      "id": "988ed05a-2b1e-4ca9-b124-0990887d8ea2",
+      "code": "50479",
+      "name": "Peanut Chikki",
+      "oldSku": "PEA423761",
+      "newSku": "431332819"
+    },
+    {
+      "id": "a179d762-7b94-433b-aa4e-1cc6eeb611f0",
+      "code": "50480",
+      "name": "Pehalwan Reawri (250gms)",
+      "oldSku": "PEH430624",
+      "newSku": "611982223"
+    },
+    {
+      "id": "e0819314-3673-4873-bfb0-22c9fc687a7e",
+      "code": "50481",
+      "name": "Pehalwan Reawri (500gms)",
+      "oldSku": "PEH437667",
+      "newSku": "801344231"
+    },
+    {
+      "id": "951776aa-767e-4b83-abe9-a6e4dc91104e",
+      "code": "50482",
+      "name": "Pistachio Chikki",
+      "oldSku": "PIS444508",
+      "newSku": "232351613"
+    },
+    {
+      "id": "e101ed17-ea2a-497c-9b4d-f6400b3f7838",
+      "code": "50483",
+      "name": "Puffed Rice Balls",
+      "oldSku": "PUF451353",
+      "newSku": "141189708"
+    },
+    {
+      "id": "9dd0f1d0-d5ca-4b60-8e6e-9d5c0f52fa6b",
+      "code": "50484",
+      "name": "Puffed Rice Chikki",
+      "oldSku": "PUF458397",
+      "newSku": "539512168"
+    },
+    {
+      "id": "51c838c3-bb52-41c1-9200-cd49df6c7e66",
+      "code": "50485",
+      "name": "Reawri",
+      "oldSku": "REA465245",
+      "newSku": "595948384"
+    },
+    {
+      "id": "96e19463-7abb-437b-8bfd-fcaaceb111a4",
+      "code": "50486",
+      "name": "Roti Gajak",
+      "oldSku": "ROT472168",
+      "newSku": "346515254"
+    },
+    {
+      "id": "3766a6c8-6c5e-4cc5-8a66-f49a26a1b6c9",
+      "code": "50487",
+      "name": "Round Gajak",
+      "oldSku": "ROU479349",
+      "newSku": "190929012"
+    },
+    {
+      "id": "d89e1948-40cb-42c8-b5f6-73160f259aa1",
+      "code": "50488",
+      "name": "Sesame Balls (Small)",
+      "oldSku": "SES486234",
+      "newSku": "712359255"
+    },
+    {
+      "id": "ad8387bc-fa18-4062-b657-bb3763d77e39",
+      "code": "50489",
+      "name": "Sesame Chikki",
+      "oldSku": "SES493202",
+      "newSku": "956405119"
+    },
+    {
+      "id": "648e4f24-4a3c-45ba-b37b-cf34e1a7c0ea",
+      "code": "50490",
+      "name": "AB Icecream Soda",
+      "oldSku": "AB749992",
+      "newSku": "740037504"
+    },
+    {
+      "id": "6d04a081-2900-442b-b13c-fb3dfd095b8f",
+      "code": "50491",
+      "name": "AB Pineapple Sharbat",
+      "oldSku": "AB761319",
+      "newSku": "748797713"
+    },
+    {
+      "id": "e2b2a524-9336-48f5-97c9-1af7b04fa2a1",
+      "code": "50492",
+      "name": "Ab Sharbat e Anaar",
+      "oldSku": "AB767563",
+      "newSku": "948637413"
+    },
+    {
+      "id": "31397a0f-5c64-4830-82ff-e77aae69f2ec",
+      "code": "50493",
+      "name": "AB Sharbat e Blueberry",
+      "oldSku": "AB773534",
+      "newSku": "690251414"
+    },
+    {
+      "id": "21c76e96-78ed-49a3-a0e3-10dcd1530fd5",
+      "code": "50494",
+      "name": "AB Sharbat e Gulab",
+      "oldSku": "AB779518",
+      "newSku": "710949490"
+    },
+    {
+      "id": "60867a9d-fa1a-46e6-b085-fee074927d77",
+      "code": "50495",
+      "name": "AB Sharbat e Lychee",
+      "oldSku": "AB785603",
+      "newSku": "902829139"
+    },
+    {
+      "id": "4cdf8055-1541-4579-a91b-58875ff698bc",
+      "code": "50496",
+      "name": "AB Sharbat e Mango",
+      "oldSku": "AB791663",
+      "newSku": "499461304"
+    },
+    {
+      "id": "7f18abab-37d9-49f1-a3dc-577665833307",
+      "code": "50497",
+      "name": "AB Sharbat e Orange",
+      "oldSku": "AB797549",
+      "newSku": "101527097"
+    },
+    {
+      "id": "d1754894-e1e0-47f0-83fa-fb3db78fff75",
+      "code": "50498",
+      "name": "AB Sharbat e Peach",
+      "oldSku": "AB803637",
+      "newSku": "660213570"
+    },
+    {
+      "id": "8e8a3727-5eda-4f7d-b895-bc284a18ddea",
+      "code": "50499",
+      "name": "AB Sharbat e Sandal",
+      "oldSku": "AB809618",
+      "newSku": "500535337"
+    },
+    {
+      "id": "0b994022-55ce-44c9-afd8-03535fc6a5a8",
+      "code": "50500",
+      "name": "AQ Arq Dasmol",
+      "oldSku": "AQ816364",
+      "newSku": "695509654"
+    },
+    {
+      "id": "601cdd02-54ac-4084-b711-2721a0291e2b",
+      "code": "50501",
+      "name": "AQ Arq e Ajwain",
+      "oldSku": "AQ822492",
+      "newSku": "283867029"
+    },
+    {
+      "id": "cacc6bf2-c218-4ace-8d78-e3e72b70ea60",
+      "code": "50502",
+      "name": "AQ Arq e Badian",
+      "oldSku": "AQ828438",
+      "newSku": "906328621"
+    },
+    {
+      "id": "861e0ecc-1ca4-460f-9e54-02e8865cdcc3",
+      "code": "50503",
+      "name": "AQ Arq e Gaozban",
+      "oldSku": "AQ834320",
+      "newSku": "448782625"
+    },
+    {
+      "id": "a44aa64d-5ac0-46e7-9468-490eb363b95a",
+      "code": "50504",
+      "name": "AQ Arq e Gulab",
+      "oldSku": "AQ840431",
+      "newSku": "485308114"
+    },
+    {
+      "id": "c2982d07-549c-4de6-8b3e-57ced38fb911",
+      "code": "50505",
+      "name": "AQ Arq e Gulab Spray",
+      "oldSku": "AQ846366",
+      "newSku": "612345762"
+    },
+    {
+      "id": "96a62e3b-15c8-41b4-b0ae-c5e123a63421",
+      "code": "50506",
+      "name": "AQ Arq e Kasni",
+      "oldSku": "AQ852278",
+      "newSku": "830978367"
+    },
+    {
+      "id": "f83c7b29-4636-4ebf-9174-81e5b214ed47",
+      "code": "50507",
+      "name": "AQ Arq e Makoh",
+      "oldSku": "AQ858553",
+      "newSku": "955793083"
+    },
+    {
+      "id": "54da6e1d-fcce-491c-af01-9e497deba48e",
+      "code": "50508",
+      "name": "AQ Arq Mehzal",
+      "oldSku": "AQ864440",
+      "newSku": "390227828"
+    },
+    {
+      "id": "3f1ed8ac-45d3-44d9-a8de-545888ce894a",
+      "code": "50509",
+      "name": "AQ Arq Poudina",
+      "oldSku": "AQ870361",
+      "newSku": "966201413"
+    },
+    {
+      "id": "69834056-3956-493c-8bee-79f3c0a863a4",
+      "code": "50510",
+      "name": "AQ Chaw Arqa",
+      "oldSku": "AQ876555",
+      "newSku": "526012883"
+    },
+    {
+      "id": "2f15f27f-9e95-48ce-87a9-2430f6158dc7",
+      "code": "50511",
+      "name": "AQ Jam e Shifa (250ml)",
+      "oldSku": "AQ882494",
+      "newSku": "668740339"
+    },
+    {
+      "id": "fd71621d-3ff7-48f1-af3f-ca0c005ac60e",
+      "code": "50512",
+      "name": "AQ Jam e Shifa (800ml)",
+      "oldSku": "AQ888420",
+      "newSku": "702461316"
+    },
+    {
+      "id": "1f5d55c3-3086-4fcb-bacb-9e15b97d8e17",
+      "code": "50513",
+      "name": "AQ Sharbat e Anjbar",
+      "oldSku": "AQ894544",
+      "newSku": "159848361"
+    },
+    {
+      "id": "e6d38c92-c3ce-4f3d-b7ee-83d9e598397e",
+      "code": "50514",
+      "name": "AQ Sharbat e Badam",
+      "oldSku": "AQ900444",
+      "newSku": "825924469"
+    },
+    {
+      "id": "e603785f-f53e-4394-ac63-0fa9b8d0592a",
+      "code": "50515",
+      "name": "AQ Sharbat e Elaichi",
+      "oldSku": "AQ906329",
+      "newSku": "457358831"
+    },
+    {
+      "id": "ed3fbc88-667a-4514-906a-d147058cb866",
+      "code": "50516",
+      "name": "AQ Sharbat e Unaab",
+      "oldSku": "AQ912413",
+      "newSku": "148733768"
+    },
+    {
+      "id": "12565522-2de4-4c96-bc17-2af04f092e1f",
+      "code": "50517",
+      "name": "AQ Sharbat Pomegranate (Anar)",
+      "oldSku": "AQ918342",
+      "newSku": "842062063"
+    },
+    {
+      "id": "a6c92ea0-ffb3-4cc9-bf7d-fbc63cdd9d81",
+      "code": "50518",
+      "name": "AQ Sharbat Sandal",
+      "oldSku": "AQ924310",
+      "newSku": "594301007"
+    },
+    {
+      "id": "2bd2f89b-0760-4590-9cff-1bb3c9aa9ef7",
+      "code": "50519",
+      "name": "AQ Sharbat Tamarind & Prunes",
+      "oldSku": "AQ930528",
+      "newSku": "952876878"
+    },
+    {
+      "id": "6917ad8a-0a71-47c6-900c-bb47dc989a81",
+      "code": "50520",
+      "name": "Aqua Slim",
+      "oldSku": "AQU936420",
+      "newSku": "587227661"
+    },
+    {
+      "id": "08a72702-8b1b-491f-ae4c-0b629efbf152",
+      "code": "50521",
+      "name": "Arq e Makoh (Marhaba)",
+      "oldSku": "ARQ942408",
+      "newSku": "654662252"
+    },
+    {
+      "id": "36df7c22-9e39-4241-8ec7-3380837a1246",
+      "code": "50522",
+      "name": "Arq Nana",
+      "oldSku": "ARQ948510",
+      "newSku": "233600207"
+    },
+    {
+      "id": "1cb930c5-c832-4188-b3bd-b7152cdf9a93",
+      "code": "50523",
+      "name": "Dittus Apple Vinegar",
+      "oldSku": "DIT954416",
+      "newSku": "174005438"
+    },
+    {
+      "id": "93de80e5-d910-4a56-a4b6-de003355bdea",
+      "code": "50524",
+      "name": "Dittus Grape Vinegar",
+      "oldSku": "DIT960372",
+      "newSku": "177811542"
+    },
+    {
+      "id": "22440692-b148-4a70-8227-8720abded7ef",
+      "code": "50525",
+      "name": "Jaman Vinegar",
+      "oldSku": "JAM966488",
+      "newSku": "179826519"
+    },
+    {
+      "id": "b30f6e3f-9e16-46f4-85f7-cd1cf11c8283",
+      "code": "50526",
+      "name": "MP Arq Gulab ( 800 ml )",
+      "oldSku": "MP972490",
+      "newSku": "482971534"
+    },
+    {
+      "id": "81ac72a2-37d6-434a-8cb4-7cf6ff5c1776",
+      "code": "50527",
+      "name": "Rooh Kewra ( 800 ML )",
+      "oldSku": "ROO978452",
+      "newSku": "307892791"
+    },
+    {
+      "id": "b1fc1de1-b43f-4aa1-ae11-f616b2568796",
+      "code": "50528",
+      "name": "Rooh Kewra 300 ml",
+      "oldSku": "ROO984529",
+      "newSku": "731844425"
+    },
+    {
+      "id": "882688aa-efed-463c-9749-91a84efa8807",
+      "code": "50529",
+      "name": "Sharbat E Bazoori",
+      "oldSku": "SHA990433",
+      "newSku": "976594448"
+    },
+    {
+      "id": "9c455be2-8e4d-408f-a30a-898102d60daf",
+      "code": "50530",
+      "name": "Sharbat e Roohafza (Hamdard)",
+      "oldSku": "SHA996344",
+      "newSku": "467616501"
+    },
+    {
+      "id": "a170813d-07bf-4721-bcf2-eb76a449f713",
+      "code": "50531",
+      "name": "Thadal",
+      "oldSku": "THA002418",
+      "newSku": "816044058"
+    },
+    {
+      "id": "164c6b2f-b0b3-4095-a301-65b7a6329993",
+      "code": "50532",
+      "name": "Zafrani Kewra ( 800 ML )",
+      "oldSku": "ZAF008351",
+      "newSku": "236484154"
+    },
+    {
+      "id": "1800d4e9-253d-4b95-99e2-9d62866e5058",
+      "code": "50533",
+      "name": "Barley Flour (Jau Aata)",
+      "oldSku": "BAR093127",
+      "newSku": "646325578"
+    },
+    {
+      "id": "ea0cb83c-3fb1-4727-a871-c973fbe3a1e4",
+      "code": "50534",
+      "name": "Besan (Gram Flour)",
+      "oldSku": "BES104456",
+      "newSku": "887761179"
+    },
+    {
+      "id": "d78712d2-b012-482a-8e89-f3b64eca891a",
+      "code": "50535",
+      "name": "Chakki Aata",
+      "oldSku": "CHA110643",
+      "newSku": "351117123"
+    },
+    {
+      "id": "4a55d135-ecd3-44b6-ac83-0b6afacfe0a6",
+      "code": "50536",
+      "name": "Channay Ka Sattu (Roasted Gram Flour)",
+      "oldSku": "CHA116688",
+      "newSku": "147823965"
+    },
+    {
+      "id": "60a1f6c5-5549-42d8-ae38-5e6e4fd81280",
+      "code": "50537",
+      "name": "Corn Flour",
+      "oldSku": "COR122688",
+      "newSku": "958371230"
+    },
+    {
+      "id": "4a93e382-9f08-4151-8773-ec3afa8947cc",
+      "code": "50538",
+      "name": "Jau Ka Sattu (Roasted Barley)",
+      "oldSku": "JAU128862",
+      "newSku": "452987677"
+    },
+    {
+      "id": "2507a6b0-b1f7-4229-8d7e-e50050e38cf7",
+      "code": "50539",
+      "name": "Maash Flour",
+      "oldSku": "MAA134837",
+      "newSku": "675289759"
+    },
+    {
+      "id": "017f9ab0-e82d-4fb6-9b76-5f0b0745fc98",
+      "code": "50540",
+      "name": "Maida (All Purpose Flour)",
+      "oldSku": "MAI140829",
+      "newSku": "559207087"
+    },
+    {
+      "id": "2b6d6ccb-bef8-4f81-9408-4adc8c56f32b",
+      "code": "50541",
+      "name": "Makai ka Aata (Corn Meal)",
+      "oldSku": "MAK147017",
+      "newSku": "479204948"
+    },
+    {
+      "id": "ff545710-6df8-4a72-a543-09d5b8aba50f",
+      "code": "50542",
+      "name": "Millets Flour (Bajra Atta)",
+      "oldSku": "MIL152984",
+      "newSku": "559620056"
+    },
+    {
+      "id": "2102a583-cb07-4413-99d5-1fa165ea2189",
+      "code": "50543",
+      "name": "Moong Flour",
+      "oldSku": "MOO158953",
+      "newSku": "687902161"
+    },
+    {
+      "id": "279804c4-1b0a-423c-ba59-f300fb4513a5",
+      "code": "50544",
+      "name": "Rice Flour",
+      "oldSku": "RIC165121",
+      "newSku": "775916660"
+    },
+    {
+      "id": "a1617817-4013-4227-8557-0075690995d2",
+      "code": "50545",
+      "name": "Suji (Semolina)",
+      "oldSku": "SUJ171198",
+      "newSku": "278305673"
+    },
+    {
+      "id": "97102f01-73c9-464f-bc24-1fc79d0d9e98",
+      "code": "50546",
+      "name": "Aalu Masala Crackers",
+      "oldSku": "AAL262997",
+      "newSku": "634997853"
+    },
+    {
+      "id": "8678953c-14a1-4e3e-8544-3144c6bfe5f1",
+      "code": "50547",
+      "name": "Aalu Crackers",
+      "oldSku": "AAL275092",
+      "newSku": "541668934"
+    },
+    {
+      "id": "f026162e-d7c4-45c8-84f3-f6e9bdf18e1f",
+      "code": "50548",
+      "name": "Mixed Crackers",
+      "oldSku": "MIX281651",
+      "newSku": "777196852"
+    },
+    {
+      "id": "d540277f-da6b-4e6e-9cd0-4f5a3781ed4d",
+      "code": "50549",
+      "name": "Ball Crackers",
+      "oldSku": "BAL287989",
+      "newSku": "398242750"
+    },
+    {
+      "id": "a188a206-6b71-4640-8cb8-b62da5b25c99",
+      "code": "50550",
+      "name": "Chicken Crackers",
+      "oldSku": "CHI294406",
+      "newSku": "282424830"
+    },
+    {
+      "id": "9ab63e49-9946-4344-baa2-a1446b1c8603",
+      "code": "50551",
+      "name": "Chinese Crackers",
+      "oldSku": "CHI300957",
+      "newSku": "931072543"
+    },
+    {
+      "id": "429d24da-5969-4735-9bc0-e9bac757ebdd",
+      "code": "50552",
+      "name": "Crazy & Crispy Crackers",
+      "oldSku": "CRA307296",
+      "newSku": "919509290"
+    },
+    {
+      "id": "b462365b-35d4-4f08-a91b-2a2e36c91b91",
+      "code": "50553",
+      "name": "Dashi Prawn Crackers",
+      "oldSku": "DAS313625",
+      "newSku": "377933426"
+    },
+    {
+      "id": "7f29ca47-c8e7-4b1b-93ff-c1557db39ebd",
+      "code": "50554",
+      "name": "Farfar Crackers",
+      "oldSku": "FAR320175",
+      "newSku": "887847858"
+    },
+    {
+      "id": "042a2ad1-9256-4ea4-8e8a-67c2c11d1e36",
+      "code": "50555",
+      "name": "Flower Crackers",
+      "oldSku": "FLO326527",
+      "newSku": "413558598"
+    },
+    {
+      "id": "7495eefd-6be5-4256-a63a-47c73dc4d5e8",
+      "code": "50556",
+      "name": "Kachori Papad",
+      "oldSku": "KAC332870",
+      "newSku": "755962325"
+    },
+    {
+      "id": "daff44e5-ec6b-4c15-8dff-ee8eda87c737",
+      "code": "50557",
+      "name": "Khichiya Papad",
+      "oldSku": "KHI339404",
+      "newSku": "430057915"
+    },
+    {
+      "id": "85391f21-3059-48ae-a8f5-072e580213a5",
+      "code": "50558",
+      "name": "Mix Daal Papad",
+      "oldSku": "MIX345733",
+      "newSku": "494289294"
+    },
+    {
+      "id": "fbdf61de-c220-4e19-b415-97a306d83879",
+      "code": "50559",
+      "name": "Pipe Crackers",
+      "oldSku": "PIP352061",
+      "newSku": "947054574"
+    },
+    {
+      "id": "a5358f10-0d6f-477b-aaa0-92bba1ca97af",
+      "code": "50560",
+      "name": "Potato Chips",
+      "oldSku": "POT358605",
+      "newSku": "922247525"
+    },
+    {
+      "id": "c246988d-75f0-493f-b6ae-dab87b4fe2f6",
+      "code": "50561",
+      "name": "Punjabi Masalah Papad",
+      "oldSku": "PUN364960",
+      "newSku": "874966978"
+    },
+    {
+      "id": "9112f072-8d5e-49a3-8170-afc390b3011f",
+      "code": "50562",
+      "name": "Racket Crackers",
+      "oldSku": "RAC371704",
+      "newSku": "209185987"
+    },
+    {
+      "id": "d4d60e30-8f9d-4818-abbf-6590765e6080",
+      "code": "50563",
+      "name": "Rice Crackers",
+      "oldSku": "RIC378243",
+      "newSku": "867312954"
+    },
+    {
+      "id": "8edcd3ea-3aab-4c6e-ac59-e4184baf9412",
+      "code": "50564",
+      "name": "Ring Crackers",
+      "oldSku": "RIN384565",
+      "newSku": "973158516"
+    },
+    {
+      "id": "3791f654-7e16-43d5-b440-ad756552ef9f",
+      "code": "50565",
+      "name": "Sabzi Masalah Crackers",
+      "oldSku": "SAB390930",
+      "newSku": "700203440"
+    },
+    {
+      "id": "e43ac86e-1490-46dd-b311-f88c86d956bd",
+      "code": "50566",
+      "name": "Slanty Crackers",
+      "oldSku": "SLA397494",
+      "newSku": "954144163"
+    },
+    {
+      "id": "e2b56212-d86c-4938-9f40-637034355d73",
+      "code": "50567",
+      "name": "Shell Crackers",
+      "oldSku": "SHE403896",
+      "newSku": "567587122"
+    },
+    {
+      "id": "1d1422f3-a19b-4a7a-9758-cecbc0e5e8e4",
+      "code": "50568",
+      "name": "Sindhi Masalah Papad",
+      "oldSku": "SIN410223",
+      "newSku": "905695523"
+    },
+    {
+      "id": "0d1357d5-f57b-4d23-bee7-791d715618cc",
+      "code": "50569",
+      "name": "Wave Crackers",
+      "oldSku": "WAV416897",
+      "newSku": "643271026"
+    },
+    {
+      "id": "f19a788b-9d20-4def-8492-ec46b925a1a5",
+      "code": "50570",
+      "name": "Amla Murabba (500 gms)",
+      "oldSku": "AML500567",
+      "newSku": "695470232"
+    },
+    {
+      "id": "78519829-7f6b-445b-86cd-c42f7f9a5fc8",
+      "code": "50571",
+      "name": "Amla Murabba KG",
+      "oldSku": "AML511950",
+      "newSku": "265581250"
+    },
+    {
+      "id": "f0a38eee-0ca2-4173-a13e-414833b3006f",
+      "code": "50572",
+      "name": "Apple Murabba (500 gms)",
+      "oldSku": "APP518118",
+      "newSku": "127167183"
+    },
+    {
+      "id": "47ba01b7-a21f-45db-be1f-779e805a2b57",
+      "code": "50573",
+      "name": "Ashrafi Murabba",
+      "oldSku": "ASH524096",
+      "newSku": "783230725"
+    },
+    {
+      "id": "9723f449-8b96-40e9-ab84-9d136eedc84a",
+      "code": "50574",
+      "name": "Bahi Murabba (500 gms)",
+      "oldSku": "BAH530066",
+      "newSku": "293442410"
+    },
+    {
+      "id": "e2e9f32a-3af7-4f09-ba38-b6b8baae5c0e",
+      "code": "50575",
+      "name": "Bahi Murabba KG",
+      "oldSku": "BAH536243",
+      "newSku": "132035337"
+    },
+    {
+      "id": "80bb474d-0b36-45e8-9455-07bbbd05aa1e",
+      "code": "50576",
+      "name": "Bailgiri Murabba (500 gms)",
+      "oldSku": "BAI542219",
+      "newSku": "347082619"
+    },
+    {
+      "id": "8e31db74-082c-4ae8-8352-164487dcda3b",
+      "code": "50577",
+      "name": "Carrot Pickle",
+      "oldSku": "CAR548262",
+      "newSku": "440495543"
+    },
+    {
+      "id": "7dd047cb-a277-4798-abcb-bcbade9d0325",
+      "code": "50578",
+      "name": "Carrot Pickle Vinegar",
+      "oldSku": "CAR554493",
+      "newSku": "157368933"
+    },
+    {
+      "id": "a8d52c49-58c7-47d3-b73a-251b143fbedf",
+      "code": "50579",
+      "name": "Dhoop Lemon (Vinegar)",
+      "oldSku": "DHO560502",
+      "newSku": "881627108"
+    },
+    {
+      "id": "0f0e2ac4-2e5d-45ea-b03c-d9ad9fd08f4e",
+      "code": "50580",
+      "name": "Garlic (Lehsan) Pickle",
+      "oldSku": "GAR566482",
+      "newSku": "272722136"
+    },
+    {
+      "id": "f9a0b299-bab0-409a-ab99-a8ca76af066d",
+      "code": "50581",
+      "name": "Garlic (Lehsan) Pickle (vinegar)",
+      "oldSku": "GAR572646",
+      "newSku": "240030384"
+    },
+    {
+      "id": "3924a18b-fda8-4d8a-9f53-95851af7af78",
+      "code": "50582",
+      "name": "Green Chatni",
+      "oldSku": "GRE578628",
+      "newSku": "641022432"
+    },
+    {
+      "id": "057d6536-8899-49b2-ae54-239a876f7bc1",
+      "code": "50583",
+      "name": "Green Chilli (Hari Mirch Long) Vinegar",
+      "oldSku": "GRE584596",
+      "newSku": "864248724"
+    },
+    {
+      "id": "68ed88dd-17da-4b59-9fc4-81de780bdbb2",
+      "code": "50584",
+      "name": "Green Chilli (Hari Mirch) Pickle",
+      "oldSku": "GRE590756",
+      "newSku": "856607023"
+    },
+    {
+      "id": "d2bc5732-8d03-41e4-8864-e2f6db9bdf42",
+      "code": "50585",
+      "name": "Green Chilli (Vinegar)",
+      "oldSku": "GRE596774",
+      "newSku": "385570649"
+    },
+    {
+      "id": "4604b903-772d-4d30-a130-82837c458b12",
+      "code": "50586",
+      "name": "Gulqand Murabba",
+      "oldSku": "GUL602747",
+      "newSku": "316673321"
+    },
+    {
+      "id": "71c6ce12-4567-4f20-a5e6-55d4c7cd23ab",
+      "code": "50587",
+      "name": "Harr Ka Murabba",
+      "oldSku": "HAR609035",
+      "newSku": "696329282"
+    },
+    {
+      "id": "ae8a0c4b-4609-4300-a673-55ca16f729ff",
+      "code": "50588",
+      "name": "Honey (Barry)",
+      "oldSku": "HON615010",
+      "newSku": "997033521"
+    },
+    {
+      "id": "cf298c55-a640-4d0a-ab36-01b31f5d1a85",
+      "code": "50589",
+      "name": "Honey (Paloosa)",
+      "oldSku": "HON621285",
+      "newSku": "540828472"
+    },
+    {
+      "id": "6833d8c6-0c96-47ac-a0ab-d8d4c5657ba7",
+      "code": "50590",
+      "name": "Kakronde Murabba",
+      "oldSku": "KAK627488",
+      "newSku": "889221590"
+    },
+    {
+      "id": "88c081f4-025e-414f-aaec-5a1d41283648",
+      "code": "50591",
+      "name": "Kasondi Pickle",
+      "oldSku": "KAS633499",
+      "newSku": "224735995"
+    },
+    {
+      "id": "94c53002-5198-4c2b-adde-4b15be270eb7",
+      "code": "50592",
+      "name": "Lasorah Pickle",
+      "oldSku": "LAS639469",
+      "newSku": "373516500"
+    },
+    {
+      "id": "3494d886-115d-44bf-be4a-ff480067851e",
+      "code": "50593",
+      "name": "Lemon Pickle",
+      "oldSku": "LEM645644",
+      "newSku": "283482875"
+    },
+    {
+      "id": "304ccfa3-8c63-4795-850a-73c444d91bd5",
+      "code": "50594",
+      "name": "Mango Pickle",
+      "oldSku": "MAN651611",
+      "newSku": "970417976"
+    },
+    {
+      "id": "f55219e7-995e-4176-999c-e8b349a3a23d",
+      "code": "50595",
+      "name": "Mixed Pickle 250 GM",
+      "oldSku": "MIX657691",
+      "newSku": "713743112"
+    },
+    {
+      "id": "cebc0994-1a68-4bf4-ae49-7be9e3174686",
+      "code": "50596",
+      "name": "Mixed Pickle 500 GM",
+      "oldSku": "MIX663966",
+      "newSku": "799650425"
+    },
+    {
+      "id": "b07f40ce-05f4-42e2-b792-4f3e90253952",
+      "code": "50597",
+      "name": "Mixed Sabzi (Vinegar)",
+      "oldSku": "MIX669932",
+      "newSku": "761519092"
+    },
+    {
+      "id": "3e3bed7b-f662-4855-ab0f-179a31ae55f9",
+      "code": "50598",
+      "name": "Orange Peel Murabba",
+      "oldSku": "ORA675916",
+      "newSku": "562448879"
+    },
+    {
+      "id": "be829434-b844-47db-98fb-875e4b6ba283",
+      "code": "50599",
+      "name": "Prunes Chatni",
+      "oldSku": "PRU682282",
+      "newSku": "524995940"
+    },
+    {
+      "id": "71cc73b1-32b5-418b-90b4-589681f2a06b",
+      "code": "50600",
+      "name": "Cara Milk Chocolate",
+      "oldSku": "CAR751773",
+      "newSku": "939461907"
+    },
+    {
+      "id": "f72ea7cc-cc86-493c-aa75-b0abc30dc4bc",
+      "code": "50601",
+      "name": "Caramel Chocolate",
+      "oldSku": "CAR764023",
+      "newSku": "319402622"
+    },
+    {
+      "id": "0723c613-e3bd-400e-8315-05f908cd38a1",
+      "code": "50602",
+      "name": "Chibo White Cream",
+      "oldSku": "CHI770241",
+      "newSku": "728979557"
+    },
+    {
+      "id": "dfc71aca-cba5-4649-8deb-cb72b1f16982",
+      "code": "50603",
+      "name": "Fruity Bar Tamarind",
+      "oldSku": "FRU776235",
+      "newSku": "748278139"
+    },
+    {
+      "id": "b5b2301e-772a-4d48-bc7a-6bfee6001291",
+      "code": "50604",
+      "name": "Hiss Chocolate",
+      "oldSku": "HIS782232",
+      "newSku": "615193299"
+    },
+    {
+      "id": "11a84ac3-d923-4787-ad1d-1dd5b01c79d3",
+      "code": "50605",
+      "name": "Axe Brand Abu Fass",
+      "oldSku": "AXE941420",
+      "newSku": "389097872"
+    },
+    {
+      "id": "e021fba4-492b-4c45-bbed-508ab5f91b36",
+      "code": "50606",
+      "name": "B-Tex Balm",
+      "oldSku": "B-T953474",
+      "newSku": "809849087"
+    },
+    {
+      "id": "b3413f1e-038f-4e47-b837-e80dade4c1a1",
+      "code": "50607",
+      "name": "Baba Elaichi (10 gms)",
+      "oldSku": "BAB959617",
+      "newSku": "610422663"
+    },
+    {
+      "id": "971e2275-ea06-4a3f-b6a0-59c740f53591",
+      "code": "50608",
+      "name": "Budhia Surma",
+      "oldSku": "BUD965528",
+      "newSku": "682000087"
+    },
+    {
+      "id": "72f632b1-0895-43ac-9363-64d2e2b5f3d3",
+      "code": "50609",
+      "name": "Chandrika Soap",
+      "oldSku": "CHA971456",
+      "newSku": "134487547"
+    },
+    {
+      "id": "94f631d1-3fba-4827-8764-2e7bbc0f1a5a",
+      "code": "50610",
+      "name": "Crack Cream",
+      "oldSku": "CRA977559",
+      "newSku": "748704060"
+    },
+    {
+      "id": "caa45ff6-54c3-4df8-bfad-212f3d0287a9",
+      "code": "50611",
+      "name": "Dabur Red Toothpaste (L)",
+      "oldSku": "DAB983491",
+      "newSku": "889451073"
+    },
+    {
+      "id": "10115481-2f28-4750-b52a-eb2d02059b3a",
+      "code": "50612",
+      "name": "Hajmola",
+      "oldSku": "HAJ989393",
+      "newSku": "230401651"
+    },
+    {
+      "id": "98979fd5-7904-4bed-98d4-2169ff92c098",
+      "code": "50613",
+      "name": "Hawaban Tablet",
+      "oldSku": "HAW995433",
+      "newSku": "994666291"
+    },
+    {
+      "id": "1b18f314-3dcd-4044-a81e-ae1395d84ebd",
+      "code": "50614",
+      "name": "Indulekha Oil (100 ml)",
+      "oldSku": "IND001341",
+      "newSku": "347946793"
+    },
+    {
+      "id": "bbc7fdb4-a249-41ed-aa83-1e625cc88f88",
+      "code": "50615",
+      "name": "Iodex",
+      "oldSku": "IOD007630",
+      "newSku": "845436571"
+    },
+    {
+      "id": "77bc1287-fbe7-40fb-a13e-2e69984eaaed",
+      "code": "50616",
+      "name": "Itch Guard",
+      "oldSku": "ITC013812",
+      "newSku": "693407440"
+    },
+    {
+      "id": "9c805e9c-0467-41a0-9138-c04375b07939",
+      "code": "50617",
+      "name": "Jivan Mixture (60 ml)",
+      "oldSku": "JIV019765",
+      "newSku": "631310299"
+    },
+    {
+      "id": "839ff5f2-1202-429a-a5db-d7fe0acc8a4e",
+      "code": "50618",
+      "name": "Kajal",
+      "oldSku": "KAJ025720",
+      "newSku": "789551625"
+    },
+    {
+      "id": "4ac2d470-dead-416c-85d8-0e82d8430f3f",
+      "code": "50619",
+      "name": "Kayam Churna",
+      "oldSku": "KAY031870",
+      "newSku": "110924670"
+    },
+    {
+      "id": "3e644773-cc0d-4715-b495-f8e223edf407",
+      "code": "50620",
+      "name": "Kayam Tablet",
+      "oldSku": "KAY037831",
+      "newSku": "752983944"
+    },
+    {
+      "id": "8931c659-efe0-46ce-8d84-8a5744f40bfb",
+      "code": "50621",
+      "name": "Lookman e Hayat Oil (100 ml)",
+      "oldSku": "LOO044217",
+      "newSku": "874307115"
+    },
+    {
+      "id": "d76112d2-b27a-48d8-b8ed-5cf9c74c7665",
+      "code": "50622",
+      "name": "Moov Cream",
+      "oldSku": "MOO050371",
+      "newSku": "192568236"
+    },
+    {
+      "id": "80f4ebf8-dd80-433b-8d6c-c3413c1d8958",
+      "code": "50623",
+      "name": "Mysore Sandal Soap Large",
+      "oldSku": "MYS056436",
+      "newSku": "411229760"
+    },
+    {
+      "id": "551f1c95-6a2a-4590-b60d-a37641474f32",
+      "code": "50624",
+      "name": "Navratna Oil (200 ml)",
+      "oldSku": "NAV062319",
+      "newSku": "425579202"
+    },
+    {
+      "id": "a4077723-ac52-479f-913c-db599fbe3a70",
+      "code": "50625",
+      "name": "Nurament Oil (50 ml)",
+      "oldSku": "NUR068395",
+      "newSku": "631390084"
+    },
+    {
+      "id": "32a59eed-ea8f-48c5-ba98-e91ef440d3ee",
+      "code": "50626",
+      "name": "Parachute Oil (100 ml)",
+      "oldSku": "PAR074324",
+      "newSku": "550879045"
+    },
+    {
+      "id": "f615a958-5596-4576-8888-6aea62797f3d",
+      "code": "50627",
+      "name": "Pudin Hara Drops",
+      "oldSku": "PUD080276",
+      "newSku": "389826982"
+    },
+    {
+      "id": "10b5794b-be2b-4623-b8fb-4a81c54827c7",
+      "code": "50628",
+      "name": "Pudin Hara Tablets",
+      "oldSku": "PUD086324",
+      "newSku": "979931299"
+    },
+    {
+      "id": "7a2db597-5e9e-40bf-8237-5fa595c24096",
+      "code": "50629",
+      "name": "Rajnigandha Silver Pearls",
+      "oldSku": "RAJ092229",
+      "newSku": "366222321"
+    },
+    {
+      "id": "5c9656ea-139b-485b-941c-1fe961fb6e7e",
+      "code": "50630",
+      "name": "Sandal Soap No. 1",
+      "oldSku": "SAN098086",
+      "newSku": "870257195"
+    },
+    {
+      "id": "bc930b8e-2e2c-487b-8097-dd00604ad1e3",
+      "code": "50631",
+      "name": "Sudarshan Churan (30 gm)",
+      "oldSku": "SUD104150",
+      "newSku": "408309710"
+    },
+    {
+      "id": "2f6e8077-2635-49d3-9955-65712450d1b9",
+      "code": "50632",
+      "name": "Tiger Balm Red",
+      "oldSku": "TIG110046",
+      "newSku": "183170967"
+    },
+    {
+      "id": "0b1f52dc-a60b-45ee-8501-ca37994fb2a4",
+      "code": "50633",
+      "name": "Tiger Balm White",
+      "oldSku": "TIG115923",
+      "newSku": "409973357"
+    },
+    {
+      "id": "98baf3e4-acf7-4b5f-b774-7ea26bed2070",
+      "code": "50634",
+      "name": "Vicco Manjan (50 gms)",
+      "oldSku": "VIC121992",
+      "newSku": "442151935"
+    },
+    {
+      "id": "dabebaff-5f95-4722-adca-ecb0af664644",
+      "code": "50635",
+      "name": "Vicco Turmeric (m)",
+      "oldSku": "VIC127878",
+      "newSku": "661689828"
+    },
+    {
+      "id": "ea88d8f8-aa10-499f-8798-f88b639675dd",
+      "code": "50636",
+      "name": "Zandu Ultra Power",
+      "oldSku": "ZAN133730",
+      "newSku": "808241712"
+    },
+    {
+      "id": "6d64bd6e-c97d-4a8c-ba7c-05e20a1a466c",
+      "code": "50637",
+      "name": "Hemani Argan Oil (30ml)",
+      "oldSku": "HEM301430",
+      "newSku": "860567784"
+    },
+    {
+      "id": "0cbb6676-d4c0-4b8c-8f6d-7d2c0d3f4949",
+      "code": "50638",
+      "name": "Hemani Avocado Oil",
+      "oldSku": "HEM313484",
+      "newSku": "377649979"
+    },
+    {
+      "id": "8a2b404a-ed31-4db7-bd54-c69bf56ddf6d",
+      "code": "50639",
+      "name": "Hemani JoJoba Oil (30ml)",
+      "oldSku": "HEM319588",
+      "newSku": "653799347"
+    },
+    {
+      "id": "1882e47c-1b13-4252-92e3-c8df4e1ee9df",
+      "code": "50640",
+      "name": "Hemani Orange Oil",
+      "oldSku": "HEM325491",
+      "newSku": "585702117"
+    },
+    {
+      "id": "619d911d-aa71-4270-82b7-cd49304c9419",
+      "code": "50641",
+      "name": "Hemani Rosehip Oil",
+      "oldSku": "HEM331719",
+      "newSku": "625293827"
+    },
+    {
+      "id": "dd858f49-741a-4e4d-8668-11af76ee904c",
+      "code": "50642",
+      "name": "Hemani Shifa Oil",
+      "oldSku": "HEM342266",
+      "newSku": "511782535"
+    },
+    {
+      "id": "198eeb01-0b5e-4edc-91fe-6d894aecd506",
+      "code": "50643",
+      "name": "Hemani Vitamin E Oil",
+      "oldSku": "HEM351087",
+      "newSku": "940312165"
+    },
+    {
+      "id": "3f5a0e2f-bf65-4744-863d-e6c451977071",
+      "code": "50644",
+      "name": "HP Ajwain Oil (60 ml)",
+      "oldSku": "HP357526",
+      "newSku": "767351965"
+    },
+    {
+      "id": "689db5e1-7931-4bb5-bce0-78bcf8f7ebec",
+      "code": "50645",
+      "name": "HP Ajwain Oil (30 ml)",
+      "oldSku": "HP363836",
+      "newSku": "931697841"
+    },
+    {
+      "id": "88d5849d-f260-41c6-8c5d-6c07058597bc",
+      "code": "50646",
+      "name": "HP Aloe Vera Oil (30 ml)",
+      "oldSku": "HP369748",
+      "newSku": "372806525"
+    },
+    {
+      "id": "9346283d-4ff3-4efb-9a38-981145edf770",
+      "code": "50647",
+      "name": "HP Aloe Vera Oil (60 ml)",
+      "oldSku": "HP375855",
+      "newSku": "484106578"
+    },
+    {
+      "id": "5f1135f4-1e57-4a61-b07a-9bb0ab4ef306",
+      "code": "50648",
+      "name": "HP Amla Oil (30 ml)",
+      "oldSku": "HP381830",
+      "newSku": "545610228"
+    },
+    {
+      "id": "5938f362-76f6-4d98-a167-b7d0722a503f",
+      "code": "50649",
+      "name": "HP Amla Oil (60ml)",
+      "oldSku": "HP387735",
+      "newSku": "149226808"
+    },
+    {
+      "id": "a54c2ddb-aec0-4ec3-adfc-8ee19526540a",
+      "code": "50650",
+      "name": "HP Amla Reetha Sikakai Oil (60 ml)",
+      "oldSku": "HP393832",
+      "newSku": "259589759"
+    },
+    {
+      "id": "7f4f1933-61ba-40ce-bf06-dfe42129e931",
+      "code": "50651",
+      "name": "HP Balsan Oil (1gm)",
+      "oldSku": "HP399734",
+      "newSku": "432222216"
+    },
+    {
+      "id": "103053fc-b889-48ba-8cd0-a8a21696de05",
+      "code": "50652",
+      "name": "HP Banafsha Oil (30 ml)",
+      "oldSku": "HP408933",
+      "newSku": "851155172"
+    },
+    {
+      "id": "e2bb349f-76dd-4f63-80d7-8c0df814b461",
+      "code": "50653",
+      "name": "HP Banafsha Oil (60 ml)",
+      "oldSku": "HP417801",
+      "newSku": "154713686"
+    },
+    {
+      "id": "e44d0273-5ab6-4029-877b-9e249d8a2243",
+      "code": "50654",
+      "name": "HP Bitter Almond Oil (30 ml)",
+      "oldSku": "HP423760",
+      "newSku": "825108393"
+    },
+    {
+      "id": "2f7388b9-94a8-494b-8d9c-9feb5c99cda0",
+      "code": "50655",
+      "name": "HP Bitter Almond Oil (60 ml)",
+      "oldSku": "HP429963",
+      "newSku": "782197763"
+    },
+    {
+      "id": "45533e3d-3bc0-4767-b825-e730b3e324c4",
+      "code": "50656",
+      "name": "HP Bitter Mustard Oil (30 ml)",
+      "oldSku": "HP435875",
+      "newSku": "437558088"
+    },
+    {
+      "id": "ffc35082-064c-4546-935a-484f5392f769",
+      "code": "50657",
+      "name": "HP Bitter Mustard Oil (60 ml)",
+      "oldSku": "HP441898",
+      "newSku": "103896781"
+    },
+    {
+      "id": "1f93310e-8632-457f-a675-496517db2772",
+      "code": "50658",
+      "name": "HP Black Sesame oil (120 ml)",
+      "oldSku": "HP447994",
+      "newSku": "934273063"
+    },
+    {
+      "id": "77100f2a-699a-486d-a996-114eaac7bdb7",
+      "code": "50659",
+      "name": "HP Chamomile Oil (30 ml)",
+      "oldSku": "HP453900",
+      "newSku": "785757609"
+    },
+    {
+      "id": "3dae0ad5-1331-4ac7-ba2e-a50ae60f2fa4",
+      "code": "50660",
+      "name": "HP Chamomile Oil (60 ml)",
+      "oldSku": "HP459848",
+      "newSku": "536847125"
+    },
+    {
+      "id": "a0816bf3-229a-4dd7-b47c-89ab2b9d8bbf",
+      "code": "50661",
+      "name": "HP Castor Oil (30 ml)",
+      "oldSku": "HP465965",
+      "newSku": "784526400"
+    },
+    {
+      "id": "177d35dc-51ee-4089-aa7d-56c5859c872e",
+      "code": "50662",
+      "name": "HP Castor Oil (60ml)",
+      "oldSku": "HP471915",
+      "newSku": "128762798"
+    },
+    {
+      "id": "915d699a-66c8-44c1-8c05-cb60d19a7815",
+      "code": "50663",
+      "name": "HP Cinnamon Oil (30 ml)",
+      "oldSku": "HP477900",
+      "newSku": "448451423"
+    },
+    {
+      "id": "c41dd11a-36fb-42f6-ad7c-10c541e32d6e",
+      "code": "50664",
+      "name": "HP Clove Oil (30 ml)",
+      "oldSku": "HP484001",
+      "newSku": "901878524"
+    },
+    {
+      "id": "7c0152b0-f3f1-4fb9-b81a-0dc582b9dec7",
+      "code": "50665",
+      "name": "HP Coriander Oil (30 ml)",
+      "oldSku": "HP490001",
+      "newSku": "945556464"
+    },
+    {
+      "id": "0c7d56a2-fe68-4877-addf-38bce4a3c788",
+      "code": "50666",
+      "name": "HP Coriander Oil (60 ml)",
+      "oldSku": "HP495951",
+      "newSku": "329609036"
+    },
+    {
+      "id": "9d41d2a8-18e7-4c9c-9d7a-b93193f21b05",
+      "code": "50667",
+      "name": "HP Egg Oil (30ml)",
+      "oldSku": "HP502083",
+      "newSku": "329874425"
+    },
+    {
+      "id": "980f42d7-5122-45f5-97db-f1b3a76148e2",
+      "code": "50668",
+      "name": "HP Egg Oil (60 ml)",
+      "oldSku": "HP508044",
+      "newSku": "125282397"
+    },
+    {
+      "id": "4118588b-e0f4-4244-b4de-2477db8f2d88",
+      "code": "50669",
+      "name": "HP Eucalyptus Oil (30 ml)",
+      "oldSku": "HP514079",
+      "newSku": "908488246"
+    },
+    {
+      "id": "5cad4467-8094-4ef3-abf3-70a815f517ae",
+      "code": "50670",
+      "name": "HP Euclyptus Oil (60 ml)",
+      "oldSku": "HP520172",
+      "newSku": "149023156"
+    },
+    {
+      "id": "b2e49101-31e5-4a0a-a74e-9929eeb1f84e",
+      "code": "50671",
+      "name": "HP Fennel Seeds Oil (30 ml)",
+      "oldSku": "HP526123",
+      "newSku": "363096448"
+    },
+    {
+      "id": "232618f5-3a59-4ef3-a431-fdeb7f13e52e",
+      "code": "50672",
+      "name": "HP Fennel Seeds Oil (60 ml)",
+      "oldSku": "HP532178",
+      "newSku": "121243122"
+    },
+    {
+      "id": "a3b5f1e0-da0d-4809-acb0-a95618a72202",
+      "code": "50673",
+      "name": "HP Fenugreek Oil (30 ml)",
+      "oldSku": "HP538370",
+      "newSku": "718922518"
+    },
+    {
+      "id": "1df4e601-f574-45ad-adbe-90c8af5e3c90",
+      "code": "50674",
+      "name": "HP Fenugreek Oil (60 ml)",
+      "oldSku": "HP544501",
+      "newSku": "195419443"
+    },
+    {
+      "id": "5ad471a3-12bc-4d28-9872-225c4027d5e0",
+      "code": "50675",
+      "name": "HP Fish Oil (30 ml)",
+      "oldSku": "HP550495",
+      "newSku": "107044410"
+    },
+    {
+      "id": "4fbfee54-76f3-49d4-9b6a-67d2c07c3f4e",
+      "code": "50676",
+      "name": "HP Fish Oil (60 ml)",
+      "oldSku": "HP556682",
+      "newSku": "919235139"
+    },
+    {
+      "id": "f261e711-63db-4289-8685-95971dd2049c",
+      "code": "50677",
+      "name": "HP Flax Seed Oil (60 ml)",
+      "oldSku": "HP562752",
+      "newSku": "608952431"
+    },
+    {
+      "id": "fabc1d3b-d097-4384-8dc3-3e12e1209d0d",
+      "code": "50678",
+      "name": "HP Flax Seed Oil (30 ml)",
+      "oldSku": "HP568768",
+      "newSku": "113052431"
+    },
+    {
+      "id": "91d3f8f3-c050-4c13-87ac-7ecf9f188747",
+      "code": "50679",
+      "name": "HP Garlic Oil (30 ml)",
+      "oldSku": "HP574950",
+      "newSku": "391825923"
+    },
+    {
+      "id": "a32c862c-3af0-4b87-90e7-77808bebd460",
+      "code": "50680",
+      "name": "HP Ginger Oil (30 ml)",
+      "oldSku": "HP580975",
+      "newSku": "798006227"
+    },
+    {
+      "id": "1e970bb5-7b06-43e6-923b-5d7a79a25dfb",
+      "code": "50681",
+      "name": "HP Glycerine Oil (60 ml)",
+      "oldSku": "HP586994",
+      "newSku": "701916911"
+    },
+    {
+      "id": "d7f6033d-7e95-43ce-aec7-d9589c74a964",
+      "code": "50682",
+      "name": "HP Jasmine Oil (30 ml)",
+      "oldSku": "HP593179",
+      "newSku": "138939924"
+    },
+    {
+      "id": "5a2c4a56-6227-4fd6-9261-836d3624c696",
+      "code": "50683",
+      "name": "HP Jasmine Oil (60 ml)",
+      "oldSku": "HP599225",
+      "newSku": "209535917"
+    },
+    {
+      "id": "b2e840c8-440e-4c17-bbb7-e192aadb1db6",
+      "code": "50684",
+      "name": "HP Jojoba Oil",
+      "oldSku": "HP607218",
+      "newSku": "239131782"
+    },
+    {
+      "id": "bfda21f8-8d68-489d-a2ee-bff82d380e7d",
+      "code": "50685",
+      "name": "HP Kahu Oil (30 ml)",
+      "oldSku": "HP618596",
+      "newSku": "502543599"
+    },
+    {
+      "id": "f3ddf667-33e8-4a8d-993d-2717c30c3700",
+      "code": "50686",
+      "name": "HP Kahu Oil (60 ml)",
+      "oldSku": "HP624763",
+      "newSku": "914679971"
+    },
+    {
+      "id": "f09e4bc1-10ba-4620-a0fd-e98eb5a29fd9",
+      "code": "50687",
+      "name": "HP Kalonji Oil (30ml)",
+      "oldSku": "HP630778",
+      "newSku": "152119034"
+    },
+    {
+      "id": "61885ac0-34cf-4f49-b495-66cf23284428",
+      "code": "50688",
+      "name": "HP Kalonji Oil (60 ml)",
+      "oldSku": "HP636752",
+      "newSku": "635286569"
+    },
+    {
+      "id": "ddabf0e5-2c5b-432d-96df-b2b50603a3d8",
+      "code": "50689",
+      "name": "HP Khashkhash Oil (30 ml)",
+      "oldSku": "HP642956",
+      "newSku": "623504651"
+    },
+    {
+      "id": "94392469-8064-429b-b00a-cb4cb9b5308e",
+      "code": "50690",
+      "name": "HP Khashkhash Oil (60 ml)",
+      "oldSku": "HP648946",
+      "newSku": "919626308"
+    },
+    {
+      "id": "2b5e77b3-2ee0-4f1d-8ad4-29abc74b6a6c",
+      "code": "50691",
+      "name": "HP Lavender Oil (30ml)",
+      "oldSku": "HP654926",
+      "newSku": "874730070"
+    },
+    {
+      "id": "4cb0741e-f138-4b6b-96cb-64b702a3825b",
+      "code": "50692",
+      "name": "HP Lavender Oil (60 ml)",
+      "oldSku": "HP661244",
+      "newSku": "517155842"
+    },
+    {
+      "id": "b87fc5ed-8bc8-422a-b743-75fe69e97ffc",
+      "code": "50693",
+      "name": "HP Lemon Oil (30 ml)",
+      "oldSku": "HP667254",
+      "newSku": "202502411"
+    },
+    {
+      "id": "8031a76c-9164-4ce6-8b37-67bc517083fc",
+      "code": "50694",
+      "name": "HP Maalkangni Oil ( 30 ml)",
+      "oldSku": "HP673243",
+      "newSku": "316263222"
+    },
+    {
+      "id": "1a6d2d32-8adc-46b7-987d-cffcf05e51d5",
+      "code": "50695",
+      "name": "HP Maalkangni Oil ( 60 ml)",
+      "oldSku": "HP679552",
+      "newSku": "524996591"
+    },
+    {
+      "id": "352de92a-7a0d-4159-bb9e-98fef45ab5fa",
+      "code": "50696",
+      "name": "HP Mixed Melon Seed Oil (30 ml)",
+      "oldSku": "HP685516",
+      "newSku": "541211819"
+    },
+    {
+      "id": "770f6e7f-a0ba-41ba-ad92-078345a63f68",
+      "code": "50697",
+      "name": "HP Mixed Melon seed Oil (60 ml)",
+      "oldSku": "HP691489",
+      "newSku": "279998563"
+    },
+    {
+      "id": "bc53e522-990c-494c-b511-3dfdc8222cbf",
+      "code": "50698",
+      "name": "HP Nabatati Oil",
+      "oldSku": "HP697644",
+      "newSku": "139473991"
+    },
+    {
+      "id": "1e684365-36cc-4445-bce3-8c287c58afd3",
+      "code": "50699",
+      "name": "HP Nabatati Talah Oil (10 ml)",
+      "oldSku": "HP703673",
+      "newSku": "187946965"
+    },
+    {
+      "id": "d6b441b5-bd90-48f7-8398-24050eaefd66",
+      "code": "50700",
+      "name": "HP Nagarmotha Oil (30 ml)",
+      "oldSku": "HP709729",
+      "newSku": "890249902"
+    },
+    {
+      "id": "ea6ea439-7cab-4912-b34a-58998d96a5bf",
+      "code": "50701",
+      "name": "HP Nagarmotha Oil (60 ml)",
+      "oldSku": "HP716039",
+      "newSku": "934853765"
+    },
+    {
+      "id": "bf4102cc-5bd4-4c6f-85ab-05f525aeac47",
+      "code": "50702",
+      "name": "HP Neem Oil (30 ml)",
+      "oldSku": "HP722131",
+      "newSku": "949434350"
+    },
+    {
+      "id": "86b4ff39-0dd5-46d6-b2b7-56cbcecd80d5",
+      "code": "50703",
+      "name": "HP Neem Oil (60ml)",
+      "oldSku": "HP728168",
+      "newSku": "412145965"
+    },
+    {
+      "id": "f4389e77-3802-44a7-bd26-3ccc6c5a185e",
+      "code": "50704",
+      "name": "HP Nutmeg Oil (30 ml)",
+      "oldSku": "HP734440",
+      "newSku": "119174250"
+    },
+    {
+      "id": "527e4bbe-c419-4b3c-a8d1-b70956faf095",
+      "code": "50705",
+      "name": "HP Olive Oil (30 ml)",
+      "oldSku": "HP740476",
+      "newSku": "877973810"
+    },
+    {
+      "id": "742a4377-0723-4d7c-a792-b77848418a39",
+      "code": "50706",
+      "name": "HP Olive oil (60 ml)",
+      "oldSku": "HP746831",
+      "newSku": "433015832"
+    },
+    {
+      "id": "61ebb586-609e-46a7-9187-23dbe616d7fa",
+      "code": "50707",
+      "name": "HP Orange Oil (30ml)",
+      "oldSku": "HP753046",
+      "newSku": "815016872"
+    },
+    {
+      "id": "8f4cb873-df43-49a9-99da-5f3b9624abb1",
+      "code": "50708",
+      "name": "HP Peanut Oil (30 ml)",
+      "oldSku": "HP759028",
+      "newSku": "278308604"
+    },
+    {
+      "id": "7d53d881-e075-4af3-bc98-51f06d5affed",
+      "code": "50709",
+      "name": "HP Peanut Oil (60 ml)",
+      "oldSku": "HP765005",
+      "newSku": "351880212"
+    },
+    {
+      "id": "e253bcc7-6b6b-4da8-a294-e0a650317865",
+      "code": "50710",
+      "name": "HP Peppermint Oil (30 ml)",
+      "oldSku": "HP771314",
+      "newSku": "210144635"
+    },
+    {
+      "id": "a2531c5a-7618-45cc-a95c-550fbbe9b638",
+      "code": "50711",
+      "name": "HP Peppermint Oil (60 ml)",
+      "oldSku": "HP777290",
+      "newSku": "564213332"
+    },
+    {
+      "id": "0d6312e9-2fbc-47e0-a22d-a6423ad096cc",
+      "code": "50712",
+      "name": "HP Pistachio Oil (30 ml)",
+      "oldSku": "HP783352",
+      "newSku": "306069680"
+    },
+    {
+      "id": "1bad77ad-ae9a-4b04-9e5a-f6c4d5465df1",
+      "code": "50713",
+      "name": "HP Pistachio Oil (60 ml)",
+      "oldSku": "HP789605",
+      "newSku": "979568891"
+    },
+    {
+      "id": "a20f59d2-038b-4dc1-8b70-2b013197bf50",
+      "code": "50714",
+      "name": "HP Pumpkin Seed oil (30ml)",
+      "oldSku": "HP795672",
+      "newSku": "100548002"
+    },
+    {
+      "id": "539e8dcf-d6a0-4093-8474-92ce7e33914b",
+      "code": "50715",
+      "name": "HP Pumpkin Seed oil (60ml)",
+      "oldSku": "HP801661",
+      "newSku": "545756801"
+    },
+    {
+      "id": "adf215a4-e86f-4b27-b167-2953a1d44f65",
+      "code": "50716",
+      "name": "HP Reetha Oil (30 ml)",
+      "oldSku": "HP807828",
+      "newSku": "452167832"
+    },
+    {
+      "id": "34df7f33-497d-431d-a9f8-02f2aa201bee",
+      "code": "50717",
+      "name": "HP Reetha Oil (60 ml)",
+      "oldSku": "HP813827",
+      "newSku": "810954348"
+    },
+    {
+      "id": "d292f1b1-70d4-4bd6-bc1a-f780eb3ef2f7",
+      "code": "50718",
+      "name": "HP Rose Oil (30 ml)",
+      "oldSku": "HP819815",
+      "newSku": "551582630"
+    },
+    {
+      "id": "101f287a-2789-409f-bc21-5c27f0738298",
+      "code": "50719",
+      "name": "HP Rose Oil (60 ml)",
+      "oldSku": "HP826139",
+      "newSku": "485729889"
+    },
+    {
+      "id": "cfbba15a-4f5c-4f66-aa93-30e39f227088",
+      "code": "50720",
+      "name": "HP Rosemary Oil",
+      "oldSku": "HP832336",
+      "newSku": "211372822"
+    },
+    {
+      "id": "d6191649-a79d-464e-858c-0f3cb2e4e563",
+      "code": "50721",
+      "name": "HP Sandal Oil (30 ml)",
+      "oldSku": "HP838380",
+      "newSku": "530923060"
+    },
+    {
+      "id": "616faa2e-ebe8-4910-8fc9-aeac0bd653a3",
+      "code": "50722",
+      "name": "HP Sandal Oil (60 ml)",
+      "oldSku": "HP844726",
+      "newSku": "430443775"
+    },
+    {
+      "id": "b16bf19e-42c1-4331-a19f-535fd0d080b0",
+      "code": "50723",
+      "name": "HP Sikakai Oil (30 ml)",
+      "oldSku": "HP850957",
+      "newSku": "809982006"
+    },
+    {
+      "id": "f1d7db36-d379-4d16-ba26-5c217d07d940",
+      "code": "50724",
+      "name": "HP Sikakai Oil (60 ml)",
+      "oldSku": "HP856975",
+      "newSku": "225081139"
+    },
+    {
+      "id": "d99cb893-3e96-4bf5-8536-066dc9c81fba",
+      "code": "50725",
+      "name": "HP Staff Tree Seed Oil (10 ml)",
+      "oldSku": "HP863215",
+      "newSku": "442616854"
+    },
+    {
+      "id": "8eeac9fd-2bdd-4499-93b6-20447bc3cef3",
+      "code": "50726",
+      "name": "HP Sweet Almond OIl (30ml)",
+      "oldSku": "HP869329",
+      "newSku": "379561179"
+    },
+    {
+      "id": "477b54d4-2cc0-4a66-821c-2e2b3266b881",
+      "code": "50727",
+      "name": "HP Sweet Almond Oil (60ml)",
+      "oldSku": "HP875438",
+      "newSku": "380675618"
+    },
+    {
+      "id": "1d48f5c6-fa22-4862-b1ef-87d12b638710",
+      "code": "50728",
+      "name": "HP Tea Tree Oil (10 ml)",
+      "oldSku": "HP881601",
+      "newSku": "292273425"
+    },
+    {
+      "id": "f54f9210-194a-4926-8322-3b161ea41790",
+      "code": "50729",
+      "name": "HP Tea Tree Oil (30 ml)",
+      "oldSku": "HP887615",
+      "newSku": "582018702"
+    },
+    {
+      "id": "036b2e28-637f-44bd-8e3b-9a5d28624adc",
+      "code": "50730",
+      "name": "HP Ushna Oil (60 ml)",
+      "oldSku": "HP893643",
+      "newSku": "211197479"
+    },
+    {
+      "id": "e9b8e614-e11f-4098-a36b-9a8fc7355538",
+      "code": "50731",
+      "name": "HP Walnut Oil (30 ml)",
+      "oldSku": "HP899928",
+      "newSku": "283751126"
+    },
+    {
+      "id": "43d335e6-bd1e-48d9-b744-9e4a79a945d4",
+      "code": "50732",
+      "name": "HP Walnut Oil (60 ml)",
+      "oldSku": "HP905910",
+      "newSku": "808683382"
+    },
+    {
+      "id": "971eca33-6bdc-4f9b-978a-bac774a0adf9",
+      "code": "50733",
+      "name": "HP Wheat Oil (60 ml)",
+      "oldSku": "HP913646",
+      "newSku": "136649700"
+    },
+    {
+      "id": "4b3d0afb-78af-4645-8244-a17f1597d6ce",
+      "code": "50734",
+      "name": "MP Cinnamon Oil (60ml)",
+      "oldSku": "MP925191",
+      "newSku": "735935928"
+    },
+    {
+      "id": "052630ea-c95e-443f-87d8-316556c213ff",
+      "code": "50735",
+      "name": "Mp Coconut Oil (1 Kg)",
+      "oldSku": "MP931483",
+      "newSku": "739072244"
+    },
+    {
+      "id": "c5db114d-31fe-4907-a8cd-325deef5ae86",
+      "code": "50736",
+      "name": "MP Coconut Oil (125 ml)",
+      "oldSku": "MP937556",
+      "newSku": "382411859"
+    },
+    {
+      "id": "8f82faf7-4483-4f9d-bb12-6a5a4e9dd3b5",
+      "code": "50737",
+      "name": "Mp Coconut Oil (250 ml)",
+      "oldSku": "MP943596",
+      "newSku": "129794077"
+    },
+    {
+      "id": "b5030717-ee6d-4a55-8bd2-3d6ea9b7ec2a",
+      "code": "50738",
+      "name": "Mp Coconut Oil (500 ml)",
+      "oldSku": "MP949841",
+      "newSku": "488361464"
+    },
+    {
+      "id": "9c6b381e-dd0b-40cf-a455-9fe050bac1e8",
+      "code": "50739",
+      "name": "MP Hair oil",
+      "oldSku": "MP955884",
+      "newSku": "948452619"
+    },
+    {
+      "id": "00ab19d2-22f5-4258-937e-02d9258fec3e",
+      "code": "50740",
+      "name": "MP Hair Shampoo",
+      "oldSku": "MP961964",
+      "newSku": "582593462"
+    },
+    {
+      "id": "e3c7929c-62e9-414f-8e82-449ce912e081",
+      "code": "50741",
+      "name": "MP Mustard seed Oil (1 kg)",
+      "oldSku": "MP968203",
+      "newSku": "421998992"
+    },
+    {
+      "id": "dc6d0077-e742-45e0-8755-e691c22449f7",
+      "code": "50742",
+      "name": "MP Mustard Seed Oil (2 kg)",
+      "oldSku": "MP974331",
+      "newSku": "138631303"
+    },
+    {
+      "id": "9ca4a6e6-22ca-44be-a7b2-dad795c4bf13",
+      "code": "50743",
+      "name": "MP Mustard Seed Oil (125 ml)",
+      "oldSku": "MP980362",
+      "newSku": "734132779"
+    },
+    {
+      "id": "43000a02-0138-4d07-a790-d7aa3d632d9c",
+      "code": "50744",
+      "name": "MP Mustard Seed Oil (250 ml)",
+      "oldSku": "MP986600",
+      "newSku": "229002945"
+    },
+    {
+      "id": "d7400bbb-9e28-47bf-8c27-b1fc29755e93",
+      "code": "50745",
+      "name": "Mp Mustard Seed Oil (500 ml)",
+      "oldSku": "MP992667",
+      "newSku": "262289389"
+    },
+    {
+      "id": "9d99d114-506d-4e9c-96d1-fb2fe628c566",
+      "code": "50746",
+      "name": "MP Onion Oil 120 (ml)",
+      "oldSku": "MP998855",
+      "newSku": "528993737"
+    },
+    {
+      "id": "4a5ad5d6-1877-4e8f-81c4-e7671fbb5846",
+      "code": "50747",
+      "name": "MP Pudina Oil 60 (ml)",
+      "oldSku": "MP005088",
+      "newSku": "776715281"
+    },
+    {
+      "id": "c36db4e4-d960-4481-926b-6da6ffd0edde",
+      "code": "50748",
+      "name": "MP Rosemary Oil (30 ml)",
+      "oldSku": "MP011204",
+      "newSku": "653552381"
+    },
+    {
+      "id": "49e80f0e-4450-46ad-a2a5-16ce1bb8f6d7",
+      "code": "50749",
+      "name": "MP Sesame Seed Oil (125 ml)",
+      "oldSku": "MP017232",
+      "newSku": "408819465"
+    },
+    {
+      "id": "aa7346ec-a6bc-43ca-adbc-d3df3af24135",
+      "code": "50750",
+      "name": "MP Sesame Seed Oil (250 ml)",
+      "oldSku": "MP023565",
+      "newSku": "867388696"
+    },
+    {
+      "id": "9433bb7f-5eba-4048-8cc4-df723d24b8e5",
+      "code": "50751",
+      "name": "MP Sesame Seed Oil (1 Kg)",
+      "oldSku": "MP029638",
+      "newSku": "455917861"
+    },
+    {
+      "id": "5f98c393-24c0-4df7-829c-687e41421982",
+      "code": "50752",
+      "name": "MP Sesame Seeds Oil (500 ml)",
+      "oldSku": "MP035666",
+      "newSku": "375701254"
+    },
+    {
+      "id": "06552f9e-8329-4d1c-90f3-c3b18faf1648",
+      "code": "50753",
+      "name": "MP Tarpeen Oil (30 ml)",
+      "oldSku": "MP041991",
+      "newSku": "965818450"
+    },
+    {
+      "id": "6f6bf68a-50cf-448d-85d0-25cfb4289514",
+      "code": "50754",
+      "name": "Bareeq Sev (250gms)",
+      "oldSku": "BAR503158",
+      "newSku": "770161512"
+    },
+    {
+      "id": "05a19030-da4d-4a64-8222-71b219486a07",
+      "code": "50755",
+      "name": "Bareeq Gathiya (250gms)",
+      "oldSku": "BAR519139",
+      "newSku": "882435623"
+    },
+    {
+      "id": "5fffe8b2-25af-4e8e-abc8-7d49f4351258",
+      "code": "50756",
+      "name": "Bhel Poori (250gms)",
+      "oldSku": "BHE528837",
+      "newSku": "921220682"
+    },
+    {
+      "id": "f5074320-fa9e-49cc-8486-3103dc96d158",
+      "code": "50757",
+      "name": "Boondian Bareeq (250gms)",
+      "oldSku": "BOO538741",
+      "newSku": "851406681"
+    },
+    {
+      "id": "f8a87d90-e282-4db4-a124-577b3065c34b",
+      "code": "50758",
+      "name": "Boondian (250gms)",
+      "oldSku": "BOO548416",
+      "newSku": "959342623"
+    },
+    {
+      "id": "c0f74ba5-00e6-4182-bb7e-a1847fb3c6e6",
+      "code": "50759",
+      "name": "Chat Papri (80gms)",
+      "oldSku": "CHA558437",
+      "newSku": "204893816"
+    },
+    {
+      "id": "35b1c2b5-4902-49a2-9c8b-7ac6df9c34fc",
+      "code": "50760",
+      "name": "Chewara (250gms)",
+      "oldSku": "CHE568099",
+      "newSku": "961358070"
+    },
+    {
+      "id": "273439da-4412-4d34-812f-72aac9ac3549",
+      "code": "50761",
+      "name": "Daal Mooth (250gms)",
+      "oldSku": "DAA578005",
+      "newSku": "303802482"
+    },
+    {
+      "id": "440eab4b-bfba-4707-abd9-5ba7f08745de",
+      "code": "50762",
+      "name": "Manda Papri (150gms)",
+      "oldSku": "MAN587747",
+      "newSku": "508778494"
+    },
+    {
+      "id": "9f5dc7eb-bad0-4efa-8313-1f69de59385c",
+      "code": "50763",
+      "name": "Masalah Gathiya (300gms)",
+      "oldSku": "MAS597656",
+      "newSku": "559374943"
+    },
+    {
+      "id": "158579ee-047f-4b16-964f-431b4f11599b",
+      "code": "50764",
+      "name": "Mix Nimco (250gms)",
+      "oldSku": "MIX607360",
+      "newSku": "156194743"
+    },
+    {
+      "id": "82f3361e-d6a4-4856-8eea-9a4827938c6c",
+      "code": "50765",
+      "name": "Daal Moong (250 gms)",
+      "oldSku": "DAA617251",
+      "newSku": "542248516"
+    },
+    {
+      "id": "9579eb98-6435-4a44-98cd-05f3895a3d81",
+      "code": "50766",
+      "name": "Sweet Chewara (250gms)",
+      "oldSku": "SWE627149",
+      "newSku": "188221869"
+    },
+    {
+      "id": "042bc69f-f5a3-4f9e-ae0a-4574ec44d13d",
+      "code": "50767",
+      "name": "Thick Gathiya (250gms)",
+      "oldSku": "THI637130",
+      "newSku": "358460040"
+    },
+    {
+      "id": "51dbd5d4-c53b-49a8-a85f-ecebcc8d2fe3",
+      "code": "50768",
+      "name": "Al Mataf Scent",
+      "oldSku": "AL066004",
+      "newSku": "193553300"
+    },
+    {
+      "id": "84fe5e74-dcb9-4869-a041-36f4048202f8",
+      "code": "50769",
+      "name": "Amir Al Oud Scent",
+      "oldSku": "AMI078651",
+      "newSku": "143025830"
+    },
+    {
+      "id": "c4000a45-1a2e-4a4c-b0a5-58c98d074b32",
+      "code": "50770",
+      "name": "Oud Wood Scent",
+      "oldSku": "OUD085124",
+      "newSku": "595091109"
+    },
+    {
+      "id": "b9cf57c0-2e76-46a4-9bb8-f4f4c8e68132",
+      "code": "50771",
+      "name": "Kalemat Scent",
+      "oldSku": "KAL091407",
+      "newSku": "258658636"
+    },
+    {
+      "id": "4fde00da-ae1c-4265-b317-fccb8c8e1355",
+      "code": "50772",
+      "name": "Air Freshener Spray",
+      "oldSku": "AIR097700",
+      "newSku": "236767825"
+    },
+    {
+      "id": "2bb912b3-8658-49d4-b688-f31c8c6b0fc9",
+      "code": "50773",
+      "name": "Fancy Burner",
+      "oldSku": "FAN104134",
+      "newSku": "323214636"
+    },
+    {
+      "id": "386418ee-bce4-4157-b591-065be4eded19",
+      "code": "50774",
+      "name": "Bakhoor",
+      "oldSku": "BAK110461",
+      "newSku": "726375270"
+    },
+    {
+      "id": "7aa5b825-af74-4878-a7eb-2fd1effc2659",
+      "code": "50775",
+      "name": "2 Piece Betel Nut",
+      "oldSku": "2P188919",
+      "newSku": "925981159"
+    },
+    {
+      "id": "2ffb9bab-d1e5-4237-afe9-2b7ccab73647",
+      "code": "50776",
+      "name": "Baryan",
+      "oldSku": "BAR200593",
+      "newSku": "511258942"
+    },
+    {
+      "id": "03ea013b-114c-4d9a-8f1e-81d6ef6f159b",
+      "code": "50777",
+      "name": "Batashay",
+      "oldSku": "BAT206973",
+      "newSku": "551911998"
+    },
+    {
+      "id": "4e619be3-04d4-4c33-a27c-f1ddb8c778dd",
+      "code": "50778",
+      "name": "Brown Sugar",
+      "oldSku": "BRO213182",
+      "newSku": "819866621"
+    },
+    {
+      "id": "bcc32c62-7e7d-4ae2-bd09-6f482bf90f59",
+      "code": "50779",
+      "name": "China Grass (Whole)",
+      "oldSku": "CHI219287",
+      "newSku": "732314789"
+    },
+    {
+      "id": "5efaf5b2-29c1-456a-a07f-b20591eb02e2",
+      "code": "50780",
+      "name": "China Grass Large (Grounded)",
+      "oldSku": "CHI225593",
+      "newSku": "535428526"
+    },
+    {
+      "id": "1954a191-8270-4a28-acb5-823f978f00f2",
+      "code": "50781",
+      "name": "China Grass Small (Grounded)",
+      "oldSku": "CHI231753",
+      "newSku": "896304637"
+    },
+    {
+      "id": "c81f0187-4615-4eb3-86e2-19ed82c0c6f9",
+      "code": "50782",
+      "name": "Dahi Mirch",
+      "oldSku": "DAH237900",
+      "newSku": "243668952"
+    },
+    {
+      "id": "95d07d78-866f-4634-b42a-4eb10cfa4da6",
+      "code": "50783",
+      "name": "Desi Ghee",
+      "oldSku": "DES244287",
+      "newSku": "970915331"
+    },
+    {
+      "id": "05801cca-5ddc-4aec-ae0d-fd7dd485ca85",
+      "code": "50784",
+      "name": "Dhala Misri",
+      "oldSku": "DHA250411",
+      "newSku": "361937621"
+    },
+    {
+      "id": "5b9a2b29-a283-4ed2-a115-f47877915942",
+      "code": "50785",
+      "name": "Dhanya giri",
+      "oldSku": "DHA256535",
+      "newSku": "216821211"
+    },
+    {
+      "id": "b8e2e0bc-a13d-4c42-9871-4dc95dbd0cea",
+      "code": "50786",
+      "name": "Essence",
+      "oldSku": "ESS262848",
+      "newSku": "510438073"
+    },
+    {
+      "id": "65a9c7b4-904b-4bb7-a833-1c7032b6d8d6",
+      "code": "50787",
+      "name": "Fennel Seeds (Sweet)",
+      "oldSku": "FEN268962",
+      "newSku": "137527255"
+    },
+    {
+      "id": "c820d9e9-3394-4ba3-b130-9abdb5a54a63",
+      "code": "50788",
+      "name": "Fine Coal",
+      "oldSku": "FIN275121",
+      "newSku": "982470854"
+    },
+    {
+      "id": "d96cfa84-ee59-465b-be85-9e071f646c71",
+      "code": "50789",
+      "name": "Flavoured Silli Betel Nut",
+      "oldSku": "FLA281546",
+      "newSku": "207010691"
+    },
+    {
+      "id": "e130944e-1c9b-4187-be97-389b8a745c45",
+      "code": "50790",
+      "name": "Flavoured Sunny Betel Nut",
+      "oldSku": "FLA290474",
+      "newSku": "854973945"
+    },
+    {
+      "id": "4e71be1a-a9f8-4377-9ff1-7a7fb953e919",
+      "code": "50791",
+      "name": "Food Colour",
+      "oldSku": "FOO296874",
+      "newSku": "407644934"
+    },
+    {
+      "id": "def2dfd0-6d88-4807-95bf-55e9e165fccd",
+      "code": "50792",
+      "name": "ghuriyan",
+      "oldSku": "GHU303197",
+      "newSku": "183893767"
+    },
+    {
+      "id": "f7f28658-9cb7-4f0c-92a0-ac041c3565cf",
+      "code": "50793",
+      "name": "Glass Gurr",
+      "oldSku": "GLA309552",
+      "newSku": "223490983"
+    },
+    {
+      "id": "10a65d51-eaee-45e7-aae2-3c4920ce14dd",
+      "code": "50794",
+      "name": "Jaggery (Gurr)",
+      "oldSku": "JAG315916",
+      "newSku": "224095950"
+    },
+    {
+      "id": "37c0bbe6-f996-47b2-8c7b-a083915e11d7",
+      "code": "50795",
+      "name": "Jaggery (Kala Gurr)",
+      "oldSku": "JAG322192",
+      "newSku": "455315918"
+    },
+    {
+      "id": "efdd92c7-ec2f-4e2b-aed7-78bf9dfd316c",
+      "code": "50796",
+      "name": "Kaccha Chewra (Pawa)",
+      "oldSku": "KAC328350",
+      "newSku": "321315660"
+    },
+    {
+      "id": "2b6d19d3-26d1-4d0c-86cf-2ff8ef8dd99c",
+      "code": "50797",
+      "name": "Key Kewra Water (300ml)",
+      "oldSku": "KEY334677",
+      "newSku": "911389227"
+    },
+    {
+      "id": "f64e9e5d-4765-4e86-b957-f47fb8c0176e",
+      "code": "50798",
+      "name": "khushboo dana",
+      "oldSku": "KHU340654",
+      "newSku": "902381886"
+    },
+    {
+      "id": "e62e25c4-cdc2-4940-a12d-ba8e75e216ee",
+      "code": "50799",
+      "name": "Laccha",
+      "oldSku": "LAC346609",
+      "newSku": "413731482"
+    },
+    {
+      "id": "b59d5caf-d0e0-4b65-93f9-52f38f3ab8b4",
+      "code": "50800",
+      "name": "Mango Slice",
+      "oldSku": "MAN352723",
+      "newSku": "988359562"
+    },
+    {
+      "id": "fe0ae0e0-d7bf-4d55-b6ac-62dfc3cb8c29",
+      "code": "50801",
+      "name": "Misri",
+      "oldSku": "MIS358708",
+      "newSku": "625857182"
+    },
+    {
+      "id": "bfd4a9bd-9d3c-45de-afc4-63472d347a88",
+      "code": "50802",
+      "name": "MIx Sweets",
+      "oldSku": "MIX364755",
+      "newSku": "559237197"
+    },
+    {
+      "id": "0d06f708-fbca-4f68-aed6-ed26e5e6d6b6",
+      "code": "50803",
+      "name": "MP Chat Hazam Chooran",
+      "oldSku": "MP370869",
+      "newSku": "434966308"
+    },
+    {
+      "id": "68f97e8d-92b4-4834-844b-0be22b409825",
+      "code": "50804",
+      "name": "Naqqul (large)",
+      "oldSku": "NAQ376782",
+      "newSku": "975602964"
+    },
+    {
+      "id": "f65dcb95-9516-4751-b8ad-a6b9c9444348",
+      "code": "50805",
+      "name": "Naqqul (small)",
+      "oldSku": "NAQ382804",
+      "newSku": "986183442"
+    },
+    {
+      "id": "27169a03-cba0-496c-b1a6-1280f3acc7ae",
+      "code": "50806",
+      "name": "Popcorn",
+      "oldSku": "POP388951",
+      "newSku": "336405533"
+    },
+    {
+      "id": "bd39c5e3-5521-4a99-8310-f5a1cd96b2d7",
+      "code": "50807",
+      "name": "Puffed Rice (Murmuray)",
+      "oldSku": "PUF394924",
+      "newSku": "240550820"
+    },
+    {
+      "id": "145e0ecd-974d-48b0-9e9c-0c8dfcbb2b78",
+      "code": "50808",
+      "name": "Red Anmol Betel Nut",
+      "oldSku": "RED400854",
+      "newSku": "982548542"
+    },
+    {
+      "id": "6cfafff7-9d55-4b36-b3b5-d9acf7bca727",
+      "code": "50809",
+      "name": "Rita Tamarind (M)",
+      "oldSku": "RIT406994",
+      "newSku": "531677256"
+    },
+    {
+      "id": "28525f4d-9102-4127-a695-fd2ceef2fa0e",
+      "code": "50810",
+      "name": "Roasted Paan Masala",
+      "oldSku": "ROA412942",
+      "newSku": "907213205"
+    },
+    {
+      "id": "d4f0756f-7386-4649-8115-cf1d38060192",
+      "code": "50811",
+      "name": "Saffron (0.5gms)",
+      "oldSku": "SAF418845",
+      "newSku": "221125419"
+    },
+    {
+      "id": "bb821014-610e-4e26-a735-2caa8e99bf9f",
+      "code": "50812",
+      "name": "Saghu Dana",
+      "oldSku": "SAG424970",
+      "newSku": "659499181"
+    },
+    {
+      "id": "619fb79c-3f6b-4660-9b33-cdc3e587adee",
+      "code": "50813",
+      "name": "Silli Betel Nut",
+      "oldSku": "SIL430932",
+      "newSku": "592268094"
+    },
+    {
+      "id": "5b182bea-7567-4438-a4b2-92159d2981d2",
+      "code": "50814",
+      "name": "Silver Ball",
+      "oldSku": "SIL436830",
+      "newSku": "680676548"
+    },
+    {
+      "id": "42663d4c-009e-49b2-97cd-94fb82530554",
+      "code": "50815",
+      "name": "Silver Warq (5)",
+      "oldSku": "SIL442933",
+      "newSku": "358821945"
+    },
+    {
+      "id": "88b95c3b-1b8f-4e0e-af6c-e33a9f6002dc",
+      "code": "50816",
+      "name": "Siwayyan",
+      "oldSku": "SIW448893",
+      "newSku": "541666222"
+    },
+    {
+      "id": "9f84de7d-45a5-483a-a8b1-d334ad1f5ba5",
+      "code": "50817",
+      "name": "Sliced Betel Nut",
+      "oldSku": "SLI454805",
+      "newSku": "178801813"
+    },
+    {
+      "id": "11113382-4003-4ef7-a908-f2d5733a322e",
+      "code": "50818",
+      "name": "Star & Polo Mix",
+      "oldSku": "STA460922",
+      "newSku": "593509818"
+    },
+    {
+      "id": "c76205b9-967e-4235-ad17-e2bd9be95efc",
+      "code": "50819",
+      "name": "Sunflower seeds",
+      "oldSku": "SUN466837",
+      "newSku": "639493621"
+    },
+    {
+      "id": "9b8660aa-1b3e-4efd-b69f-c9872700f2d0",
+      "code": "50820",
+      "name": "Sunflower Seeds (Roasted)",
+      "oldSku": "SUN472885",
+      "newSku": "351732109"
+    },
+    {
+      "id": "4045e1bc-d3a3-4b4d-bfa5-7f749c21d9d0",
+      "code": "50821",
+      "name": "Sunflower Seeds W/O Shell",
+      "oldSku": "SUN478970",
+      "newSku": "126231451"
+    },
+    {
+      "id": "5935b083-2e59-4c8b-a2ab-1148dddc124e",
+      "code": "50822",
+      "name": "Sunny Betel Nut",
+      "oldSku": "SUN484869",
+      "newSku": "790920146"
+    },
+    {
+      "id": "6eb50d2d-e4bc-450b-bd7a-56da47f79289",
+      "code": "50823",
+      "name": "Sweet Paan Masala",
+      "oldSku": "SWE492794",
+      "newSku": "488953639"
+    },
+    {
+      "id": "49e328a6-f1ce-4996-a2e4-ac614208ccb1",
+      "code": "50824",
+      "name": "Sweet Soda Powder",
+      "oldSku": "SWE505331",
+      "newSku": "617085397"
+    },
+    {
+      "id": "d0302208-a24e-4e0d-909b-1957daf0eb61",
+      "code": "50825",
+      "name": "Vanilla Essence",
+      "oldSku": "VAN512145",
+      "newSku": "373655667"
+    },
+    {
+      "id": "3efc5fc7-89db-4af5-871c-14c8f88fced4",
+      "code": "50826",
+      "name": "Zafrani Essence",
+      "oldSku": "ZAF518725",
+      "newSku": "845570211"
+    },
+    {
+      "id": "5222aad5-cddd-4eca-b390-6c71f67a151a",
+      "code": "50827",
+      "name": "Zafrani Kewra (300 ml)",
+      "oldSku": "ZAF525561",
+      "newSku": "223183316"
+    },
+    {
+      "id": "ba661b3e-4fbf-40da-940e-e958ed522b95",
+      "code": "50828",
+      "name": "Zarda food colour",
+      "oldSku": "ZAR532347",
+      "newSku": "583911436"
+    },
+    {
+      "id": "3e5a510a-fb55-4998-b734-56c4c79c7276",
+      "code": "50829",
+      "name": "Key Synthetic Vinegar (750 ml)",
+      "oldSku": "KEY539099",
+      "newSku": "561208110"
+    },
+    {
+      "id": "240c3ecc-d6d4-422e-8654-881bed2844f4",
+      "code": "50830",
+      "name": "Saffron ( 1 gm ) dibya",
+      "oldSku": "SAF545770",
+      "newSku": "384408607"
+    },
+    {
+      "id": "41f604de-b5db-4737-88d0-a400e2b51aaa",
+      "code": "50831",
+      "name": "Key Synthetic Vinegar (300 ml)",
+      "oldSku": "KEY552663",
+      "newSku": "674323546"
+    },
+    {
+      "id": "b8eaaf08-7f35-4d3c-b716-2a2a968e3680",
+      "code": "50832",
+      "name": "Green Cardamom (whole) (Eliche) ( AKBER )",
+      "oldSku": "GRE559332",
+      "newSku": "809655755"
+    },
+    {
+      "id": "c871ff78-9366-4d2d-b580-41f59d48dce9",
+      "code": "50833",
+      "name": "Fried Onion ( 500 GM )",
+      "oldSku": "FRI565868",
+      "newSku": "664247598"
+    },
+    {
+      "id": "fc7daad0-0541-4327-8250-921f4c2dee73",
+      "code": "50834",
+      "name": "Ginger Gurr",
+      "oldSku": "GIN572746",
+      "newSku": "478417206"
+    },
+    {
+      "id": "74ce9537-bdb7-4a98-b1a9-59cb885b5c76",
+      "code": "50835",
+      "name": "CHANNA CHIKKI 250 GM",
+      "oldSku": "CHA579279",
+      "newSku": "301932567"
+    },
+    {
+      "id": "9b623d65-3a0b-4b90-ac29-197724c4009c",
+      "code": "50836",
+      "name": "Murmuray Chikki",
+      "oldSku": "MUR585781",
+      "newSku": "816591791"
+    },
+    {
+      "id": "19f205cc-4562-41ac-9037-5106312ec728",
+      "code": "50837",
+      "name": "Empty Murabba bottles",
+      "oldSku": "EMP592498",
+      "newSku": "300274623"
+    },
+    {
+      "id": "39d74aae-dcaa-4655-8a36-be0bcbe36a90",
+      "code": "50838",
+      "name": "EMPTY FOOD COLOR DIBYA",
+      "oldSku": "EMP599159",
+      "newSku": "413588070"
+    },
+    {
+      "id": "d3265e9f-2a05-4376-8a63-b18dbc3d4110",
+      "code": "50839",
+      "name": "Shilajit .10 gm",
+      "oldSku": "SHI605744",
+      "newSku": "352736095"
+    },
+    {
+      "id": "ebf1619a-f7e3-4f3f-aca6-6daafc043e99",
+      "code": "50840",
+      "name": "Sugar",
+      "oldSku": "Sug123",
+      "newSku": "902870450"
+    },
+    {
+      "id": "d0d5351d-865b-48ac-b2ec-376f0ac7d119",
+      "code": "50841",
+      "name": "Sugar",
+      "oldSku": "SUG12345",
+      "newSku": "441036091"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+node_modules
+# Keep environment variables out of version control
+
+.vercel
+.env
+
+# Log files (actively written by daemon, should not be tracked)
+*.log
+daemon/*.log

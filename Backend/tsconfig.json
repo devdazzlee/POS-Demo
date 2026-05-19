@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": false,
+    "strict": true,
+    "skipLibCheck": true,
+    /* Development-specific options */
+    "incremental": true,
+    "tsBuildInfoFile": "./.tsbuildinfo",
+    "noEmitOnError": false,
+    "sourceMap": true,
+    /* Path configuration */
+    "outDir": "./dist",
+    "rootDir": "./src",
+    /* Type resolution */
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/types"
+    ],
+    "types": [
+      "express",
+      "Multer"
+    ],
+  },
+  "include": [
+    "src/index.ts",
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.spec.ts"
+  ]
+}

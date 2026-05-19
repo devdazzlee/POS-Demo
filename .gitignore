@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.env.backup
+*.env.bak
+
+# Credentials / scripts containing secrets
+Backend/dp_auto.sh
+Backend/scripts/check-and-migrate.sh
+Backend/scripts/migrate-data.ts
+
+# Certs / keys
+*.pem
+*.key
+*.p12
+
+# Logs
+*.log
+logs/
+combined.log
+error.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Misc
+.cache/
+coverage/

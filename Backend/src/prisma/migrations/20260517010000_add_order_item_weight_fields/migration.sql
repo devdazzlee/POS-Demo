@@ -1,0 +1,2 @@
+ALTER TABLE "OrderItem" ADD COLUMN IF NOT EXISTS "grams_per_unit" DECIMAL;
+ALTER TABLE "OrderItem" ADD COLUMN IF NOT EXISTS "unit_name" TEXT;
