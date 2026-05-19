@@ -58,6 +58,7 @@ app.use(cors({
       'https://pos.manpasandstore.com',
       'https://manpasand-pos-t623.vercel.app',
       'https://manpasand-pos-beta.vercel.app',
+      'https://acestudios-pos-demo.vercel.app',
       'http://localhost:3000',
       'http://localhost:3001',
       'http://localhost:5173',

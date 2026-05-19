@@ -355,7 +355,7 @@ class BarcodeService {
         await tp.alignCenter();
         await tp.setTextDoubleHeight();
         await tp.setTextDoubleWidth();
-        await tp.println((receiptData.storeName || 'MANPASAND GENERAL STORE').toUpperCase());
+        await tp.println((receiptData.storeName || 'ACE STUDIOS').toUpperCase());
         await tp.setTextNormal();
         await tp.println(receiptData.tagline || 'Quality • Service • Value');
         await tp.println(receiptData.address || 'Karachi, Pakistan');

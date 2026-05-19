@@ -195,7 +195,7 @@ async function printReceiptPDF(input) {
     }
     // Store name (center) — shrink to fit once (no wrap)
     doc.font(boldFont);
-    const usedHead = drawFit((receiptData.storeName || 'MANPASAND SUPERMARKET').toUpperCase(), margins.left, y, W, { maxSize: HEAD_MAX, minSize: 11.0, align: 'center', font: boldFont });
+    const usedHead = drawFit((receiptData.storeName || 'ACE STUDIOS').toUpperCase(), margins.left, y, W, { maxSize: HEAD_MAX, minSize: 11.0, align: 'center', font: boldFont });
     y += lineH(usedHead) * 0.9;
     // Tagline / Address / STRN
     doc.font(baseFont);

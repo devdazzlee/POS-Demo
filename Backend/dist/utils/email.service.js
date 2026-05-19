@@ -23,7 +23,7 @@ class EmailService {
      */
     static async sendOrderConfirmationToCustomer(orderData) {
         const mailOptions = {
-            from: `"Manpasand Store" <${env_1.EMAIL_USER}>`,
+            from: `"ACE STUDIOS" <${env_1.EMAIL_USER}>`,
             to: orderData.customerEmail,
             subject: `Order Confirmation - ${orderData.orderNumber}`,
             html: `
@@ -118,7 +118,7 @@ class EmailService {
      */
     static async sendOrderNotificationToAdmin(orderData) {
         const mailOptions = {
-            from: `"Manpasand Store" <${env_1.EMAIL_USER}>`,
+            from: `"ACE STUDIOS" <${env_1.EMAIL_USER}>`,
             to: ADMIN_EMAIL,
             subject: `New Order Received - ${orderData.orderNumber}`,
             html: `
